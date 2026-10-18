@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "sample",
+  "atlasId": "paris-catacombs",
+  "version": "1",
+  "title": "Teknik doğrulama örneği",
+  "redistribution": "allowed",
+  "attribution": "ATLAS · kendi teknik test verisi",
+  "assets": [
+    {
+      "url": "./sample/about.json",
+      "bytes": 138,
+      "sha256": "87b5402d8230b4db5999f303ce617a70f280583c79b892171fa267e7ccd7e040"
+    }
+  ]
+}

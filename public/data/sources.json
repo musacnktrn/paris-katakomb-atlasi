@@ -1,0 +1,150 @@
+{
+  "ureten": "codex",
+  "checkedAt": "2026-10-18T16:14:12.042943+03:00",
+  "sources": [
+    {
+      "id": "igc-atlas",
+      "title": "IGC · Resmî yeraltı atlası",
+      "url": "https://www.paris.fr/pages/tout-savoir-sur-les-sous-sols-2317",
+      "kind": "official",
+      "rights": "Pafta görsellerinin yeniden dağıtım hakkı bu projede alınmadı. İndeks metadatası ve resmî bağlantılar ayrı tutulur.",
+      "offline": "metadata-only",
+      "notes": ""
+    },
+    {
+      "id": "igc-viewer",
+      "title": "IGC · Resmî atlas görüntüleyicisi",
+      "url": "https://capgeo.maps.arcgis.com/apps/instant/media/index.html?appid=59873b0b206e4aefae712dc2cdda200c",
+      "kind": "official",
+      "rights": "Dış kaynak; pafta görselleri uygulamaya kopyalanmadı.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "osm-surface",
+      "title": "OpenStreetMap · GRS yerüstü",
+      "url": "https://www.openstreetmap.org/copyright",
+      "kind": "open-data",
+      "rights": "ODbL 1.0. © OpenStreetMap contributors. Bu dağıtım GRS çevresinin seçili yerüstü geometrisidir; bütün Paris değildir.",
+      "offline": "included",
+      "notes": ""
+    },
+    {
+      "id": "catacombes-xyz",
+      "title": "Catacombes.xyz · Salon ve 3B kaynakları",
+      "url": "https://catacombes.xyz/rooms",
+      "kind": "community",
+      "rights": "Dış bağlantı kataloğu. Model dosyalarının yeniden dağıtımı ve offline kopyalama izni doğrulanmadı.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "official-catacombs",
+      "title": "Paris Katakompları · Resmî ziyaret",
+      "url": "https://www.catacombes.paris.fr/",
+      "kind": "official",
+      "rights": "Resmî müze bilgileri; kaynak bağlantısı. Güncel giriş/erişim resmî siteden kontrol edilir.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "official-virtual",
+      "title": "Resmî sanal ziyaret",
+      "url": "https://www.catacombes.paris.fr/en/virtual-visit",
+      "kind": "official",
+      "rights": "Dış sanal ziyaret; yerel 3B dosya veya açık model lisansı sayılmaz.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "avenza-grs",
+      "title": "RAFAELA 1777 · GRS",
+      "url": "https://store.avenza.com/products/paris-underground-grs-rafaela-1777-map",
+      "kind": "reference",
+      "rights": "Mağaza kaydı ücretsiz, Ocak2015. Yalnız Avenza uygulamasında kullanım ibaresi var; uygulamamıza kopyalanmadı.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "avenza-xiii",
+      "title": "RAFAELA 1777 · XIII",
+      "url": "https://store.avenza.com/products/paris-underground-xiii-rafaela-1777-map",
+      "kind": "reference",
+      "rights": "Avenza uygulamasına özel; ücretsiz olması yeniden dağıtım izni değildir.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "avenza-xvi",
+      "title": "RAFAELA 1777 · XVI",
+      "url": "https://store.avenza.com/products/paris-underground-xvi-rafaela-1777-map",
+      "kind": "reference",
+      "rights": "Avenza uygulamasına özel; yeniden dağıtım yapılmadı.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "nexus",
+      "title": "Nexus · Harita referansı",
+      "url": "https://paris-catacombs.com/plan-catacombes/",
+      "kind": "reference",
+      "rights": "Üçüncü taraf kopya. Asıl revizyon ve yeniden kullanım izni doğrulanmadı; görsel indirilmedi.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "rayandri",
+      "title": "Rayandri · Açık kaynak atlas",
+      "url": "https://github.com/Rayandri/catacombes-atlas",
+      "kind": "code",
+      "rights": "Kod MIT, pafta görselleri bu lisans kapsamında değil. İçe alımda seçili kod korunan lisansla kullanılıyor.",
+      "offline": "code-only",
+      "notes": ""
+    },
+    {
+      "id": "kta2geo",
+      "title": "Kta2Geo · Coğrafi konumlandırma araştırması",
+      "url": "https://github.com/babinet/Kta2Geo",
+      "kind": "code",
+      "rights": "GitHub API lisans alanı boş; yeniden kullanım lisansı doğrulanmadı, kod kopyalanmadı.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "catadl",
+      "title": "CataDL · Nexus indirme araştırması",
+      "url": "https://github.com/PercevalSA/CataDL",
+      "kind": "code",
+      "rights": "Lisans doğrulanmadı. Harita hakları ayrıca belirsiz; kod veya harita kopyalanmadı.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "pdr",
+      "title": "Dead-Reckoning-Pro · Android araştırması",
+      "url": "https://github.com/SaturnXIII/Dead-Reckoning-Pro",
+      "kind": "code",
+      "rights": "Android beta; API lisans alanı boş. Konum tahminini web uygulamasına aktarmadık; ölçülmüş yeraltı konumu sayılmaz.",
+      "offline": "external-only",
+      "notes": ""
+    },
+    {
+      "id": "pmtiles-offline",
+      "title": "Makina Corpus · Offline PMTiles araştırması",
+      "url": "https://github.com/makinacorpus/maplibre-offline-pmtiles",
+      "kind": "code",
+      "rights": "MIT proje; bu sürümde kodu alınmadı. PMTiles FileSource adaptörü doğrudan pmtiles paketini kullanıyor.",
+      "offline": "reference-only",
+      "notes": ""
+    },
+    {
+      "id": "plan-1857",
+      "title": "Paris Katakompları · 1857 arşiv planı",
+      "url": "https://commons.wikimedia.org/wiki/File:Plan_des_catacombes_de_Paris_dress%C3%A9_par_les_g%C3%A9om%C3%A8tres_de_l%27inspection_g%C3%A9n%C3%A9rale_des_carri%C3%A8res_sous_la_direction_des_ing%C3%A9nieurs_des_mines_1857_-_btv1b84444728.jpg",
+      "kind": "historical-map",
+      "rights": "Public domain: PD-France and PD-US-expired on Wikimedia Commons description page; attribution retained",
+      "offline": "included",
+      "notes": "Tarihî galeri/pafta çizimi. Güncel geçiş, açık giriş veya güvenilir yeraltı konumlandırma verisi değildir. Coğrafi altlığa hizalanmış değildir."
+    }
+  ]
+}

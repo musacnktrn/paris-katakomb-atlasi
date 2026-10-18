@@ -1,0 +1,36 @@
+{
+  "name": "paris-katakomb-atlasi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "npm run typecheck && vite build && node scripts/build-offline.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:browser": "playwright test",
+    "data:igc": "python3 scripts/ingest-igc.py",
+    "verify:release": "node scripts/verify-release.mjs"
+  },
+  "dependencies": {
+    "idb": "8.0.4",
+    "maplibre-gl": "6.15.0",
+    "pmtiles": "4.5.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+private-data/
+.env*
+!.env.example
+*.pdf
+*.tif
+*.tiff
+.DS_Store
+__pycache__/
+*.pyc

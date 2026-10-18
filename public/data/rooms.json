@@ -1,0 +1,422 @@
+{
+  "ureten": "codex",
+  "checkedAt": "2026-10-18T16:14:12.042943+03:00",
+  "sourceId": "catacombes-xyz",
+  "sourceUrl": "https://catacombes.xyz/rooms",
+  "rooms": [
+    {
+      "id": "Amazones",
+      "title": "Amazones",
+      "url": "https://catacombes.xyz/rooms/Amazones",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "anschluss",
+      "title": "Anschluss",
+      "url": "https://catacombes.xyz/rooms/anschluss",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "anubis",
+      "title": "Anubis",
+      "url": "https://catacombes.xyz/rooms/anubis",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "arenes",
+      "title": "Arenes",
+      "url": "https://catacombes.xyz/rooms/arenes",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "atlas",
+      "title": "Atlas",
+      "url": "https://catacombes.xyz/rooms/atlas",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "belier",
+      "title": "Belier",
+      "url": "https://catacombes.xyz/rooms/belier",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "bocal",
+      "title": "Bocal",
+      "url": "https://catacombes.xyz/rooms/bocal",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "boutik",
+      "title": "Boutik",
+      "url": "https://catacombes.xyz/rooms/boutik",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "bracitorium",
+      "title": "Bracitorium",
+      "url": "https://catacombes.xyz/rooms/bracitorium",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "brocolis",
+      "title": "Brocolis",
+      "url": "https://catacombes.xyz/rooms/brocolis",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "bureau",
+      "title": "Bureau",
+      "url": "https://catacombes.xyz/rooms/bureau",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "byzance",
+      "title": "Byzance",
+      "url": "https://catacombes.xyz/rooms/byzance",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "cabanis",
+      "title": "Cabanis",
+      "url": "https://catacombes.xyz/rooms/cabanis",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "cabibis",
+      "title": "Cabibis",
+      "url": "https://catacombes.xyz/rooms/cabibis",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "cabinet",
+      "title": "Cabinet",
+      "url": "https://catacombes.xyz/rooms/cabinet",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "cellier",
+      "title": "Cellier",
+      "url": "https://catacombes.xyz/rooms/cellier",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "cellier-v2",
+      "title": "Cellier V2",
+      "url": "https://catacombes.xyz/rooms/cellier-v2",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "chapelle",
+      "title": "Chapelle",
+      "url": "https://catacombes.xyz/rooms/chapelle",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "chateau",
+      "title": "Chateau",
+      "url": "https://catacombes.xyz/rooms/chateau",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "cochon",
+      "title": "Cochon",
+      "url": "https://catacombes.xyz/rooms/cochon",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "concretion",
+      "title": "Concretion",
+      "url": "https://catacombes.xyz/rooms/concretion",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "cube",
+      "title": "Cube",
+      "url": "https://catacombes.xyz/rooms/cube",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "danse-macabre",
+      "title": "Danse Macabre",
+      "url": "https://catacombes.xyz/rooms/danse-macabre",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "dragon",
+      "title": "Dragon",
+      "url": "https://catacombes.xyz/rooms/dragon",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "faco",
+      "title": "Faco",
+      "url": "https://catacombes.xyz/rooms/faco",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "fontaine",
+      "title": "Fontaine",
+      "url": "https://catacombes.xyz/rooms/fontaine",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "guerinet",
+      "title": "Guerinet",
+      "url": "https://catacombes.xyz/rooms/guerinet",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "kraken",
+      "title": "Kraken",
+      "url": "https://catacombes.xyz/rooms/kraken",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "lune",
+      "title": "Lune",
+      "url": "https://catacombes.xyz/rooms/lune",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "manoir",
+      "title": "Manoir",
+      "url": "https://catacombes.xyz/rooms/manoir",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "ossa",
+      "title": "Ossa",
+      "url": "https://catacombes.xyz/rooms/ossa",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "philibert",
+      "title": "Philibert",
+      "url": "https://catacombes.xyz/rooms/philibert",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "plage",
+      "title": "Plage",
+      "url": "https://catacombes.xyz/rooms/plage",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "promos",
+      "title": "Promos",
+      "url": "https://catacombes.xyz/rooms/promos",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "ptt",
+      "title": "Ptt",
+      "url": "https://catacombes.xyz/rooms/ptt",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "puits_carre",
+      "title": "Puits Carre",
+      "url": "https://catacombes.xyz/rooms/puits_carre",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "rats",
+      "title": "Rats",
+      "url": "https://catacombes.xyz/rooms/rats",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "sarko",
+      "title": "Sarko",
+      "url": "https://catacombes.xyz/rooms/sarko",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "sauna",
+      "title": "Sauna",
+      "url": "https://catacombes.xyz/rooms/sauna",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "sculptures",
+      "title": "Sculptures",
+      "url": "https://catacombes.xyz/rooms/sculptures",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "solcarlus",
+      "title": "Solcarlus",
+      "url": "https://catacombes.xyz/rooms/solcarlus",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "soleil",
+      "title": "Soleil",
+      "url": "https://catacombes.xyz/rooms/soleil",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "suisse",
+      "title": "Suisse",
+      "url": "https://catacombes.xyz/rooms/suisse",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "tank",
+      "title": "Tank",
+      "url": "https://catacombes.xyz/rooms/tank",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "toudouze",
+      "title": "Toudouze",
+      "url": "https://catacombes.xyz/rooms/toudouze",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    },
+    {
+      "id": "zebulon",
+      "title": "Zebulon",
+      "url": "https://catacombes.xyz/rooms/zebulon",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "producer": "codex",
+  "repository": "https://github.com/Rayandri/catacombes-atlas",
+  "commit": "e797b2069f0768f5aaebb13b2b85d7c3ce132b41",
+  "commitVerifiedVia": "https://api.github.com/repos/Rayandri/catacombes-atlas/commits/main",
+  "retrievedAt": "2026-10-18T13:06:50+00:00",
+  "license": "MIT (code only; retain complete LICENSE)",
+  "reuse": "ingest-igc.py imports upstream query(4326), bbox(), and GRS bounds. Original source and complete license are retained unchanged.",
+  "dataRights": "IGC atlas sheets belong to Ville de Paris; upstream LICENSE states Reproduction interdite. The MIT grant does not license the IGC sheets, map images, PDFs or the ArcGIS dataset. This project fetches factual sheet index metadata only and links to the official PDFs.",
+  "files": [
+    {
+      "path": "fetch_index.py",
+      "upstreamPath": "pipeline/fetch_index.py",
+      "url": "https://raw.githubusercontent.com/Rayandri/catacombes-atlas/e797b2069f0768f5aaebb13b2b85d7c3ce132b41/pipeline/fetch_index.py",
+      "sha256": "31bdf6ab21ee3bbf4f9b51534f9333febf2c23dc3a1b928014b935dc4633a16a",
+      "bytes": 2713,
+      "modified": false
+    },
+    {
+      "path": "LICENSE",
+      "upstreamPath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Rayandri/catacombes-atlas/e797b2069f0768f5aaebb13b2b85d7c3ce132b41/LICENSE",
+      "sha256": "276cec92b3cd300366457fda897af3997e7601f8b3540de87b123bfea873d68d",
+      "bytes": 1455,
+      "modified": false
+    }
+  ]
+}
