@@ -11,7 +11,8 @@ Telefon ve masaüstünde çalışan, GitHub Pages için hazırlanmış bağıms�
 - Catacombes.xyz üzerinde 46 yayınlanmış salon sayfasının bağlantı kataloğu. Bu, indirilmiş 46 model veya tüm yeraltının 3B ağı değildir.
 - Avenza, Nexus, resmî müze ve diğer kaynaklar hak/çevrimdışı durumuyla katalogda tutulur.
 - BnF/Gallica kaynaklı, kamu malı1857planının özgün5.126.942baytlık dosyası yerel ve çevrimdışı arşiv incelemesine dahil. Bu plan coğrafi altlığa hizalanmış veya güncel geçiş bilgisi değildir.
-- Kullanıcının kendi GeoJSON, GLB ve PMTiles dosyaları yalnız cihazın IndexedDB deposuna alınır. GLB görüntüleyici gerçek yerel model açar; bilinmeyen coğrafi konumu uydurmaz. PMTiles arşivini okuyup harita stili için metadata sağlar; her keyfi arşivin stilini otomatik tahmin etmez.
+- Kullanıcının kendi GeoJSON, GLB, PMTiles ve PNG/JPEG/WebP dosyaları yalnız cihazın IndexedDB deposuna alınır. GLB görüntüleyici gerçek yerel model açar; bilinmeyen coğrafi konumu uydurmaz. PMTiles arşivini okuyup harita stili için metadata sağlar; her keyfi arşivin stilini otomatik tahmin etmez.
+- Kişisel harita görselleri kütüphaneden eklenip çevrimdışı yakınlaştırılır/sürüklenir; bunlar otomatik coğrafi hizalanmaz. Görsel dosyaları 16 MiB / 64 megapiksel ile sınırlıdır.
 - GPX dönüştürme, georeference edilmemiş rasterı konumlandırma, tam galeri topolojisi ve tüm girişlerin güncel durumu henüz yoktur.
 
 ## Çalıştırma

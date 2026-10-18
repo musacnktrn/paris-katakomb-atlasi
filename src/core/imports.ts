@@ -5,9 +5,19 @@ import {PMTiles,FileSource} from 'pmtiles';
 export async function importFile(file:File) {
   if(!file.size || file.size>128*1024*1024)throw new Error('Dosya boş veya 128 MiB sınırından büyük.');
   const ext=file.name.split('.').pop()?.toLowerCase();
-  const kind=ext==='json'||ext==='geojson'?'geojson':ext==='glb'?'glb':ext==='pmtiles'?'pmtiles':null;
-  if(!kind)throw new Error('Bu altyapı sürümü GeoJSON, GLB ve PMTiles kabul eder; GPX ve raster konumlandırma sonraki entegrasyondadır.');
+  const kind=ext==='json'||ext==='geojson'?'geojson':ext==='glb'?'glb':ext==='pmtiles'?'pmtiles':['png','jpg','jpeg','webp'].includes(ext??'')?'image':null;
+  if(!kind)throw new Error('GeoJSON, GLB, PMTiles veya PNG/JPEG/WebP görseli seçin.');
   const bytes=await file.arrayBuffer();
+  if(kind==='image'){
+    if(file.size>16*1024*1024)throw new Error('Harita görseli 16 MiB sınırını aşıyor.');
+    const b=new Uint8Array(bytes),ascii=(a:number,z:number)=>new TextDecoder().decode(bytes.slice(a,z));
+    const png=b[0]===137&&ascii(1,4)==='PNG'&&b[4]===13&&b[5]===10&&b[6]===26&&b[7]===10;
+    const jpeg=b[0]===255&&b[1]===216&&b[2]===255;
+    const webp=ascii(0,4)==='RIFF'&&ascii(8,12)==='WEBP';
+    if(!png&&!jpeg&&!webp)throw new Error('PNG, JPEG veya WebP dosya başlığı geçersiz.');
+    let image:ImageBitmap;try{image=await createImageBitmap(file);}catch{throw new Error('Harita görseli çözümlenemedi.');}
+    const pixels=image.width*image.height;image.close();if(!pixels||pixels>64000000)throw new Error('Harita görseli 64 megapiksel sınırını aşıyor.');
+  }
   if(kind==='geojson')validateGeoJSON(JSON.parse(new TextDecoder().decode(bytes)));
   if(kind==='glb')validateGlb(bytes);
   if(kind==='pmtiles' && (bytes.byteLength<127 || new TextDecoder().decode(bytes.slice(0,7))!=='PMTiles' || new Uint8Array(bytes)[7]!==3))throw new Error('PMTiles v3 başlığı gerekiyor.');

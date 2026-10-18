@@ -1,6 +1,7 @@
 // ureten: codex — production bundle, actual service worker, real IndexedDB/Cache API.
 import {test,expect,type Page} from '@playwright/test';
 import {createHash} from 'node:crypto';
+import {readFile} from 'node:fs/promises';
 const hash=(b:Buffer)=>createHash('sha256').update(b).digest('hex');
 async function open(page:Page){await page.goto('./');await expect(page.getByTestId('status')).toContainText('Atlas hazır',{timeout:30000});await expect(page.locator('#map canvas')).toBeVisible();}
 async function ready(page:Page){await page.evaluate(async()=>{const r=await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise<void>(resolve=>navigator.serviceWorker.addEventListener('controllerchange',()=>resolve(),{once:true}));return r.scope;});}
@@ -57,4 +58,11 @@ test('390px mobile: reachable map, no horizontal overflow, working notebook',asy
 
 test('same-origin second Pages path cannot erase first app notes or offline core',async({page,context})=>{
  await open(page);await ready(page);await addNote(page,'Birinci kurulum');const second=await context.newPage();await second.goto('/second/');await expect(second.getByTestId('status')).toContainText('Atlas hazır');await ready(second);await second.getByRole('button',{name:'Kişisel notlar',exact:true}).click();await expect(second.getByTestId('notes')).not.toContainText('Birinci kurulum');await addNote(second,'İkinci kurulum');await context.setOffline(true);await page.reload();await expect(page.getByTestId('status')).toContainText('Atlas hazır');await page.getByRole('button',{name:'Kişisel notlar',exact:true}).click();await expect(page.getByTestId('notes')).toContainText('Birinci kurulum');await expect(page.getByTestId('notes')).not.toContainText('İkinci kurulum');
+});
+
+
+test('personal image: reject disguised SVG, save and reopen real raster offline',async({page,context})=>{
+ await open(page);await ready(page);
+ await page.getByLabel('Harita görseli içe aktar',{exact:true}).setInputFiles({name:'bad.png',mimeType:'image/png',buffer:Buffer.from('<svg xmlns="http://www.w3.org/2000/svg"></svg>')});await expect(page.getByTestId('status')).toContainText('dosya başlığı geçersiz');expect((await state(page)).assets).toBe(0);
+ await context.setOffline(true);await page.getByLabel('Harita görseli içe aktar',{exact:true}).setInputFiles({name:'own-plan.png',mimeType:'image/png',buffer:await readFile('public/icons/icon-192.png')});await expect(page.getByTestId('local-plan-image')).toBeVisible();expect(await page.getByTestId('local-plan-image').evaluate((img:HTMLImageElement)=>img.complete&&img.naturalWidth===192)).toBe(true);expect((await state(page)).assets).toBe(1);await page.getByRole('button',{name:'Kişisel planı yakınlaştır',exact:true}).click();await expect(page.locator('.historic-toolbar output')).toHaveText('140%');await page.getByRole('button',{name:'Kişisel planı kapat',exact:true}).click();await page.reload();await expect(page.getByTestId('status')).toContainText('Atlas hazır');await page.getByRole('button',{name:'Kaynak kütüphanesi',exact:true}).click();await page.getByRole('button',{name:'own-plan.png dosyasını aç',exact:true}).click();await expect(page.getByTestId('local-plan-image')).toBeVisible();
 });
