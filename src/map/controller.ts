@@ -19,7 +19,7 @@ export class AtlasMap {
   async ready(){if(!this.map.isStyleLoaded())await new Promise<void>(r=>this.map.once('load',()=>r()));}
   async loadBuiltins(sheets:GeoJSON.FeatureCollection,surface:GeoJSON.FeatureCollection){
     await this.ready();const m=this.map;
-    m.addSource('surface',{type:'geojson',data:surface,attribution:'© OpenStreetMap contributors · ODbL 1.0'});
+    m.addSource('surface',{type:'geojson',data:surface,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a> · <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL 1.0</a>'});
     m.addLayer({id:'surface-areas',type:'fill',source:'surface',filter:['==',['geometry-type'],'Polygon'],paint:{'fill-color':['match',['get','kind'],'water','#b9ced0','#cdd8c7'],'fill-opacity':0.75}});
     m.addLayer({id:'surface-roads',type:'line',source:'surface',filter:['==',['geometry-type'],'LineString'],paint:{'line-color':'#aca99d','line-width':1.4}});
     m.addSource('igc',{type:'geojson',data:sheets,attribution:'Ville de Paris / IGC · Pafta dizini; galeri geometrisi değildir'});
