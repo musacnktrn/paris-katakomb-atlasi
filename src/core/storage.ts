@@ -5,7 +5,7 @@ export const STORAGE_SCOPE=encodeURIComponent(typeof document==='undefined'?'/te
 export const CACHE_PREFIX=`atlas-${CURRENT_ATLAS.id}-${STORAGE_SCOPE}-`;
 export const DATABASE_NAME=`archify-atlas-${CURRENT_ATLAS.id}-${STORAGE_SCOPE}-v1`;
 export interface Note { id: string; title: string; text: string; coordinates: [number, number] | null; createdAt: string; updatedAt: string; }
-export interface LocalAsset { id: string; name: string; kind: 'geojson' | 'glb' | 'pmtiles' | 'image'; blob: Blob; sha256: string; createdAt: string; roomId?:string; roomIds?:string[]; category?:string; mapBounds?:[number,number,number,number]; collectionId?:string; }
+export interface LocalAsset { id: string; name: string; kind: 'geojson' | 'glb' | 'pmtiles' | 'image'; blob: Blob; sha256: string; createdAt: string; roomId?:string; roomIds?:string[]; category?:string; mapBounds?:[number,number,number,number]; collectionId?:string; sourceUrl?:string; }
 export interface InstalledPack { id: string; version: string; cache: string; bytes: number; installedAt: string; assets: {url: string; sha256: string; bytes: number}[]; }
 export interface CollectionRecord {id:string;title:string;assetCount:number;bytes:number;installedAt:string;assetIds?:string[];rights?:string;}
 interface AtlasDB extends DBSchema {

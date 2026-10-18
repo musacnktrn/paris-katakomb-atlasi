@@ -1,0 +1,329 @@
+{
+  "ureten": "codex",
+  "source": "Catacombes.xyz source bundle, independently downloaded private room-archive manifest 2026-10-18",
+  "rights": "Source URL metadata only; no binary redistribution permission verified",
+  "rooms": [
+    {
+      "id": "guerinet",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Guerinet/Guerinet.webp",
+      "posterSha256": "49b8ee9f581944081b9b5bcda57170e63f711b7097ffe134148a32c7276937b9",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Guerinet/Guerinet_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "fontaine",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Fontaine/Fontaine.webp",
+      "posterSha256": "2bc606b389b559da79301e44edd0ee8bf8e1984e5c5bdb958f4f07e15f06af5e",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Fontaine/Fontaine_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "chapelle",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Chapelle/Chapelle.webp",
+      "posterSha256": "2facef707bea8592eaa0cf0c933af5aab76827767f701246539db9f5739ae8e2",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Chapelle/Chapelle_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "anschluss",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Anschluss/Anschluss.webp",
+      "posterSha256": "0d274a630193e7a682048f93cc2b34a95afde426b5044bc1be77045fb745c7cc",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Anschluss/Anschluss_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "promos",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Promos/Promos.webp",
+      "posterSha256": "f2eee2a33c320a8fad414e12c82c34e0af39ad1b140459f95277ac95edd5d411",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Promos/Promos_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "solcarlus",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Solcarlus/Solcarlus.webp",
+      "posterSha256": "1edd8ee95ce98f6185c7ff499482b943c3ed2e59d822a5d237e250e95cc23922",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Solcarlus/Solcarlus_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "bracitorium",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Bracitorium/Bracitorium.webp",
+      "posterSha256": "aa42b7bf658c867980b67be67facbd776320ed9d4cec758b4cc051453486c87d",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Bracitorium/Bracitorium_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "zebulon",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Zebulon/Zebulon.webp",
+      "posterSha256": "a9979694d62ed15205a15e9886fff6ee8fce27893d751fc2d25545861ae5426e",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Zebulon/Zebulon_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "toudouze",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Toudouze/Toudouze.webp",
+      "posterSha256": "ee2c81579b36c9486fcdc034663464529237be85dadc61f9d2330839b2c858a7",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Toudouze/Toudouze_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "ptt",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/PTT/PTT.webp",
+      "posterSha256": "c172d658cf9cb4f158e30c6f32fd2bba1104bf3df7579a4ae441dac5f30b1b82",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/PTT/PTT_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "sauna",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Sauna/Sauna.webp",
+      "posterSha256": "41fe614b6d1c9dd814511dc6c8e96c75304b82df29d57f7cfdd022bfda36e851",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Sauna/Sauna_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "kraken",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Kraken/Kraken.webp",
+      "posterSha256": "61f953cec009dc16b64659ef3d329b242cb415ea8c6bea761c584e0aa154a288",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Kraken/Kraken_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "cabinet",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Cabinet/Cabinet.webp",
+      "posterSha256": "2e5d7b776dbbe52b471dd0a929dbb7f04ac59f01c975f0143c99ddb6ec1e5339",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Cabinet/Cabinet_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "soleil",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Soleil/Soleil.webp",
+      "posterSha256": "a5595f790f7a1b89c7dfc7a3241f114db240e866c929bdecc1e88034bbd17aa3",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Soleil/Soleil_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "anubis",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Anubis/Anubis.webp",
+      "posterSha256": "7a3c96d1e15e5184b87a5ad3c36c3e87e688525770c51314d6efc73b61d5d7ec",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Anubis/Anubis_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "sarko",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Sarko/Sarko.webp",
+      "posterSha256": "c54f357555f764ce8ac35cb2d2340f6d6513bd70e5b1b46621e05d63049940e5",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Sarko/Sarko_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "byzance",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Byzance/Byzance.webp",
+      "posterSha256": "8b102f84b1e860840d3e44981ab5c6d8790594e90f5b9a6714691a1332f64fd2",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Byzance/Byzance_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "boutik",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Boutik/Boutik.webp",
+      "posterSha256": "dbb802d11de82fa2130de70152f23ed636283f442d759850fec57d99ab7c5af1",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Boutik/Boutik_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "lune",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Lune/Lune.webp",
+      "posterSha256": "26ca7b1907c4f869e9e7406df52fb9aa4d525e3129b57e29a8903c11d585c303",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Lune/Lune_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "ossa",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Ossa/Ossa.webp",
+      "posterSha256": "976619468fb8bb770e72b841c25d80dd713c29db8ef48fc1b9f5541a5182c865",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Ossa/Ossa_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "philibert",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Philibert/Philibert.webp",
+      "posterSha256": "fc0de75fd275f6c75b57efd5034b022794fd8e2ddd3a3361b7a749195a12fbe6",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Philibert/Philibert_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "brocolis",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Brocolis/Brocolis.webp",
+      "posterSha256": "b4a4b62dc6eac68ca973a558e11321b507c0c926c242d32cedd044c30842f6cb",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Brocolis/Brocolis_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "cabanis",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Cabanis/Cabanis.webp",
+      "posterSha256": "cc6b8bcb0e44e0d3f3d8b4f4238c3291380a0b77890c4f62e192ff474801d7bf",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Cabanis/Cabanis_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "dragon",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Dragon/Dragon.webp",
+      "posterSha256": "873952a9a83c0233f0d3be76efa5befe60795726ec6a802475d09d21c2962533",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Dragon/Dragon_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "cabibis",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/CabiBis/CabiBis.webp",
+      "posterSha256": "30792af23c5bf01c2347d7859bf1bf57cc732b922ae44f85c332135b0c63bb37",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/CabiBis/CabiBis_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "chateau",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Chateau/Chateau.webp",
+      "posterSha256": "9134a059e792de4ae3c411970e9f04f09bf7265fef8e11dc6f8d9658d0356e09",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Chateau/Chateau_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "plage",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Plage/Plage.webp",
+      "posterSha256": "ce478c5e0093064c7323f918a84ce20618e0092474f7530de51246d706cb8865",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Plage/Plage_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "belier",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Belier/Belier.webp",
+      "posterSha256": "5a1dffd785e2f52a8738b6c1dc5ff2a5f1a5ffe3b675333d2701ca108ba76cf6",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Belier/Belier_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "concretion",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Concretion/Concretion.webp",
+      "posterSha256": "d2e55ad859b2acfc101084bf80f7db5c81e54cba4300210f0f1aa2993fd5f8a1",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Concretion/Concretion_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "cellier",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Cellier/Cellier.webp",
+      "posterSha256": "33e979b8ce6c3536fdef8bbc898befe80e5ee5b5e3a351faf78cc573d9638103",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Cellier/Cellier_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "cellier-v2",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Cellier/Cellier_v2.webp",
+      "posterSha256": "412c754965c7cc51122a30e6b018c47765f22c5ef5ee23f75b289304398504a5",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Cellier/Cellier_v2.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "manoir",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Manoir/Manoir.webp",
+      "posterSha256": "e43d618a3d3ad3cac4ee3c5efa7be4aa4a2fb9e33f6883f3d2d68e89456352bf",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Manoir/Manoir_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "arenes",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Arenes/Arenes.webp",
+      "posterSha256": "4fefd967d04164af8da9a4172fd104af02b077851c442360bcbef4aded824ad3",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Arenes/Arenes_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "atlas",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Atlas/Atlas.webp",
+      "posterSha256": "a881945b78b5a4312851f951a3e8292ba128d5b4508e0ccb97ea2ad1f002d44d",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Atlas/Atlas_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "cube",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Cube/Cube.webp",
+      "posterSha256": "a8d6773611eeaddb8ef47e66d4540a771106c85bc439042633f7f4700370d7a9",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Cube/Cube_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "cochon",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Cochon/Cochon.webp",
+      "posterSha256": "e6ffcb29688a78be644ab6998b5f7817cd4a00bc516b50266677d9b972aaf34e",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Cochon/Cochon_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "bureau",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Bureau/Bureau.webp",
+      "posterSha256": "c4090cfc384a1e873850fe8827765114602344d5775b25eca778bbe64046eed9",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Bureau/Bureau_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "faco",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Faco/Faco.webp",
+      "posterSha256": "9f0edaf49bfb6197bb6fec05510665b0ef8b221b4bb1bae9ae8b1e2d78bf3f75",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Faco/Faco_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "rats",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Rats/Rats.webp",
+      "posterSha256": "976992bc77d7e8ddcd289977a74d89cefd6c921eb1cafba91e315d53e7a189ce",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Rats/Rats_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "bocal",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Bocal/Bocal.webp",
+      "posterSha256": "fb01f477e876dbfcb61af1b5505bf01b1625ed94f81a8ff2d7a64b96ba2552c9",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Bocal/Bocal_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "suisse",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Suisse/Suisse.webp",
+      "posterSha256": "caad458188737c1230fe4f3a5f79d82e0ca6267ea1449f4b0b6847730ea0561f",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Suisse/Suisse_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "puits_carre",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Puits_carre/Puits_carre.webp",
+      "posterSha256": "9ce42455afa4109b5c50a8c9bfb436908a121e4da6fa841179c8dd825cd9380b",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Puits_carre/Puits_carre_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "Amazones",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Amazones/Amazones.webp",
+      "posterSha256": "1c33cca79db5cc73b7af9432ed9628d1b80c41e20960ef623839d1e0dab81ee5",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Amazones/Amazones_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "sculptures",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Sculptures/Sculptures.webp",
+      "posterSha256": "621244c8761e068b607342acaa6260f969f0cd1e56e4b6bebbc76730ac414f32",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Sculptures/Sculptures_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "danse-macabre",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Danse_macabre/Danse_macabre.webp",
+      "posterSha256": "3dbec0192cbc97b5f24d4dc898b283cbf47d152630881d68dcb29873a2f1c8e3",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Danse_macabre/Danse_macabre_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    },
+    {
+      "id": "tank",
+      "posterUrl": "https://assets.catacombes.xyz/assets/models/Tank/Tank.webp",
+      "posterSha256": "afdf3c94ec0efa6be1abfe56ba5e04853d006817fc76e063b7ea302fd4630a26",
+      "previewModelUrl": "https://assets.catacombes.xyz/assets/models/Tank/Tank_opt.glb",
+      "imageCredit": "Paul Maréchal / DevXR · Catacombes.xyz"
+    }
+  ]
+}

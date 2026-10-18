@@ -7,7 +7,7 @@
       "title": "IGC · Resmî yeraltı atlası",
       "url": "https://www.paris.fr/pages/tout-savoir-sur-les-sous-sols-2317",
       "kind": "official",
-      "rights": "Pafta görsellerinin yeniden dağıtım hakkı bu projede alınmadı. İndeks metadatası ve resmî bağlantılar ayrı tutulur.",
+      "rights": "Pafta dizini uygulamada. Görsel yeniden dağıtım izni doğrulanmadı; koordinatlı planlar doğrudan IGC kaynağından kişisel cihaza kaydedilir.",
       "offline": "metadata-only",
       "notes": ""
     },
@@ -16,8 +16,8 @@
       "title": "IGC · Resmî atlas görüntüleyicisi",
       "url": "https://capgeo.maps.arcgis.com/apps/instant/media/index.html?appid=59873b0b206e4aefae712dc2cdda200c",
       "kind": "official",
-      "rights": "Dış kaynak; pafta görselleri uygulamaya kopyalanmadı.",
-      "offline": "external-only",
+      "rights": "Resmî kaynak görüntüleyici. Seçili alanlar doğrudan kaynaktan kişisel cihaz önbelleğine alınır; kamuya görsel yeniden dağıtımı yapılmaz.",
+      "offline": "personal-cache",
       "notes": ""
     },
     {
@@ -34,9 +34,9 @@
       "title": "Catacombes.xyz · Salon ve 3B kaynakları",
       "url": "https://catacombes.xyz/rooms",
       "kind": "community",
-      "rights": "Dış bağlantı kataloğu. Model dosyalarının yeniden dağıtımı ve offline kopyalama izni doğrulanmadı.",
-      "offline": "external-only",
-      "notes": ""
+      "rights": "46 salon kaydı ve kaynak görselleri. Görseller cihazda önbelleğe alınır; ayrı salon GLB modelleri kişisel ZIP arşivinden eklenir. Kamuya model dosyası yeniden dağıtımı yapılmaz.",
+      "offline": "metadata-and-personal-cache",
+      "notes": "40 konum yayımlanmış, 6 konum kaynakta gizli. Kaynak koordinatları tam ağ veya güncel erişim garantisi değildir."
     },
     {
       "id": "official-catacombs",
@@ -88,8 +88,8 @@
       "title": "Nexus · Harita referansı",
       "url": "https://paris-catacombs.com/plan-catacombes/",
       "kind": "reference",
-      "rights": "Üçüncü taraf kopya. Asıl revizyon ve yeniden kullanım izni doğrulanmadı; görsel indirilmedi.",
-      "offline": "external-only",
+      "rights": "Üçüncü taraf kopya. Revizyon ve yeniden kullanım izni doğrulanmadı; düşük çözünürlükte kişisel arşiv kaydı bulunur. Kamu paketinde görsel yok.",
+      "offline": "personal-import",
       "notes": ""
     },
     {
@@ -160,9 +160,29 @@
       "title": "IGC · haritaya hizalı gerçek galeri planları",
       "url": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer",
       "kind": "official",
-      "rights": "Kamuya yeniden dağıtım izni doğrulanmadı. Kişisel ZIP arşivi cihazda tutulur.",
-      "offline": "personal-import",
-      "notes": "252 koordinatlı görsel: bölgesel atlas ve yüksek ayrıntılı GRS. Galeri çizgileri görüntü üzerindedir; güncel geçilebilirlik ve tüm giriş envanteri değildir."
+      "rights": "Kamuya yeniden dağıtım izni doğrulanmadı. Koordinatlı görüntüler resmî kaynaktan doğrudan cihaza indirilir veya kişisel ZIP ile eklenir.",
+      "offline": "personal-download",
+      "notes": "252 koordinatlı alan: bölgesel atlas ve ayrıntılı GRS; seçilen diğer paftalar da aynı haritaya alınabilir. Planlar galeri çizimlerini içerir; güncel geçiş ve tüm giriş envanteri değildir."
+    },
+    {
+      "id": "paris-surface",
+      "title": "Ville de Paris · Paris geneli yerüstü",
+      "url": "https://opendata.paris.fr/explore/dataset/troncon_voie/",
+      "kind": "open-data",
+      "rights": "© Ville de Paris · ODbL 1.0. Lisans ve kaynak atıfları uygulamada korunur.",
+      "offline": "included",
+      "notes": "25.094 yol parçası, 2.522 yeşil alan ve 60 su alanı; 9.389 özellik. Yol kaynak metadatası Haziran 2018; 2026 indirme tarihi ölçüm tarihi değildir."
+    },
+    {
+      "id": "merged-lidar",
+      "title": "Émile Le Gallic / Minifixio · Birleşik 8 LiDAR taraması",
+      "url": "https://github.com/Minifixio/catacombs-scan",
+      "kind": "survey",
+      "rights": "Kaynak deposunda yeniden dağıtım lisansı doğrulanmadı. 29,3 MB iki GLB doğrudan kaynaktan kişisel cihaza alınır; GitHub Pages paketinde dosyaları yok.",
+      "offline": "personal-download",
+      "notes": "2023 tarihli gerçek birleşik galeri taraması ve eşleşen yerüstü modeli. Kaynağın ortak yerel 3B çerçevesi korunur. Dünya koordinatı doğrulanmadı; bütün Paris ağı değildir."
     }
-  ]
+  ],
+  "updatedBy": "codex",
+  "updatedAt": "2026-10-18T18:30:55.313880+03:00"
 }

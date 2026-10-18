@@ -4,6 +4,8 @@ from pathlib import Path
 from datetime import datetime
 import re,json,hashlib
 ROOT=Path(__file__).resolve().parents[1];SOURCE=ROOT.parent/'outputs/arastirma-tek-harita/3760b09340046ac8.js';text=SOURCE.read_text();now=datetime.now().astimezone().isoformat();rooms=[];features=[]
+# Verified URL corrections/fallbacks are metadata, not publicly copied media.
+media={r['id']:r for r in json.loads((ROOT/'source-records/room-media-verified.json').read_text())['rooms']}
 def string(body,key):
  m=re.search(r'(?:^|,)'+re.escape(key)+r':"((?:[^"\\]|\\.)*)"',body);return json.loads('"'+m[1]+'"') if m else None
 for m in re.finditer(r'\{slug:"([^"\\]+)"(.*?)coordinates:\{lat:([^,}]+),lon:([^}]+)\}',text,re.S):
@@ -11,6 +13,8 @@ for m in re.finditer(r'\{slug:"([^"\\]+)"(.*?)coordinates:\{lat:([^,}]+),lon:([^
  if coordinates and not(2.2<lon<2.45 and 48.78<lat<48.93):raise ValueError('Out-of-region published room')
  depth=string(body,'depth');match=re.fullmatch(r'([0-9]+(?:\.[0-9]+)?)\s*m',depth or '');metres=float(match[1]) if match else None
  row={'id':slug,'title':string(body,'title') or string(body,'name') or slug,'url':'https://catacombes.xyz/rooms/'+slug,'sourceId':'catacombes-xyz','localModelAvailable':False,'coordinates':coordinates,'depthMetres':metres,'depthSourceLabel':depth,'district':string(body,'district'),'verification':'publisher-coordinate' if coordinates else 'publisher-withheld','sourceCheckedAt':now,'sourceUrl':'https://catacombes.xyz/map'}
+ assert slug in media,'Missing independently verified room media record'
+ row.update({k:v for k,v in media[slug].items() if k!='id'})
  rooms.append(row)
  if coordinates:features.append({'type':'Feature','id':'room:'+slug,'properties':{'id':slug,'kind':'room','title':row['title'],'sourceUrl':row['url'],'sourceId':'catacombes-xyz','depthMetres':metres,'verification':'publisher-coordinate','district':row['district'],'description':'Yayıncının yayımladığı konum ve derinlik; bağımsız ölçüm doğruluğu verilmemiştir.','checkedAt':now},'geometry':{'type':'Point','coordinates':coordinates}})
 assert len(rooms)==46 and len(features)==40

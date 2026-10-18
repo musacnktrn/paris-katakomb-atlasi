@@ -1,0 +1,312 @@
+{
+  "schema": 1,
+  "ureten": "codex",
+  "id": "minifixio-eight-scans",
+  "title": "Paris · Birleştirilmiş 8 LiDAR taraması",
+  "description": "Kaynak üreticinin birleştirdiği gerçek tarama ağı ile eşleşen yerüstü modeli, yazarın ortak yerel 3B koordinat çerçevesinde.",
+  "sourceUrl": "https://github.com/Minifixio/catacombs-scan",
+  "sourceWebsite": "https://emile.le-gallic.com/catacombs/",
+  "sourceCommit": "c19bcc06cdf1cf2fa27ad0190dfe91edb4ab5a0e",
+  "sourceDate": "2023-08-11",
+  "verifiedAt": "2026-10-18T15:06:04.198857+00:00",
+  "rights": "unverified-personal-copy",
+  "licenseVerified": false,
+  "worldGeoreferenced": false,
+  "coordinateSystem": "author-local-gltf",
+  "worldAnchor": null,
+  "preserveEmbeddedNodeTransforms": true,
+  "singleCombinedScene": true,
+  "sceneTransforms": {
+    "underground": {
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotationQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "evidence": "RendererManager.js initMainGLTF lines449-475: direct add to scene; embedded glTF nodes remain applied."
+    },
+    "surface": {
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotationQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "evidence": "RendererManager.js initCityGLTF lines383-391: direct add to scene, material wireframe only."
+    },
+    "unusedGoogleFloor": {
+      "filename": "paris_GoogleMaps_layer.glb",
+      "translation": [
+        0,
+        62,
+        0
+      ],
+      "evidence": "RendererManager.js initCityFloorGLTF lines397-401; applies only to the separate Google floor object."
+    }
+  },
+  "assets": [
+    {
+      "id": "underground",
+      "name": "fusion_allege_10.glb",
+      "sourceUrl": "https://raw.githubusercontent.com/Minifixio/catacombs-scan/c19bcc06cdf1cf2fa27ad0190dfe91edb4ab5a0e/public/models/catacombs/main_scans/fusion_allege_10.glb",
+      "bytes": 17955580,
+      "sha256": "f1e83477e7b96920801543125fd97096efb0298f2bd8bfb5e23612ce8649ebce",
+      "kind": "glb",
+      "rights": "unverified-personal-copy",
+      "cors": "*",
+      "sceneTransform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotationQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "evidence": "RendererManager.js initMainGLTF lines449-475: direct add to scene; embedded glTF nodes remain applied."
+      },
+      "embeddedNodes": [
+        {
+          "mesh": 0,
+          "name": "10-23-10-28-10-49-11-27-11-36-11-56-12-52-01-38",
+          "rotation": [
+            0.7071068286895752,
+            0,
+            0,
+            0.7071068286895752
+          ]
+        }
+      ],
+      "selfContained": true,
+      "extensionsRequired": []
+    },
+    {
+      "id": "surface",
+      "name": "paris_3D.glb",
+      "sourceUrl": "https://raw.githubusercontent.com/Minifixio/catacombs-scan/c19bcc06cdf1cf2fa27ad0190dfe91edb4ab5a0e/public/models/catacombs/main_scans/paris_3D.glb",
+      "bytes": 11343928,
+      "sha256": "3676e5ce782b9376d46bfaca117ed0e5d597391fe27784b6cc87fd617bb71c72",
+      "kind": "glb",
+      "rights": "unverified-personal-copy",
+      "cors": "*",
+      "sceneTransform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotationQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "evidence": "RendererManager.js initCityGLTF lines383-391: direct add to scene, material wireframe only."
+      },
+      "embeddedNodes": [
+        {
+          "mesh": 0,
+          "name": "Areas:building",
+          "rotation": [
+            0,
+            -0.9896083474159241,
+            0,
+            0.14378902316093445
+          ],
+          "scale": [
+            0.6623401641845703,
+            1,
+            0.6623401641845703
+          ],
+          "translation": [
+            5.954807758331299,
+            -54.176971435546875,
+            50.511260986328125
+          ]
+        },
+        {
+          "mesh": 1,
+          "name": "Areas:landuse",
+          "rotation": [
+            0,
+            -0.9896083474159241,
+            0,
+            0.14378902316093445
+          ],
+          "scale": [
+            0.6623401641845703,
+            1,
+            0.6623401641845703
+          ],
+          "translation": [
+            5.954807758331299,
+            -54.176971435546875,
+            50.511260986328125
+          ]
+        },
+        {
+          "mesh": 2,
+          "name": "Areas:leisure",
+          "rotation": [
+            0,
+            -0.9896083474159241,
+            0,
+            0.14378902316093445
+          ],
+          "scale": [
+            0.6623401641845703,
+            1,
+            0.6623401641845703
+          ],
+          "translation": [
+            5.954807758331299,
+            -54.176971435546875,
+            50.511260986328125
+          ]
+        },
+        {
+          "mesh": 3,
+          "name": "Areas:natural",
+          "rotation": [
+            0,
+            -0.9896083474159241,
+            0,
+            0.14378902316093445
+          ],
+          "scale": [
+            0.6623401641845703,
+            1,
+            0.6623401641845703
+          ],
+          "translation": [
+            5.954807758331299,
+            -54.176971435546875,
+            50.511260986328125
+          ]
+        },
+        {
+          "mesh": 4,
+          "name": "EXPORT_GOOGLE_SAT_WM",
+          "rotation": [
+            0,
+            -0.9896083474159241,
+            0,
+            0.14378902316093445
+          ],
+          "scale": [
+            0.6623401641845703,
+            1,
+            0.6623401641845703
+          ],
+          "translation": [
+            5.954807758331299,
+            -54.176971435546875,
+            50.511260986328125
+          ]
+        },
+        {
+          "mesh": 5,
+          "name": "Ways:highway",
+          "rotation": [
+            0,
+            -0.9896083474159241,
+            0,
+            0.14378902316093445
+          ],
+          "scale": [
+            0.6623401641845703,
+            1,
+            0.6623401641845703
+          ],
+          "translation": [
+            5.954807758331299,
+            -54.176971435546875,
+            50.511260986328125
+          ]
+        },
+        {
+          "name": "Ways:natural",
+          "rotation": [
+            0,
+            -0.9896083474159241,
+            0,
+            0.14378902316093445
+          ],
+          "scale": [
+            0.6623401641845703,
+            1,
+            0.6623401641845703
+          ],
+          "translation": [
+            5.954807758331299,
+            -54.176971435546875,
+            50.511260986328125
+          ]
+        },
+        {
+          "mesh": 6,
+          "name": "Ways:railway",
+          "rotation": [
+            0,
+            -0.9896083474159241,
+            0,
+            0.14378902316093445
+          ],
+          "scale": [
+            0.6623401641845703,
+            1,
+            0.6623401641845703
+          ],
+          "translation": [
+            5.954807758331299,
+            -54.176971435546875,
+            50.511260986328125
+          ]
+        }
+      ],
+      "selfContained": true,
+      "extensionsRequired": []
+    }
+  ],
+  "limitations": [
+    "The author describes eight merged LiDAR scans, not the entire Paris underground network.",
+    "No surveyed global georeference has been verified. Keep this pair in one common local 3D scene; do not place it on WGS84 map coordinates by guesswork.",
+    "The surface model contains a satellite map plane and OSM-derived buildings; rights of the source imagery and merged data are unverified.",
+    "No third-party binary is written under public/ or committed by this script."
+  ],
+  "attribution": "Emile Le Gallic / Minifixio, catacombs-scan (2023). No reuse license verified."
+}

@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "ureten": "codex",
+  "id": "paris-surface",
+  "retrievedAt": "2026-10-18T15:11:52.952920+00:00",
+  "crs": "EPSG:4326",
+  "attribution": "© Ville de Paris, ODbL 1.0 · troncon_voie / voie / espaces_verts / Plan de voirie – Voies d’eau",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "dataUrl": "data/surface-paris.geojson",
+  "bytes": 8824403,
+  "sha256": "f42144e7d8b0435ce2ba41c5434196e30bc1912ed5e8e518a20b8c59f6e06bf2",
+  "featureCount": 9389,
+  "counts": {
+    "road": 6807,
+    "park": 2522,
+    "water": 60
+  },
+  "bbox": [
+    2.224081,
+    48.815633,
+    2.469763,
+    48.902074
+  ],
+  "sources": [
+    {
+      "datasetId": "troncon_voie",
+      "url": "https://opendata.paris.fr/explore/dataset/troncon_voie/",
+      "metadataUrl": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/troncon_voie",
+      "exportUrl": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/troncon_voie/exports/json?select=geom%2Cn_sq_tv%2Cn_sq_vo%2Cc_niveau&limit=-1",
+      "title": "Tronçons de Voies",
+      "publisher": "Direction de l'Urbanisme - Ville de Paris",
+      "license": "ODbL-1.0",
+      "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "sourceRecordCount": 25096,
+      "metadataModified": "2026-10-12T04:18:04+00:00",
+      "metadataDataProcessed": "2026-10-12T04:18:04+00:00",
+      "sourceDescriptionHtml": "<p class=\"ng-scope\">\nDonnées géographiques linéaires. Les tronçons de voie donnent une représentation schématique du réseau des voies publiques et privées à partir de leur axe central. L’extrémité d’un tronçon correspond généralement à un croisement avec une autre voie (qu’il soit au même niveau ou non), ou à la fin d’une voie en impasse.</p><ul class=\"ng-scope\">\n<li>Entendu géographique : Paris</li><li>Dernière mise à jour : juin 2018</li><li>Fichiers joints : troncon_voie.pdf contient la description des données</li></ul>"
+    },
+    {
+      "datasetId": "voie",
+      "url": "https://opendata.paris.fr/explore/dataset/voie/",
+      "metadataUrl": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/voie",
+      "exportUrl": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/voie/exports/json?select=n_sq_vo%2Cl_longmin%2Cl_courtmin&limit=-1",
+      "title": "Filaire de voies",
+      "publisher": "Direction de l'Urbanisme - Ville de Paris",
+      "license": "ODbL-1.0",
+      "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "sourceRecordCount": 6664,
+      "metadataModified": "2026-10-12T04:10:41+00:00",
+      "metadataDataProcessed": "2026-10-12T04:10:41+00:00",
+      "sourceDescriptionHtml": "<p><span style=\"background-color: rgb(245, 245, 245); font-family: Inter, sans-serif; letter-spacing: 0.249999px; white-space: pre-wrap;\">Le filaire de voie désigne la représentation linéaire de l'axe des voies de circulation.</span></p><p><span style=\"background-color: rgb(245, 245, 245); font-family: Inter, sans-serif; letter-spacing: 0.249999px; white-space: pre-wrap;\">U</span>ne voie est un emplacement localisé et dénommé par un arrêté municipal ou, dans le cas d’une voie privée, agréé par une décision administrative.</p><ul style=\"color: rgb(7, 31, 50); font-family: Montserrat, Helvetica, Arial, sans-serif;\"><li>Etendue géographique : Paris</li><li>Fichier joint contient la description des données</li></ul>"
+    },
+    {
+      "datasetId": "espaces_verts",
+      "url": "https://opendata.paris.fr/explore/dataset/espaces_verts/",
+      "metadataUrl": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/espaces_verts",
+      "exportUrl": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/espaces_verts/exports/json?select=geom%2Cgeom_x_y%2Cnsq_espace_vert%2Cnom_ev%2Ctype_ev%2Ccategorie%2Cadresse_codepostal&limit=-1",
+      "title": "Espaces verts et assimilés",
+      "publisher": "Direction des Espaces Verts et de l'Environnement - Ville de Paris",
+      "license": "ODbL-1.0",
+      "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "sourceRecordCount": 2535,
+      "metadataModified": "2026-10-18T13:25:21+00:00",
+      "metadataDataProcessed": "2026-10-18T13:25:21+00:00",
+      "sourceDescriptionHtml": "<p style='font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; font-size: 12.495px;'>Cette couche surfacique localise géographiquement l'emprise des espaces verts publics (parcs, squares, promenades etc...) gérés par la Ville de Paris.</p><table style=\"width: 515px; font-size: 12.495px;\"><colgroup><col><col></colgroup><tbody><tr><td>Code</td><td>Type espace vert</td><td>Descriptif</td></tr><tr><td>1</td><td>Promenades ouvertes</td><td>Espaces verts (parcs, jardins ou squares) situés sur le domaine affecté à la <span style=\"font-size: 12.495px;\">DEVE </span>ou avec convention avec la Ville sur tout autre domaine.</td></tr><tr><td>2</td><td>Jardinets décoratifs</td><td>Espaces verts (parcs, jardins ou squares) situés sur le domaine affecté à la <span style=\"font-size: 12.495px;\">DEVE </span>ou avec convention avec la Ville sur tout autre domaine, ayant un caractère exclusivement décoratifs.</td></tr><tr><td>3</td><td>Végétalisation d'espace public</td><td>Regroupe l'ensemble des décorations de pleine terre et des jardinières fixes ou mobiles situées sur le domaine de la voie publique (voirie ou piétonnier) affecté à la Direction de la voirie.</td></tr><tr><td>4</td><td>Jardins privatifs</td><td>Espaces verts situés sur le domaine de gestion privé de la ville, relevant d'organismes publics ou privés, non assujettis à la réglementation de la <span style=\"font-size: 12.495px;\">DEVE </span>mais entretenus par ses services.</td></tr><tr><td>5</td><td>Etablissements   sportifs</td><td>Espaces verts situés dans les établissements sportifs, sur le domaine affecté à la Direction de la Jeunesse et des Sports.</td></tr><tr><td>6</td><td>Cimetières</td><td>Domaine affecté à la DEVE</td></tr><tr><td>7</td><td>Etablissements   scolaires</td><td>Espaces verts situés dans les établissements municipaux ou départementaux sur le domaine affecté à la Direction des Affaires Scolaires.</td></tr><tr><td>8</td><td>Etablissements de garde d'enfants</td><td>Espaces verts situés dans les crèches, garderies et jardins d'enfants,</td></tr><tr><td>9</td><td>Périphérique</td><td>Regroupe l'ensemble des espaces verts situés dans l'emprise du boulevard périphérique</td></tr><tr><td>10</td><td>Bois</td><td>Regroupe les bois de Boulogne, Vincennes et le domaine de Beauregard.</td></tr><tr><td>11</td><td>Ephémères, partagés, pédagogiques</td></tr><tr><td>12</td><td>Centre Horticole</td><td>Regroupe les centres de production horticole de la DEVE</td></tr><tr><td>13</td><td>Murs végétalisés</td><td><br></td></tr></tbody></table><p><br></p><p>Il est fourni deux informations sur la surface :</p><p>- Surface totale réelle</p><p>Celle-ci correspond à la surface \"terrain\"</p><p>- Surface calculée</p><p>Celle-ci est calculée automatiquement et correspond à la surface du polygone. </p><p>Les valeurs peuvent être différentes entre les 2 colonnes.</p><p>Les valeurs \"zéro\" affichées dans \"Surface totale réelle\" correspondent à des talus, murs végétalisés ou espaces verts en projet pour lesquels la surface réelle n'est pas (ou pas encore) calculée.</p><p><font face='\"Calibri\",\"sans-serif\"' size=\"3\"></font><br></p><p><b></b><i></i><u></u><sub></sub><sup></sup><strike></strike><font face='\"Calibri\",\"sans-serif\"'></font><font size=\"3\"></font><font color=\"#000012\"></font><br></p>"
+    },
+    {
+      "datasetId": "plan-de-voirie-voies-deau",
+      "url": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-voies-deau/",
+      "metadataUrl": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/plan-de-voirie-voies-deau",
+      "exportUrl": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/plan-de-voirie-voies-deau/exports/json?select=geo_shape%2Cobjectid%2Clib_level&limit=-1",
+      "title": "Plan de voirie - Voies d'eau",
+      "publisher": "Direction de la Voirie et des Déplacements - Ville de Paris",
+      "license": "ODbL-1.0",
+      "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "sourceRecordCount": 60,
+      "metadataModified": "2026-10-10T10:10:16+00:00",
+      "metadataDataProcessed": "2026-10-10T10:10:16+00:00",
+      "sourceDescriptionHtml": "<p>Emprises des voies d'eau - bief - écluse - bassin - embranchement - espace de service.</p><p><strong>Le Plan de Voirie de Paris :</strong><span lang=\"FR\"><o:p></o:p></span></p><p><strong> </strong><span lang=\"FR\"><o:p></o:p></span></p><p><span lang=\"FR\">Le Plan de Voirie de Paris (PVP) est destiné à l'instruction technique\ndes projets sur la voie publique, conformément au règlement de voirie en\nvigueur. Chaque objet de l'espace public est représenté par un symbole\nréférencé dans la charte graphique topographique.<o:p></o:p></span></p><p><span lang=\"FR\"> </span></p><p><span lang=\"FR\">Le système de cordonnées planimétriques d’origine du PVP est le Lambert\nI-54 (Ville de Paris), re- projeté en RGF93.CC49 puis en RGF93 – Lambert 93\n(WKID 2154) dans le système d’information de la Ville, puis dans le système de\ncoordonnées international WGS84 Web Mercator Auxiliary Sphere (WKID 3857). Pour\ncette raison, les données ici présentent ne peuvent pas faire l’objet de travaux\ntopographiques.<o:p></o:p></span></p><p><span lang=\"FR\"> </span></p><p><span lang=\"FR\">Les mises à jour du Plan de Voirie sont désormais établies directement\ndans le système de coordonnées légal : NGF.IGN69 en altimétrie et RGF93.CC49 en\nplanimétrie.<o:p></o:p></span></p><p><span lang=\"FR\"> </span></p><p><span lang=\"FR\">Conformément au règlement de voirie, tous les intervenants sur le\ndomaine public sont tenus de transmettre leurs plans de récolement à la\nDivision des Plans de Voirie (DPV) dans un délai maximum de 21 jours ouvrés\naprès l'achèvement des travaux. La DPV met à jour les plans de voirie en\nfonction du retour de ces informations. Le volume des transformations de\nl’espace public ces dernières années ne permet de garantir la mise à jour\nexhaustive des 60 couches de données thématiques sur la totalité du territoire\nparisien.<o:p></o:p></span></p><p><span lang=\"FR\"> </span></p><p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</p><p class=\"MsoNormal\"><span lang=\"FR\">Dans le cadre d’un projet localisé, impactant le\ndomaine de voirie (Occupation du domaine public – CITé), les données PVP\npeuvent être obtenus auprès du Bureau de la diffusion de la Division des Plans\nde Voirie par messagerie à l’adresse suivante : <a href=\"mailto:pvp.dvd@paris.fr\">pvp.dvd@paris.fr</a>.<o:p></o:p></span></p>"
+    }
+  ],
+  "excluded": {
+    "roadInvalidGeometry:Missing or unexpected geometry type": 2,
+    "greenInvalidGeometry:Missing or unexpected geometry type": 1,
+    "greenOutsideParisPostalOrMissingPostal": 12
+  },
+  "displayOnly": true,
+  "routingGraph": false,
+  "diagnostics": {},
+  "roadSegmentCount": 25094,
+  "transformation": "Geometry rounded to 6 decimal degrees (7/10 for very small rings); consecutive duplicates removed; no line simplification. Source road segments sharing n_sq_vo and c_niveau are grouped as independent parts of a MultiLineString, without connecting their endpoints. Road names joined through n_sq_vo. Green areas require a 75xxx postal code and the documented Paris display bbox. Missing green-area IDs are explicitly replaced by derived SHA256 identities of name and output geometry.",
+  "limitations": [
+    "The road source description says June 2018. Its October 2026 portal processing timestamp does not prove that every road was resurveyed then.",
+    "The municipal green-area dataset also contains decorative planters, private institutional land, sports sites and cemeteries; park kind means display vegetation, not a public access guarantee. Out-of-Paris or missing-postal records are excluded.",
+    "PVP water coverage and geometry do not guarantee complete or current coverage; the publisher excludes topographic use after source coordinate conversions.",
+    "Road centerlines are schematic, may include private roads and multiple levels, and are not a pedestrian routing or access-permission graph.",
+    "This is a bounded offline city display layer, not every feature from every map provider. The older GRS source is preserved independently."
+  ]
+}

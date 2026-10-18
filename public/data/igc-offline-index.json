@@ -1,0 +1,3539 @@
+{
+  "ureten": "codex",
+  "schema": 1,
+  "title": "Paris · kişisel çevrimdışı IGC galeri atlası",
+  "rights": "personal-copy",
+  "surveyRevision": null,
+  "assets": [
+    {
+      "id": "overview",
+      "name": "IGC overview.jpg",
+      "category": "igc-raster-overview",
+      "mapBounds": [
+        2.1524900000000002,
+        48.71033407907617,
+        2.5986000000000002,
+        49.00384627114338
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6231359.09471646%2C289274.8287754007%2C6270008.269140012&bboxSR=3857&imageSR=3857&size=1024%2C1024&format=jpg&dpi=96&f=json",
+      "sha256": "e5a132c672ce47c289a14fd0d5478b6b1debcf00364184ffb3f8e4e4c1d8968f",
+      "bytes": 114983
+    },
+    {
+      "id": "region-0-0",
+      "name": "IGC region-0-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.74295999999997,
+        2.1800862455281513,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6231359.09471646%2C242686.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-0",
+      "name": "IGC region-1-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.74295999999997,
+        2.207682491056303,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6231359.09471646%2C245758.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-2-0",
+      "name": "IGC region-2-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.74295999999997,
+        2.2352787365844544,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6231359.09471646%2C248830.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-3-0",
+      "name": "IGC region-3-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.74295999999997,
+        2.262874982112606,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6231359.09471646%2C251902.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-0",
+      "name": "IGC region-4-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.74295999999997,
+        2.290471227640758,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6231359.09471646%2C254974.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "7efd580f731adfb84f1aafadc07ea3dc71bc4e4ec722047371b185e7551f291a",
+      "bytes": 444806
+    },
+    {
+      "id": "region-5-0",
+      "name": "IGC region-5-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.74295999999997,
+        2.3180674731689095,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6231359.09471646%2C258046.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "2702507630cdb781635fb7c12904935a759e5c0ea5589443b6a8eda5f7d8c9a6",
+      "bytes": 507850
+    },
+    {
+      "id": "region-6-0",
+      "name": "IGC region-6-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.74295999999997,
+        2.3456637186970615,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6231359.09471646%2C261118.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "66b258bfa96554cbb963c62d4e7622ef760beb3d1d80288bc32b3b0ca70df509",
+      "bytes": 125036
+    },
+    {
+      "id": "region-7-0",
+      "name": "IGC region-7-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.74295999999997,
+        2.3732599642252135,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6231359.09471646%2C264190.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-8-0",
+      "name": "IGC region-8-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.74295999999997,
+        2.4008562097533646,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6231359.09471646%2C267262.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-9-0",
+      "name": "IGC region-9-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.74295999999997,
+        2.4284524552815165,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6231359.09471646%2C270334.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-10-0",
+      "name": "IGC region-10-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.74295999999997,
+        2.4560487008096676,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6231359.09471646%2C273406.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-11-0",
+      "name": "IGC region-11-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.74295999999997,
+        2.4836449463378196,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6231359.09471646%2C276478.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-12-0",
+      "name": "IGC region-12-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.74295999999997,
+        2.511241191865972,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6231359.09471646%2C279550.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-0",
+      "name": "IGC region-13-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.74295999999997,
+        2.538837437394123,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6231359.09471646%2C282622.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-0",
+      "name": "IGC region-14-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.74295999999997,
+        2.5664336829222747,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6231359.09471646%2C285694.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-0",
+      "name": "IGC region-15-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.74295999999997,
+        2.5940299284504267,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6231359.09471646%2C288766.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-0",
+      "name": "IGC region-16-0.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.74295999999997,
+        2.621626173978578,
+        48.76115472370225
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6231359.09471646%2C291838.0907376134%2C6234431.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-1",
+      "name": "IGC region-0-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.76115472370227,
+        2.1800862455281513,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6234431.09471646%2C242686.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-1",
+      "name": "IGC region-1-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.76115472370227,
+        2.207682491056303,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6234431.09471646%2C245758.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-2-1",
+      "name": "IGC region-2-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.76115472370227,
+        2.2352787365844544,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6234431.09471646%2C248830.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-3-1",
+      "name": "IGC region-3-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.76115472370227,
+        2.262874982112606,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6234431.09471646%2C251902.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-1",
+      "name": "IGC region-4-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.76115472370227,
+        2.290471227640758,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6234431.09471646%2C254974.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-5-1",
+      "name": "IGC region-5-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.76115472370227,
+        2.3180674731689095,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6234431.09471646%2C258046.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-6-1",
+      "name": "IGC region-6-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.76115472370227,
+        2.3456637186970615,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6234431.09471646%2C261118.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "52cc5cf32660c08a278f03cf7a7f4e7db7884d0821cbe42dd48939b374d5f4d9",
+      "bytes": 201045
+    },
+    {
+      "id": "region-7-1",
+      "name": "IGC region-7-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.76115472370227,
+        2.3732599642252135,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6234431.09471646%2C264190.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-8-1",
+      "name": "IGC region-8-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.76115472370227,
+        2.4008562097533646,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6234431.09471646%2C267262.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "dc5f282f7e340ea47539151552bac752fbcbae51a58960123d3bb9fd982f12b0",
+      "bytes": 631200
+    },
+    {
+      "id": "region-9-1",
+      "name": "IGC region-9-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.76115472370227,
+        2.4284524552815165,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6234431.09471646%2C270334.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f596ec9d0b935e028bc9f96e76ecacb7e241a62e1a4d9b29f898f2370c19aaea",
+      "bytes": 137213
+    },
+    {
+      "id": "region-10-1",
+      "name": "IGC region-10-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.76115472370227,
+        2.4560487008096676,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6234431.09471646%2C273406.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-11-1",
+      "name": "IGC region-11-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.76115472370227,
+        2.4836449463378196,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6234431.09471646%2C276478.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "55e47bf4d0aca90f1d3811a8338edacf0d592223d265adcfd7fbad697782a9e8",
+      "bytes": 224207
+    },
+    {
+      "id": "region-12-1",
+      "name": "IGC region-12-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.76115472370227,
+        2.511241191865972,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6234431.09471646%2C279550.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-1",
+      "name": "IGC region-13-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.76115472370227,
+        2.538837437394123,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6234431.09471646%2C282622.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-1",
+      "name": "IGC region-14-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.76115472370227,
+        2.5664336829222747,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6234431.09471646%2C285694.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-1",
+      "name": "IGC region-15-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.76115472370227,
+        2.5940299284504267,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6234431.09471646%2C288766.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-1",
+      "name": "IGC region-16-1.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.76115472370227,
+        2.621626173978578,
+        48.77934285879716
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6234431.09471646%2C291838.0907376134%2C6237503.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-2",
+      "name": "IGC region-0-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.77934285879716,
+        2.1800862455281513,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6237503.09471646%2C242686.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-2",
+      "name": "IGC region-1-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.77934285879716,
+        2.207682491056303,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6237503.09471646%2C245758.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-2-2",
+      "name": "IGC region-2-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.77934285879716,
+        2.2352787365844544,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6237503.09471646%2C248830.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-3-2",
+      "name": "IGC region-3-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.77934285879716,
+        2.262874982112606,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6237503.09471646%2C251902.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-2",
+      "name": "IGC region-4-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.77934285879716,
+        2.290471227640758,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6237503.09471646%2C254974.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "43f692ec407e950671f0e0bff6464495a89bcf9b6940ddb620f1273099811c6c",
+      "bytes": 417045
+    },
+    {
+      "id": "region-5-2",
+      "name": "IGC region-5-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.77934285879716,
+        2.3180674731689095,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6237503.09471646%2C258046.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "2df7eb4e265e88bbff0ec162ec8dfae899d2a425f278a424e09120d1cd24b063",
+      "bytes": 1070064
+    },
+    {
+      "id": "region-6-2",
+      "name": "IGC region-6-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.77934285879716,
+        2.3456637186970615,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6237503.09471646%2C261118.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "caeeedb4b304fa1bc2cc4bb399cac794874332eab08b6b982a995632353385de",
+      "bytes": 654116
+    },
+    {
+      "id": "region-7-2",
+      "name": "IGC region-7-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.77934285879716,
+        2.3732599642252135,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6237503.09471646%2C264190.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "e5b7d75a9727c037a65fb689754cee83185a1872e7f1e5e639edf37b79151097",
+      "bytes": 276391
+    },
+    {
+      "id": "region-8-2",
+      "name": "IGC region-8-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.77934285879716,
+        2.4008562097533646,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6237503.09471646%2C267262.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "6ab37714dbb8c6be810f64fb10f79a1bd706d078d255a94abd3d7f61beddd1ac",
+      "bytes": 539621
+    },
+    {
+      "id": "region-9-2",
+      "name": "IGC region-9-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.77934285879716,
+        2.4284524552815165,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6237503.09471646%2C270334.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-10-2",
+      "name": "IGC region-10-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.77934285879716,
+        2.4560487008096676,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6237503.09471646%2C273406.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "002758cae3beca3875a6ecda83a5c8686b577783c8e25d36fc83e69c72a0fc34",
+      "bytes": 141736
+    },
+    {
+      "id": "region-11-2",
+      "name": "IGC region-11-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.77934285879716,
+        2.4836449463378196,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6237503.09471646%2C276478.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "4ae8d727f7584c20daeaa656da6355750731cb5af934304357dffcef7651405d",
+      "bytes": 152478
+    },
+    {
+      "id": "region-12-2",
+      "name": "IGC region-12-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.77934285879716,
+        2.511241191865972,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6237503.09471646%2C279550.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-2",
+      "name": "IGC region-13-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.77934285879716,
+        2.538837437394123,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6237503.09471646%2C282622.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-2",
+      "name": "IGC region-14-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.77934285879716,
+        2.5664336829222747,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6237503.09471646%2C285694.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-2",
+      "name": "IGC region-15-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.77934285879716,
+        2.5940299284504267,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6237503.09471646%2C288766.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-2",
+      "name": "IGC region-16-2.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.77934285879716,
+        2.621626173978578,
+        48.797524405838345
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6237503.09471646%2C291838.0907376134%2C6240575.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-3",
+      "name": "IGC region-0-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.79752440583832,
+        2.1800862455281513,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6240575.09471646%2C242686.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-3",
+      "name": "IGC region-1-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.79752440583832,
+        2.207682491056303,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6240575.09471646%2C245758.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "bf953a6d612047f24be0abcae42a44fee0eb717354c94e300f2b6857c8f0f21f",
+      "bytes": 494052
+    },
+    {
+      "id": "region-2-3",
+      "name": "IGC region-2-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.79752440583832,
+        2.2352787365844544,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6240575.09471646%2C248830.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "92ee212f6c162cb0f192e27e34cebc9447f0dfa14a05e3a5f33bf47d91aa29b5",
+      "bytes": 175764
+    },
+    {
+      "id": "region-3-3",
+      "name": "IGC region-3-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.79752440583832,
+        2.262874982112606,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6240575.09471646%2C251902.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0355739af1d0fb97bbb0e4d06f18a5fe63b113ef14f5cc6a77700270cd825c06",
+      "bytes": 1195563
+    },
+    {
+      "id": "region-4-3",
+      "name": "IGC region-4-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.79752440583832,
+        2.290471227640758,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6240575.09471646%2C254974.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "475fc851cee9422fd5e3791c9b83bd52f17e78dbeda1c8c03954f7ba1f6ee00b",
+      "bytes": 2028453
+    },
+    {
+      "id": "region-5-3",
+      "name": "IGC region-5-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.79752440583832,
+        2.3180674731689095,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6240575.09471646%2C258046.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "4ccdf7d2ca15c2cfc6423d111518ead2c4074191c07a99c1ccf4ae12828f4944",
+      "bytes": 2620444
+    },
+    {
+      "id": "region-6-3",
+      "name": "IGC region-6-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.79752440583832,
+        2.3456637186970615,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6240575.09471646%2C261118.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "92f78818178a7940d98912788eb7d39db58e8c8372a310156eefd8e5e1a30ddf",
+      "bytes": 2662948
+    },
+    {
+      "id": "region-7-3",
+      "name": "IGC region-7-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.79752440583832,
+        2.3732599642252135,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6240575.09471646%2C264190.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f11e31667555e2bfaec23f5d88311f70a5fc41a03fe3a10e20136dc26d49946b",
+      "bytes": 1969509
+    },
+    {
+      "id": "region-8-3",
+      "name": "IGC region-8-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.79752440583832,
+        2.4008562097533646,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6240575.09471646%2C267262.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "e7256bce1ea13c7404874a9f6ea2ea6fe4fdc6e047647267ca0fff101bfef54c",
+      "bytes": 1434657
+    },
+    {
+      "id": "region-9-3",
+      "name": "IGC region-9-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.79752440583832,
+        2.4284524552815165,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6240575.09471646%2C270334.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "128c8132f50c91faf3350f866ec2c497767eddb1f130c44e74668f66f831fe6c",
+      "bytes": 149806
+    },
+    {
+      "id": "region-10-3",
+      "name": "IGC region-10-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.79752440583832,
+        2.4560487008096676,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6240575.09471646%2C273406.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "5983245d8f41d6977de7a0da461082a090fdd7da01e891341c17e35f932b4040",
+      "bytes": 894498
+    },
+    {
+      "id": "region-11-3",
+      "name": "IGC region-11-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.79752440583832,
+        2.4836449463378196,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6240575.09471646%2C276478.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "d732cdcddc0a4823a8b2358b22c1d8a2ec909216a7c17ecb4ea8920166af00ca",
+      "bytes": 1031212
+    },
+    {
+      "id": "region-12-3",
+      "name": "IGC region-12-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.79752440583832,
+        2.511241191865972,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6240575.09471646%2C279550.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f77999222fa5264d9772767a3ed2c46dc56a3be8d90cec9284c6dba0ad3d18bf",
+      "bytes": 706435
+    },
+    {
+      "id": "region-13-3",
+      "name": "IGC region-13-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.79752440583832,
+        2.538837437394123,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6240575.09471646%2C282622.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-3",
+      "name": "IGC region-14-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.79752440583832,
+        2.5664336829222747,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6240575.09471646%2C285694.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-3",
+      "name": "IGC region-15-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.79752440583832,
+        2.5940299284504267,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6240575.09471646%2C288766.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-3",
+      "name": "IGC region-16-3.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.79752440583832,
+        2.621626173978578,
+        48.81569936538195
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6240575.09471646%2C291838.0907376134%2C6243647.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-4",
+      "name": "IGC region-0-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.815699365381974,
+        2.1800862455281513,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6243647.09471646%2C242686.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-4",
+      "name": "IGC region-1-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.815699365381974,
+        2.207682491056303,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6243647.09471646%2C245758.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "40a3f7cb020606d0ebdf821c869f4f07cc20b8972cb1f11835a80c717ece7093",
+      "bytes": 588901
+    },
+    {
+      "id": "region-2-4",
+      "name": "IGC region-2-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.815699365381974,
+        2.2352787365844544,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6243647.09471646%2C248830.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f978d1060a7c63ce4093abc74a53fc361d9da25006c110e25ffe094dce8aa1bc",
+      "bytes": 739868
+    },
+    {
+      "id": "region-3-4",
+      "name": "IGC region-3-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.815699365381974,
+        2.262874982112606,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6243647.09471646%2C251902.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "5e7d711537e0cf5b0dbb2da1d339ec9ff06a4f84115391760d8383309f602dc6",
+      "bytes": 653993
+    },
+    {
+      "id": "region-4-4",
+      "name": "IGC region-4-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.815699365381974,
+        2.290471227640758,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6243647.09471646%2C254974.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "53fe47ddf2bc67a2929a23b6d7912a878522b6334e1440d318a359ff3d57d590",
+      "bytes": 627725
+    },
+    {
+      "id": "region-5-4",
+      "name": "IGC region-5-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.815699365381974,
+        2.3180674731689095,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6243647.09471646%2C258046.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "c0351437c8179a1f92dc4b111ab1979d1f80670173ec6be2f9eebb5447d60fda",
+      "bytes": 2333564
+    },
+    {
+      "id": "region-6-4",
+      "name": "IGC region-6-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.815699365381974,
+        2.3456637186970615,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6243647.09471646%2C261118.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "4a5f9ad5c2fc89f3b10e7fc22a7cd9f62bbe5eb1332da2fab6c105c6130130ca",
+      "bytes": 2956961
+    },
+    {
+      "id": "region-7-4",
+      "name": "IGC region-7-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.815699365381974,
+        2.3732599642252135,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6243647.09471646%2C264190.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "c8d75c9caf9d2e463106ff3c83bae5fba125e5a570dad6e9e19bce543785291d",
+      "bytes": 2508257
+    },
+    {
+      "id": "region-8-4",
+      "name": "IGC region-8-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.815699365381974,
+        2.4008562097533646,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6243647.09471646%2C267262.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "c4266752ba88a9c48e0882bae142ecb50970f2e54a27fadb4f1145ea5f1607d0",
+      "bytes": 518245
+    },
+    {
+      "id": "region-9-4",
+      "name": "IGC region-9-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.815699365381974,
+        2.4284524552815165,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6243647.09471646%2C270334.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "22da8416fc6f697207917660c961a94b4a88b081888787dea2b76bcc362812cc",
+      "bytes": 1077742
+    },
+    {
+      "id": "region-10-4",
+      "name": "IGC region-10-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.815699365381974,
+        2.4560487008096676,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6243647.09471646%2C273406.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "e37b9f66c41185be2985325f85bb84380fc2acfd5e7985b5941a5cda605dca1e",
+      "bytes": 207958
+    },
+    {
+      "id": "region-11-4",
+      "name": "IGC region-11-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.815699365381974,
+        2.4836449463378196,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6243647.09471646%2C276478.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "d33f2631c9d6fafd0bb5ab391afb1d69599ae666b1eab31cf07f8c1226c1d9f4",
+      "bytes": 506889
+    },
+    {
+      "id": "region-12-4",
+      "name": "IGC region-12-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.815699365381974,
+        2.511241191865972,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6243647.09471646%2C279550.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "6dca65f138d0d9fae340b67aae13bc0614a53c9971bf2f061eb2d22d8b9b52d5",
+      "bytes": 240903
+    },
+    {
+      "id": "region-13-4",
+      "name": "IGC region-13-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.815699365381974,
+        2.538837437394123,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6243647.09471646%2C282622.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-4",
+      "name": "IGC region-14-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.815699365381974,
+        2.5664336829222747,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6243647.09471646%2C285694.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-4",
+      "name": "IGC region-15-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.815699365381974,
+        2.5940299284504267,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6243647.09471646%2C288766.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-4",
+      "name": "IGC region-16-4.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.815699365381974,
+        2.621626173978578,
+        48.83386773798664
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6243647.09471646%2C291838.0907376134%2C6246719.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-5",
+      "name": "IGC region-0-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.83386773798664,
+        2.1800862455281513,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6246719.09471646%2C242686.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-5",
+      "name": "IGC region-1-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.83386773798664,
+        2.207682491056303,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6246719.09471646%2C245758.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "73d26ac567af3e42417b4de286a83762636bd97acedda67fd3be9040b5ffa20f",
+      "bytes": 168063
+    },
+    {
+      "id": "region-2-5",
+      "name": "IGC region-2-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.83386773798664,
+        2.2352787365844544,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6246719.09471646%2C248830.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "4b44b2afe00e6d8d70797e682f58cce236cd6b19a7faa94b4477637f847281ba",
+      "bytes": 602251
+    },
+    {
+      "id": "region-3-5",
+      "name": "IGC region-3-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.83386773798664,
+        2.262874982112606,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6246719.09471646%2C251902.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-5",
+      "name": "IGC region-4-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.83386773798664,
+        2.290471227640758,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6246719.09471646%2C254974.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "7ff269ad101616e35f4a5c88db8654501c308fee638dffaa72d79c0d7bcdcd16",
+      "bytes": 137387
+    },
+    {
+      "id": "region-5-5",
+      "name": "IGC region-5-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.83386773798664,
+        2.3180674731689095,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6246719.09471646%2C258046.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "470e5f76f7d0207c53015dd6938f1b8406cb109753fae419265624f578f40ebf",
+      "bytes": 1367806
+    },
+    {
+      "id": "region-6-5",
+      "name": "IGC region-6-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.83386773798664,
+        2.3456637186970615,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6246719.09471646%2C261118.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "82276fb538174af5e199181a92480a38a289f34302e46250a944bcf2ac7f7e14",
+      "bytes": 2516230
+    },
+    {
+      "id": "region-7-5",
+      "name": "IGC region-7-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.83386773798664,
+        2.3732599642252135,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6246719.09471646%2C264190.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "e724e36579906a56948f232c16f395fe83cf7e3083fd7f5909a3ff5d0f717e17",
+      "bytes": 1240398
+    },
+    {
+      "id": "region-8-5",
+      "name": "IGC region-8-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.83386773798664,
+        2.4008562097533646,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6246719.09471646%2C267262.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "e040618a1cffb3564331571419f692c43f1b2619cd75b59b0d349eaa28900715",
+      "bytes": 518501
+    },
+    {
+      "id": "region-9-5",
+      "name": "IGC region-9-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.83386773798664,
+        2.4284524552815165,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6246719.09471646%2C270334.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f13a8626bbc6b05a02930662f34cb5b704beba626eb86d45aa486e178982ff6f",
+      "bytes": 478646
+    },
+    {
+      "id": "region-10-5",
+      "name": "IGC region-10-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.83386773798664,
+        2.4560487008096676,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6246719.09471646%2C273406.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-11-5",
+      "name": "IGC region-11-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.83386773798664,
+        2.4836449463378196,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6246719.09471646%2C276478.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "26f5ff84e5f6385114585438a470e2d94ec88e116c7a4672b47359a85937e47d",
+      "bytes": 251316
+    },
+    {
+      "id": "region-12-5",
+      "name": "IGC region-12-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.83386773798664,
+        2.511241191865972,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6246719.09471646%2C279550.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-5",
+      "name": "IGC region-13-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.83386773798664,
+        2.538837437394123,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6246719.09471646%2C282622.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-5",
+      "name": "IGC region-14-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.83386773798664,
+        2.5664336829222747,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6246719.09471646%2C285694.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-5",
+      "name": "IGC region-15-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.83386773798664,
+        2.5940299284504267,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6246719.09471646%2C288766.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-5",
+      "name": "IGC region-16-5.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.83386773798664,
+        2.621626173978578,
+        48.85202952421337
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6246719.09471646%2C291838.0907376134%2C6249791.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-6",
+      "name": "IGC region-0-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.85202952421337,
+        2.1800862455281513,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6249791.09471646%2C242686.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0da80691cf65a00f68e6893b0cbb4db2e1e1c6dba6392ae4e6cd0ad401399a17",
+      "bytes": 342846
+    },
+    {
+      "id": "region-1-6",
+      "name": "IGC region-1-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.85202952421337,
+        2.207682491056303,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6249791.09471646%2C245758.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "3056066cb683eb64eb38d288a8a584be871d9401c884512ef1e25210d43ee128",
+      "bytes": 263549
+    },
+    {
+      "id": "region-2-6",
+      "name": "IGC region-2-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.85202952421337,
+        2.2352787365844544,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6249791.09471646%2C248830.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "ed9e540feaac9fde7b876c99c5a46cb569238181cb209ded8d52e130e2997513",
+      "bytes": 468616
+    },
+    {
+      "id": "region-3-6",
+      "name": "IGC region-3-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.85202952421337,
+        2.262874982112606,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6249791.09471646%2C251902.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-6",
+      "name": "IGC region-4-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.85202952421337,
+        2.290471227640758,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6249791.09471646%2C254974.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f5ceb8e2263143b425288cdb6532394217ffd2e03c506d02bd60aceaa05d710d",
+      "bytes": 1259937
+    },
+    {
+      "id": "region-5-6",
+      "name": "IGC region-5-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.85202952421337,
+        2.3180674731689095,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6249791.09471646%2C258046.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "124154b89bffca5c2163fd9942a2df15f46fd2c1847216507a9f8cb5f117a513",
+      "bytes": 347333
+    },
+    {
+      "id": "region-6-6",
+      "name": "IGC region-6-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.85202952421337,
+        2.3456637186970615,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6249791.09471646%2C261118.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-7-6",
+      "name": "IGC region-7-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.85202952421337,
+        2.3732599642252135,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6249791.09471646%2C264190.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-8-6",
+      "name": "IGC region-8-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.85202952421337,
+        2.4008562097533646,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6249791.09471646%2C267262.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "a1958c3bc761cdb2a8d8f2e44842e69aa77e486cd8d19de3039082445509c4be",
+      "bytes": 843131
+    },
+    {
+      "id": "region-9-6",
+      "name": "IGC region-9-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.85202952421337,
+        2.4284524552815165,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6249791.09471646%2C270334.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "adf162d8688e087a942872aca3eb91879b8fdfa6c8ef1d3d431d266780ffa577",
+      "bytes": 617433
+    },
+    {
+      "id": "region-10-6",
+      "name": "IGC region-10-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.85202952421337,
+        2.4560487008096676,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6249791.09471646%2C273406.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f5af24c4f1b46233e0154a6812a131f4183f7ed1e3d98f20d478d003c646bb76",
+      "bytes": 581916
+    },
+    {
+      "id": "region-11-6",
+      "name": "IGC region-11-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.85202952421337,
+        2.4836449463378196,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6249791.09471646%2C276478.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "be4ace1ba3a9c662867d27d7ff52db4656da4ccfd3979813c01df87283d37e85",
+      "bytes": 251269
+    },
+    {
+      "id": "region-12-6",
+      "name": "IGC region-12-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.85202952421337,
+        2.511241191865972,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6249791.09471646%2C279550.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "9f0e6d150d8fc871dcae24b5938cac01d6eca501274a2b0029b5a9bc2ab3e7e3",
+      "bytes": 300150
+    },
+    {
+      "id": "region-13-6",
+      "name": "IGC region-13-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.85202952421337,
+        2.538837437394123,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6249791.09471646%2C282622.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "e08336c51613c9a3b6c51145277f4dfb0272e49fad263bd92b6997611093e758",
+      "bytes": 237132
+    },
+    {
+      "id": "region-14-6",
+      "name": "IGC region-14-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.85202952421337,
+        2.5664336829222747,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6249791.09471646%2C285694.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-6",
+      "name": "IGC region-15-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.85202952421337,
+        2.5940299284504267,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6249791.09471646%2C288766.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-6",
+      "name": "IGC region-16-6.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.85202952421337,
+        2.621626173978578,
+        48.87018472462567
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6249791.09471646%2C291838.0907376134%2C6252863.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-7",
+      "name": "IGC region-0-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.8701847246257,
+        2.1800862455281513,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6252863.09471646%2C242686.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "b00bdc514484d0924f576231299f1dddcfc20aba7c3b6617ca33deb386a85f78",
+      "bytes": 155080
+    },
+    {
+      "id": "region-1-7",
+      "name": "IGC region-1-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.8701847246257,
+        2.207682491056303,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6252863.09471646%2C245758.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "afb39b4daee7ee4a6591c17c9032c926a6309d255bcf9293e4da67d20537a362",
+      "bytes": 452836
+    },
+    {
+      "id": "region-2-7",
+      "name": "IGC region-2-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.8701847246257,
+        2.2352787365844544,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6252863.09471646%2C248830.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "71d4ae099209ac76d66ed43aa1832490a0bbfcaf6749e8e39783d515163aa192",
+      "bytes": 547141
+    },
+    {
+      "id": "region-3-7",
+      "name": "IGC region-3-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.8701847246257,
+        2.262874982112606,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6252863.09471646%2C251902.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "d615c9b8a9e69d1be4bb75c3e5180cc24cc33714616c27c6bffbe28be04961f1",
+      "bytes": 144976
+    },
+    {
+      "id": "region-4-7",
+      "name": "IGC region-4-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.8701847246257,
+        2.290471227640758,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6252863.09471646%2C254974.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "7d995474cb30643efff85a19baeef8ab7c53d1c5cebfa7cf8fbbce0727a9cb59",
+      "bytes": 267396
+    },
+    {
+      "id": "region-5-7",
+      "name": "IGC region-5-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.8701847246257,
+        2.3180674731689095,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6252863.09471646%2C258046.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "7fa760a4721f57a6f6ca98c20eb5dc96056f570ef864aa71658fd7e91a49d001",
+      "bytes": 118181
+    },
+    {
+      "id": "region-6-7",
+      "name": "IGC region-6-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.8701847246257,
+        2.3456637186970615,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6252863.09471646%2C261118.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "51a0bf54fabd514ed7e45c4c8f75e1f1c9c408834a26a2007e1d836c537ac06e",
+      "bytes": 640905
+    },
+    {
+      "id": "region-7-7",
+      "name": "IGC region-7-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.8701847246257,
+        2.3732599642252135,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6252863.09471646%2C264190.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "8526aa32be0ff34c8965953a10cb24389a81e6ed8f81e5a52293ab74092d5445",
+      "bytes": 1181751
+    },
+    {
+      "id": "region-8-7",
+      "name": "IGC region-8-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.8701847246257,
+        2.4008562097533646,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6252863.09471646%2C267262.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "b017de32769efa2fa7687b8f262d5a5e95b7008ae0e791fa2cc821dd314078a0",
+      "bytes": 1479620
+    },
+    {
+      "id": "region-9-7",
+      "name": "IGC region-9-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.8701847246257,
+        2.4284524552815165,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6252863.09471646%2C270334.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "181a06419cdb39c99334cfd2a28ddfde628986e8d79548cf79f1cd78d899e370",
+      "bytes": 618823
+    },
+    {
+      "id": "region-10-7",
+      "name": "IGC region-10-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.8701847246257,
+        2.4560487008096676,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6252863.09471646%2C273406.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "898e389ca9c2678222d1dda092a5b941dc033fc70d01d3b8d0637464f60cd45b",
+      "bytes": 674069
+    },
+    {
+      "id": "region-11-7",
+      "name": "IGC region-11-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.8701847246257,
+        2.4836449463378196,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6252863.09471646%2C276478.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "06ecc48a30fe1972039ce2a98e088d307519970ccb8ad0b26e8e22371a6c2fd4",
+      "bytes": 409900
+    },
+    {
+      "id": "region-12-7",
+      "name": "IGC region-12-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.8701847246257,
+        2.511241191865972,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6252863.09471646%2C279550.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "4011e3bf18c79d629db05a47743007b50406166c43b446aa873cf841dd0f42e4",
+      "bytes": 835274
+    },
+    {
+      "id": "region-13-7",
+      "name": "IGC region-13-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.8701847246257,
+        2.538837437394123,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6252863.09471646%2C282622.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "df0a338619f4aae88305a231214c3b086eb86ee3244eee77f7b7f25f0b30a701",
+      "bytes": 543626
+    },
+    {
+      "id": "region-14-7",
+      "name": "IGC region-14-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.8701847246257,
+        2.5664336829222747,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6252863.09471646%2C285694.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "822291fd03d93f4a01310ff7260e2a5fd027b8fb6d2e559fa5431860f3ff7f10",
+      "bytes": 759955
+    },
+    {
+      "id": "region-15-7",
+      "name": "IGC region-15-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.8701847246257,
+        2.5940299284504267,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6252863.09471646%2C288766.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-7",
+      "name": "IGC region-16-7.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.8701847246257,
+        2.621626173978578,
+        48.88833333978948
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6252863.09471646%2C291838.0907376134%2C6255935.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-8",
+      "name": "IGC region-0-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.888333339789455,
+        2.1800862455281513,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6255935.09471646%2C242686.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-8",
+      "name": "IGC region-1-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.888333339789455,
+        2.207682491056303,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6255935.09471646%2C245758.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "a4e00f451151480619cb3ba74315e3fcc246b0564afff19755c49cf09723314e",
+      "bytes": 144483
+    },
+    {
+      "id": "region-2-8",
+      "name": "IGC region-2-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.888333339789455,
+        2.2352787365844544,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6255935.09471646%2C248830.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "11ddf3f644742205bd5b18c885ca419a1baebd7da0ece8120b166fff451a0d7c",
+      "bytes": 1155738
+    },
+    {
+      "id": "region-3-8",
+      "name": "IGC region-3-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.888333339789455,
+        2.262874982112606,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6255935.09471646%2C251902.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "138a457f2bc253ef1ba395f25d4446ec825f6d4866fc044fc4c1f89aafbe70a4",
+      "bytes": 159672
+    },
+    {
+      "id": "region-4-8",
+      "name": "IGC region-4-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.888333339789455,
+        2.290471227640758,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6255935.09471646%2C254974.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-5-8",
+      "name": "IGC region-5-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.888333339789455,
+        2.3180674731689095,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6255935.09471646%2C258046.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-6-8",
+      "name": "IGC region-6-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.888333339789455,
+        2.3456637186970615,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6255935.09471646%2C261118.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f3b515a7a493225d9c8f0feb2d61e327a0154548f81545acb1cfc909bff55736",
+      "bytes": 555270
+    },
+    {
+      "id": "region-7-8",
+      "name": "IGC region-7-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.888333339789455,
+        2.3732599642252135,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6255935.09471646%2C264190.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f11f3ec27f79d8c1160281db559850f3b1c484f0f1c257d35a6c560ae521e94c",
+      "bytes": 170862
+    },
+    {
+      "id": "region-8-8",
+      "name": "IGC region-8-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.888333339789455,
+        2.4008562097533646,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6255935.09471646%2C267262.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-9-8",
+      "name": "IGC region-9-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.888333339789455,
+        2.4284524552815165,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6255935.09471646%2C270334.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "3d4f9702ee70dad3443bfb0952805cf3648ca1be6453ef93947ff1c7bac58528",
+      "bytes": 325805
+    },
+    {
+      "id": "region-10-8",
+      "name": "IGC region-10-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.888333339789455,
+        2.4560487008096676,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6255935.09471646%2C273406.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "8f7584fa4c09dae4851456089eb7203a956ef9f871eb4893a582a5d512f91758",
+      "bytes": 340463
+    },
+    {
+      "id": "region-11-8",
+      "name": "IGC region-11-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.888333339789455,
+        2.4836449463378196,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6255935.09471646%2C276478.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "3265bbd082bca1ce72acd7cb83810ca565465a21cd0739dde31ff6e8dc07cfa9",
+      "bytes": 138697
+    },
+    {
+      "id": "region-12-8",
+      "name": "IGC region-12-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.888333339789455,
+        2.511241191865972,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6255935.09471646%2C279550.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-8",
+      "name": "IGC region-13-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.888333339789455,
+        2.538837437394123,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6255935.09471646%2C282622.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "03ff964b84ba5fff6554a4330c319de88e449f729464bbb9ad901b90eb0ef250",
+      "bytes": 668117
+    },
+    {
+      "id": "region-14-8",
+      "name": "IGC region-14-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.888333339789455,
+        2.5664336829222747,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6255935.09471646%2C285694.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "1b08ae5e015cf6c3e44fc6e2d730b8d7341b471328151bac75b2f22ebeb9bf75",
+      "bytes": 224925
+    },
+    {
+      "id": "region-15-8",
+      "name": "IGC region-15-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.888333339789455,
+        2.5940299284504267,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6255935.09471646%2C288766.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "6d5afeaccb8af631fc7f746fc710076758d4010cdf580ed2615bf77ab93d5aea",
+      "bytes": 180195
+    },
+    {
+      "id": "region-16-8",
+      "name": "IGC region-16-8.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.888333339789455,
+        2.621626173978578,
+        48.90647537027309
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6255935.09471646%2C291838.0907376134%2C6259007.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-9",
+      "name": "IGC region-0-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.90647537027309,
+        2.1800862455281513,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6259007.09471646%2C242686.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-9",
+      "name": "IGC region-1-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.90647537027309,
+        2.207682491056303,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6259007.09471646%2C245758.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-2-9",
+      "name": "IGC region-2-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.90647537027309,
+        2.2352787365844544,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6259007.09471646%2C248830.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "8044e4722dcf329d6438240f18b085316469fce612157a88e81daa74119739c6",
+      "bytes": 206611
+    },
+    {
+      "id": "region-3-9",
+      "name": "IGC region-3-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.90647537027309,
+        2.262874982112606,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6259007.09471646%2C251902.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-9",
+      "name": "IGC region-4-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.90647537027309,
+        2.290471227640758,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6259007.09471646%2C254974.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-5-9",
+      "name": "IGC region-5-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.90647537027309,
+        2.3180674731689095,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6259007.09471646%2C258046.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-6-9",
+      "name": "IGC region-6-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.90647537027309,
+        2.3456637186970615,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6259007.09471646%2C261118.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-7-9",
+      "name": "IGC region-7-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.90647537027309,
+        2.3732599642252135,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6259007.09471646%2C264190.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-8-9",
+      "name": "IGC region-8-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.90647537027309,
+        2.4008562097533646,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6259007.09471646%2C267262.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-9-9",
+      "name": "IGC region-9-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.90647537027309,
+        2.4284524552815165,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6259007.09471646%2C270334.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-10-9",
+      "name": "IGC region-10-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.90647537027309,
+        2.4560487008096676,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6259007.09471646%2C273406.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-11-9",
+      "name": "IGC region-11-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.90647537027309,
+        2.4836449463378196,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6259007.09471646%2C276478.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-12-9",
+      "name": "IGC region-12-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.90647537027309,
+        2.511241191865972,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6259007.09471646%2C279550.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-9",
+      "name": "IGC region-13-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.90647537027309,
+        2.538837437394123,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6259007.09471646%2C282622.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "17eaeed6aa68eefb18ba233187330090f85c113a2767baead14dbcf7826eb1c5",
+      "bytes": 230590
+    },
+    {
+      "id": "region-14-9",
+      "name": "IGC region-14-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.90647537027309,
+        2.5664336829222747,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6259007.09471646%2C285694.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "2e021aefc03587c27de22867dbe637988dd5ce38977e31aeddce3bf690c2605c",
+      "bytes": 630119
+    },
+    {
+      "id": "region-15-9",
+      "name": "IGC region-15-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.90647537027309,
+        2.5940299284504267,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6259007.09471646%2C288766.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "9bdc4d1417db53d14ff067457b353b479c44ce145e111bfb342da0ccc915e564",
+      "bytes": 128813
+    },
+    {
+      "id": "region-16-9",
+      "name": "IGC region-16-9.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.90647537027309,
+        2.621626173978578,
+        48.92461081664738
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6259007.09471646%2C291838.0907376134%2C6262079.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "96cb7457add1ac36a6c454db567391525ce2c1dda67de1fe481b21d6779305dc",
+      "bytes": 129764
+    },
+    {
+      "id": "region-0-10",
+      "name": "IGC region-0-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.92461081664741,
+        2.1800862455281513,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6262079.09471646%2C242686.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-10",
+      "name": "IGC region-1-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.92461081664741,
+        2.207682491056303,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6262079.09471646%2C245758.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-2-10",
+      "name": "IGC region-2-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.92461081664741,
+        2.2352787365844544,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6262079.09471646%2C248830.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-3-10",
+      "name": "IGC region-3-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.92461081664741,
+        2.262874982112606,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6262079.09471646%2C251902.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-10",
+      "name": "IGC region-4-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.92461081664741,
+        2.290471227640758,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6262079.09471646%2C254974.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-5-10",
+      "name": "IGC region-5-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.92461081664741,
+        2.3180674731689095,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6262079.09471646%2C258046.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-6-10",
+      "name": "IGC region-6-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.92461081664741,
+        2.3456637186970615,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6262079.09471646%2C261118.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-7-10",
+      "name": "IGC region-7-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.92461081664741,
+        2.3732599642252135,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6262079.09471646%2C264190.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-8-10",
+      "name": "IGC region-8-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.92461081664741,
+        2.4008562097533646,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6262079.09471646%2C267262.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-9-10",
+      "name": "IGC region-9-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.92461081664741,
+        2.4284524552815165,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6262079.09471646%2C270334.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-10-10",
+      "name": "IGC region-10-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.92461081664741,
+        2.4560487008096676,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6262079.09471646%2C273406.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-11-10",
+      "name": "IGC region-11-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.92461081664741,
+        2.4836449463378196,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6262079.09471646%2C276478.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-12-10",
+      "name": "IGC region-12-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.92461081664741,
+        2.511241191865972,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6262079.09471646%2C279550.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-10",
+      "name": "IGC region-13-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.92461081664741,
+        2.538837437394123,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6262079.09471646%2C282622.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-10",
+      "name": "IGC region-14-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.92461081664741,
+        2.5664336829222747,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6262079.09471646%2C285694.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "2a6da9eae50d197ac081f0f15c45947d2e7c2d79a456346a05a3ec73dc0d0343",
+      "bytes": 623052
+    },
+    {
+      "id": "region-15-10",
+      "name": "IGC region-15-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.92461081664741,
+        2.5940299284504267,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6262079.09471646%2C288766.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "e79d771db1274e783fea98147a9e7becfc63ae959150f46462797c89736d25c6",
+      "bytes": 550459
+    },
+    {
+      "id": "region-16-10",
+      "name": "IGC region-16-10.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.92461081664741,
+        2.621626173978578,
+        48.94273967948556
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6262079.09471646%2C291838.0907376134%2C6265151.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "78c80c5108ef8f9124ddd8862739265d88af798cd98b52f834b7a2d6126c50bd",
+      "bytes": 181473
+    },
+    {
+      "id": "region-0-11",
+      "name": "IGC region-0-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.94273967948556,
+        2.1800862455281513,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6265151.09471646%2C242686.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-11",
+      "name": "IGC region-1-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.94273967948556,
+        2.207682491056303,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6265151.09471646%2C245758.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-2-11",
+      "name": "IGC region-2-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.94273967948556,
+        2.2352787365844544,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6265151.09471646%2C248830.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-3-11",
+      "name": "IGC region-3-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.94273967948556,
+        2.262874982112606,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6265151.09471646%2C251902.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-11",
+      "name": "IGC region-4-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.94273967948556,
+        2.290471227640758,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6265151.09471646%2C254974.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-5-11",
+      "name": "IGC region-5-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.94273967948556,
+        2.3180674731689095,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6265151.09471646%2C258046.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-6-11",
+      "name": "IGC region-6-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.94273967948556,
+        2.3456637186970615,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6265151.09471646%2C261118.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "b06d67806adc056485d6b24d89e2a47446d11656e4da6bef1edc8eb9c4af7289",
+      "bytes": 120143
+    },
+    {
+      "id": "region-7-11",
+      "name": "IGC region-7-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.94273967948556,
+        2.3732599642252135,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6265151.09471646%2C264190.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "5fa9575ccc94cd13967fcdf12db5d650e235e3f7dc994116aa0db164a66f9635",
+      "bytes": 159855
+    },
+    {
+      "id": "region-8-11",
+      "name": "IGC region-8-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.94273967948556,
+        2.4008562097533646,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6265151.09471646%2C267262.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-9-11",
+      "name": "IGC region-9-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.94273967948556,
+        2.4284524552815165,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6265151.09471646%2C270334.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-10-11",
+      "name": "IGC region-10-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.94273967948556,
+        2.4560487008096676,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6265151.09471646%2C273406.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-11-11",
+      "name": "IGC region-11-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.94273967948556,
+        2.4836449463378196,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6265151.09471646%2C276478.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-12-11",
+      "name": "IGC region-12-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.94273967948556,
+        2.511241191865972,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6265151.09471646%2C279550.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-11",
+      "name": "IGC region-13-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.94273967948556,
+        2.538837437394123,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6265151.09471646%2C282622.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-11",
+      "name": "IGC region-14-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.94273967948556,
+        2.5664336829222747,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6265151.09471646%2C285694.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-11",
+      "name": "IGC region-15-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.94273967948556,
+        2.5940299284504267,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6265151.09471646%2C288766.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-11",
+      "name": "IGC region-16-11.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.94273967948556,
+        2.621626173978578,
+        48.96086195936326
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6265151.09471646%2C291838.0907376134%2C6268223.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-0-12",
+      "name": "IGC region-0-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1524899999999993,
+        48.96086195936326,
+        2.1800862455281513,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=239614.0907376134%2C6268223.09471646%2C242686.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-1-12",
+      "name": "IGC region-1-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.1800862455281513,
+        48.96086195936326,
+        2.207682491056303,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=242686.0907376134%2C6268223.09471646%2C245758.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-2-12",
+      "name": "IGC region-2-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2076824910563024,
+        48.96086195936326,
+        2.2352787365844544,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=245758.0907376134%2C6268223.09471646%2C248830.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-3-12",
+      "name": "IGC region-3-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2352787365844544,
+        48.96086195936326,
+        2.262874982112606,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=248830.0907376134%2C6268223.09471646%2C251902.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-4-12",
+      "name": "IGC region-4-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.262874982112606,
+        48.96086195936326,
+        2.290471227640758,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=251902.0907376134%2C6268223.09471646%2C254974.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-5-12",
+      "name": "IGC region-5-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.2904712276407575,
+        48.96086195936326,
+        2.3180674731689095,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=254974.0907376134%2C6268223.09471646%2C258046.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-6-12",
+      "name": "IGC region-6-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3180674731689095,
+        48.96086195936326,
+        2.3456637186970615,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258046.0907376134%2C6268223.09471646%2C261118.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "f08610feb82d4270064babb30c6e2cb05c5d88ca29c94ae58e90f3d7f27cf97c",
+      "bytes": 137578
+    },
+    {
+      "id": "region-7-12",
+      "name": "IGC region-7-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3456637186970615,
+        48.96086195936326,
+        2.3732599642252135,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261118.0907376134%2C6268223.09471646%2C264190.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "65c22ec149603d3cdfd61c21a17cb234b38f6906116306fba9cc8f8af9d42766",
+      "bytes": 390169
+    },
+    {
+      "id": "region-8-12",
+      "name": "IGC region-8-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.3732599642252126,
+        48.96086195936326,
+        2.4008562097533646,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=264190.0907376134%2C6268223.09471646%2C267262.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-9-12",
+      "name": "IGC region-9-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.400856209753365,
+        48.96086195936326,
+        2.4284524552815165,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=267262.0907376134%2C6268223.09471646%2C270334.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-10-12",
+      "name": "IGC region-10-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.428452455281516,
+        48.96086195936326,
+        2.4560487008096676,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=270334.0907376134%2C6268223.09471646%2C273406.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-11-12",
+      "name": "IGC region-11-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.4560487008096676,
+        48.96086195936326,
+        2.4836449463378196,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=273406.0907376134%2C6268223.09471646%2C276478.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-12-12",
+      "name": "IGC region-12-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.48364494633782,
+        48.96086195936326,
+        2.511241191865972,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=276478.0907376134%2C6268223.09471646%2C279550.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-13-12",
+      "name": "IGC region-13-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.511241191865971,
+        48.96086195936326,
+        2.538837437394123,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=279550.0907376134%2C6268223.09471646%2C282622.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-14-12",
+      "name": "IGC region-14-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.538837437394123,
+        48.96086195936326,
+        2.5664336829222747,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=282622.0907376134%2C6268223.09471646%2C285694.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-15-12",
+      "name": "IGC region-15-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.566433682922275,
+        48.96086195936326,
+        2.5940299284504267,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=285694.0907376134%2C6268223.09471646%2C288766.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "region-16-12",
+      "name": "IGC region-16-12.jpg",
+      "category": "igc-raster-region",
+      "mapBounds": [
+        2.5940299284504262,
+        48.96086195936326,
+        2.621626173978578,
+        48.97897765685857
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=288766.0907376134%2C6268223.09471646%2C291838.0907376134%2C6271295.09471646&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0fa3488759ac9debab283adca951c7f916dc6cbeb137bee7b0c36daa79a8a639",
+      "bytes": 115315
+    },
+    {
+      "id": "grs-detail-0-0",
+      "name": "IGC grs-detail-0-0.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3000000000000003,
+        48.818,
+        2.309198748509384,
+        48.82405657807393
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=256034.82882452922%2C6244036.036035031%2C257058.82882452922%2C6245060.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "54081f05fa6e03b4f7f341ba5509ebaed3e8ba6eda22b971c8e44a1fbe76f384",
+      "bytes": 1932399
+    },
+    {
+      "id": "grs-detail-1-0",
+      "name": "IGC grs-detail-1-0.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.309198748509384,
+        48.818,
+        2.318397497018768,
+        48.82405657807393
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=257058.82882452922%2C6244036.036035031%2C258082.82882452922%2C6245060.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "e7eb568e644f2a9ed530ed25f27d8b20d05c9609bdac6f14708c8cdacb2d984b",
+      "bytes": 1772752
+    },
+    {
+      "id": "grs-detail-2-0",
+      "name": "IGC grs-detail-2-0.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.318397497018768,
+        48.818,
+        2.327596245528152,
+        48.82405657807393
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258082.82882452922%2C6244036.036035031%2C259106.82882452922%2C6245060.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "17668f197a766dc4288530c88ff2a844f6574bfbd3670077062ca327a4d9a9ba",
+      "bytes": 2117098
+    },
+    {
+      "id": "grs-detail-3-0",
+      "name": "IGC grs-detail-3-0.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.327596245528152,
+        48.818,
+        2.3367949940375357,
+        48.82405657807393
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=259106.82882452922%2C6244036.036035031%2C260130.82882452922%2C6245060.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "d138f79df1caa623342f5ee784edf20cd08d14d40f3679f7c3c0d077a089991f",
+      "bytes": 2316569
+    },
+    {
+      "id": "grs-detail-4-0",
+      "name": "IGC grs-detail-4-0.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3367949940375357,
+        48.818,
+        2.3459937425469195,
+        48.82405657807393
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=260130.82882452922%2C6244036.036035031%2C261154.82882452922%2C6245060.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "27a5ae1179062bdda14d8dece4ceaacdb47b64e05a2c7bdc10c73007658f91a4",
+      "bytes": 2261318
+    },
+    {
+      "id": "grs-detail-5-0",
+      "name": "IGC grs-detail-5-0.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3459937425469195,
+        48.818,
+        2.3551924910563033,
+        48.82405657807393
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261154.82882452922%2C6244036.036035031%2C262178.8288245292%2C6245060.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "d895e3cdf053944f875ab401784a74fc2eafea1a1bf70e9f1f16e8d7c5d11dd0",
+      "bytes": 1566158
+    },
+    {
+      "id": "grs-detail-0-1",
+      "name": "IGC grs-detail-0-1.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3000000000000003,
+        48.82405657807393,
+        2.309198748509384,
+        48.83011242429439
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=256034.82882452922%2C6245060.036035031%2C257058.82882452922%2C6246084.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "03cd93be75e1e00fac565849e8b7282591f9a6e1e29db00bb4ee69bb959dec93",
+      "bytes": 1977592
+    },
+    {
+      "id": "grs-detail-1-1",
+      "name": "IGC grs-detail-1-1.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.309198748509384,
+        48.82405657807393,
+        2.318397497018768,
+        48.83011242429439
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=257058.82882452922%2C6245060.036035031%2C258082.82882452922%2C6246084.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "ee6124db94cb82baef9554efa6057d77b899cb25426038ea4f8e7e5469f5bd7c",
+      "bytes": 1776492
+    },
+    {
+      "id": "grs-detail-2-1",
+      "name": "IGC grs-detail-2-1.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.318397497018768,
+        48.82405657807393,
+        2.327596245528152,
+        48.83011242429439
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258082.82882452922%2C6245060.036035031%2C259106.82882452922%2C6246084.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "1a93af5b23b68be7aa6e9c022b242cd97a0d4936bf6a42af89364461d808d26f",
+      "bytes": 2598823
+    },
+    {
+      "id": "grs-detail-3-1",
+      "name": "IGC grs-detail-3-1.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.327596245528152,
+        48.82405657807393,
+        2.3367949940375357,
+        48.83011242429439
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=259106.82882452922%2C6245060.036035031%2C260130.82882452922%2C6246084.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "cb35ba676ac7aa9d6d2c617bba4f663c9e96780072ad6d13874e740a11cbef91",
+      "bytes": 3011303
+    },
+    {
+      "id": "grs-detail-4-1",
+      "name": "IGC grs-detail-4-1.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3367949940375357,
+        48.82405657807393,
+        2.3459937425469195,
+        48.83011242429439
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=260130.82882452922%2C6245060.036035031%2C261154.82882452922%2C6246084.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "9d52eb39210ef250729755901a288cd29d2d25798f4d085a04531707d0916491",
+      "bytes": 2122396
+    },
+    {
+      "id": "grs-detail-5-1",
+      "name": "IGC grs-detail-5-1.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3459937425469195,
+        48.82405657807393,
+        2.3551924910563033,
+        48.83011242429439
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261154.82882452922%2C6245060.036035031%2C262178.8288245292%2C6246084.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "d5bf2d80d929b27d0b43f57d3a27a565c20e7c05078bdcdd4c99e44c520229e0",
+      "bytes": 2300738
+    },
+    {
+      "id": "grs-detail-0-2",
+      "name": "IGC grs-detail-0-2.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3000000000000003,
+        48.83011242429439,
+        2.309198748509384,
+        48.83616753868215
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=256034.82882452922%2C6246084.036035031%2C257058.82882452922%2C6247108.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "d7c1e0581637d4e7de956294cf5114875aba35a79b66d7caebd080fa06549742",
+      "bytes": 3049064
+    },
+    {
+      "id": "grs-detail-1-2",
+      "name": "IGC grs-detail-1-2.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.309198748509384,
+        48.83011242429439,
+        2.318397497018768,
+        48.83616753868215
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=257058.82882452922%2C6246084.036035031%2C258082.82882452922%2C6247108.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "4d88ae19295e048866a398b571250dd3daba42a854459d900a9e47354a420c16",
+      "bytes": 2641816
+    },
+    {
+      "id": "grs-detail-2-2",
+      "name": "IGC grs-detail-2-2.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.318397497018768,
+        48.83011242429439,
+        2.327596245528152,
+        48.83616753868215
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258082.82882452922%2C6246084.036035031%2C259106.82882452922%2C6247108.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "2ed3f20e94eeea29c3f8f0e5515ede5498017432b1f503650f5955431df6c80e",
+      "bytes": 1929022
+    },
+    {
+      "id": "grs-detail-3-2",
+      "name": "IGC grs-detail-3-2.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.327596245528152,
+        48.83011242429439,
+        2.3367949940375357,
+        48.83616753868215
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=259106.82882452922%2C6246084.036035031%2C260130.82882452922%2C6247108.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "1cf10264b7ac3d576290986eb583438af6ab4ffb840802977a93199abbedff9c",
+      "bytes": 3259927
+    },
+    {
+      "id": "grs-detail-4-2",
+      "name": "IGC grs-detail-4-2.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3367949940375357,
+        48.83011242429439,
+        2.3459937425469195,
+        48.83616753868215
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=260130.82882452922%2C6246084.036035031%2C261154.82882452922%2C6247108.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "def4b63c06baaca9d4cf2740ad1500104444f3c7c2c75137fc13d72212eb9e5d",
+      "bytes": 3048341
+    },
+    {
+      "id": "grs-detail-5-2",
+      "name": "IGC grs-detail-5-2.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3459937425469195,
+        48.83011242429439,
+        2.3551924910563033,
+        48.83616753868215
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261154.82882452922%2C6246084.036035031%2C262178.8288245292%2C6247108.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "29f7b5b4d81206e9c411ffcd47609e452bf9e3bf6a5bbe00b4059b6c228a925f",
+      "bytes": 2167606
+    },
+    {
+      "id": "grs-detail-0-3",
+      "name": "IGC grs-detail-0-3.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3000000000000003,
+        48.83616753868215,
+        2.309198748509384,
+        48.842221921258016
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=256034.82882452922%2C6247108.036035031%2C257058.82882452922%2C6248132.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "0ef0f79aa14329978aa4f791057cc4d14a2fed0b84166444f4e7121793713b96",
+      "bytes": 2448769
+    },
+    {
+      "id": "grs-detail-1-3",
+      "name": "IGC grs-detail-1-3.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.309198748509384,
+        48.83616753868215,
+        2.318397497018768,
+        48.842221921258016
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=257058.82882452922%2C6247108.036035031%2C258082.82882452922%2C6248132.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "c31abc965a3ba82586d9d8d290c449ba56a0d5af1beca9e0723e19117a0f78af",
+      "bytes": 2623141
+    },
+    {
+      "id": "grs-detail-2-3",
+      "name": "IGC grs-detail-2-3.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.318397497018768,
+        48.83616753868215,
+        2.327596245528152,
+        48.842221921258016
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258082.82882452922%2C6247108.036035031%2C259106.82882452922%2C6248132.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "c2bca671ab2cbbdc372e93a197e5170c4ce2a296e0cfcb9978956e6cecd371ed",
+      "bytes": 2668692
+    },
+    {
+      "id": "grs-detail-3-3",
+      "name": "IGC grs-detail-3-3.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.327596245528152,
+        48.83616753868215,
+        2.3367949940375357,
+        48.842221921258016
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=259106.82882452922%2C6247108.036035031%2C260130.82882452922%2C6248132.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "474d3a495aa7d962110c5effcece56edbf1f5c8d0e375badf0f2f1fd6c8facd6",
+      "bytes": 2805411
+    },
+    {
+      "id": "grs-detail-4-3",
+      "name": "IGC grs-detail-4-3.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3367949940375357,
+        48.83616753868215,
+        2.3459937425469195,
+        48.842221921258016
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=260130.82882452922%2C6247108.036035031%2C261154.82882452922%2C6248132.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "c0df0e723b57b43ad901afc73210bd152c31988ed0bd633ebd5ebb4b9b42f4ba",
+      "bytes": 2545303
+    },
+    {
+      "id": "grs-detail-5-3",
+      "name": "IGC grs-detail-5-3.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3459937425469195,
+        48.83616753868215,
+        2.3551924910563033,
+        48.842221921258016
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261154.82882452922%2C6247108.036035031%2C262178.8288245292%2C6248132.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "1a38a60cad7bb3fd16d7dae16d0a5a6b74c01f42d530a3aa91ad51bd4a585cc9",
+      "bytes": 1866332
+    },
+    {
+      "id": "grs-detail-0-4",
+      "name": "IGC grs-detail-0-4.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3000000000000003,
+        48.842221921258016,
+        2.309198748509384,
+        48.84827557204287
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=256034.82882452922%2C6248132.036035031%2C257058.82882452922%2C6249156.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "55535a8c125d8026f6fe3604bc71608822ba58abcc8951329af214e78e57b4de",
+      "bytes": 302095
+    },
+    {
+      "id": "grs-detail-1-4",
+      "name": "IGC grs-detail-1-4.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.309198748509384,
+        48.842221921258016,
+        2.318397497018768,
+        48.84827557204287
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=257058.82882452922%2C6248132.036035031%2C258082.82882452922%2C6249156.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "844afe06e52d7f4b8d4a5d8059ec33e6c9f169100b7e0b0c4d589378f6c5d187",
+      "bytes": 1256251
+    },
+    {
+      "id": "grs-detail-2-4",
+      "name": "IGC grs-detail-2-4.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.318397497018768,
+        48.842221921258016,
+        2.327596245528152,
+        48.84827557204287
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=258082.82882452922%2C6248132.036035031%2C259106.82882452922%2C6249156.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "dfd795a30ac779fab562691cff2710f0af6b1fedf8cc538bac0c6754a05502ad",
+      "bytes": 1448504
+    },
+    {
+      "id": "grs-detail-3-4",
+      "name": "IGC grs-detail-3-4.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.327596245528152,
+        48.842221921258016,
+        2.3367949940375357,
+        48.84827557204287
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=259106.82882452922%2C6248132.036035031%2C260130.82882452922%2C6249156.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "caf2293f736fab64cf46a0fd2680bcc18c31a9cfbcd9041dd27c9e30bf5e93c9",
+      "bytes": 2089135
+    },
+    {
+      "id": "grs-detail-4-4",
+      "name": "IGC grs-detail-4-4.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3367949940375357,
+        48.842221921258016,
+        2.3459937425469195,
+        48.84827557204287
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=260130.82882452922%2C6248132.036035031%2C261154.82882452922%2C6249156.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "6c223dcf5ae99e418a93ceb7993d65e02740b5646723fcd05e6de9a99f5ed2f6",
+      "bytes": 1593321
+    },
+    {
+      "id": "grs-detail-5-4",
+      "name": "IGC grs-detail-5-4.jpg",
+      "category": "igc-raster-detail",
+      "mapBounds": [
+        2.3459937425469195,
+        48.842221921258016,
+        2.3551924910563033,
+        48.84827557204287
+      ],
+      "sourceUrl": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer/export?bbox=261154.82882452922%2C6248132.036035031%2C262178.8288245292%2C6249156.036035031&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=jpg&dpi=96&f=json",
+      "sha256": "1718acc117c9effe4fe3f8e7e25a80ac634d8db4276717803f7ffcfe6f50e493",
+      "bytes": 1157272
+    }
+  ],
+  "sourceBytesAtResearch": 142206449,
+  "note": "Metadata only. Source rasters download directly to the user device, never rehosted by GitHub Pages. Full current entrance inventory and passability are unverified."
+}

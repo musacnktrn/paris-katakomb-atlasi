@@ -1,2 +1,2 @@
 import {defineConfig} from 'vitest/config';
-export default defineConfig({test:{include:['tests/unit.test.ts'],maxWorkers:1}});
+export default defineConfig({test:{include:['tests/*.test.ts'],maxWorkers:1}});

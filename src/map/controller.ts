@@ -15,6 +15,7 @@ export class AtlasMap {
   private galleryOpacity=.8;
   private exploration:GeoJSON.FeatureCollection={type:'FeatureCollection',features:[]};
   private sheetFeatures:GeoJSON.Feature[]=[];
+  private surfaceFeatureCount=0;
   private surfaceLabels:maplibregl.Marker[]=[];
   private rasterAssets:LocalAsset[]=[];
   private rasterSignature='';
@@ -33,8 +34,8 @@ export class AtlasMap {
   }
   async ready(){if(!this.map.isStyleLoaded())await new Promise<void>(r=>this.map.once('idle',()=>r()));}
   async loadBuiltins(sheets:GeoJSON.FeatureCollection,surface:GeoJSON.FeatureCollection){
-    await this.ready();this.sheetFeatures=sheets.features;const m=this.map;
-    m.addSource('surface',{type:'geojson',data:surface,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a> · <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL 1.0</a>'});
+    await this.ready();this.sheetFeatures=sheets.features;this.surfaceFeatureCount=surface.features.length;const m=this.map;
+    m.addSource('surface',{type:'geojson',data:surface,attribution:'© <a href="https://opendata.paris.fr/" target="_blank" rel="noreferrer">Ville de Paris</a> · <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL 1.0</a>'});
     m.addLayer({id:'surface-areas',type:'fill',source:'surface',filter:['==',['geometry-type'],'Polygon'],paint:{'fill-color':['match',['get','kind'],'water','#b9ced0','#cdd8c7'],'fill-opacity':0.75}});
     m.addLayer({id:'surface-roads',type:'line',source:'surface',filter:['==',['geometry-type'],'LineString'],paint:{'line-color':'#aca99d','line-width':1.4}});
     m.addSource('igc',{type:'geojson',data:sheets,attribution:'Ville de Paris / IGC · Pafta dizini; galeri geometrisi değildir'});
@@ -44,14 +45,13 @@ export class AtlasMap {
     m.addLayer({id:'personal-points',type:'circle',source:'personal',paint:{'circle-radius':6,'circle-color':'#9b5436'}});
     // Offline street labels use actual OSM way vertices/names and DOM text,
     // without a font/glyph server or invented neighbourhood coordinates.
-    const candidates=surface.features.filter(f=>f.geometry.type==='LineString'&&f.properties?.name)
-      .sort((a,b)=>(b.geometry as GeoJSON.LineString).coordinates.length-(a.geometry as GeoJSON.LineString).coordinates.length);
+    const candidates=surface.features.filter(f=>f.properties?.name&&(f.geometry.type==='LineString'||f.geometry.type==='MultiLineString')).map(f=>{const g=f.geometry,parts=g.type==='LineString'?[g.coordinates]:g.type==='MultiLineString'?g.coordinates:[],line=[...parts].sort((a,b)=>b.length-a.length)[0]??[];return {name:String(f.properties!.name),line};}).filter(f=>f.line.length>1).sort((a,b)=>b.line.length-a.line.length);
     let labels:maplibregl.Marker[]=[];
     const updateLabels=()=>{
       labels.forEach(l=>l.remove());labels=[];this.surfaceLabels=labels;const used=new Set<string>();const bounds=m.getBounds();
       for(const f of candidates){
-        const name=String(f.properties!.name);if(used.has(name))continue;
-        const line=(f.geometry as GeoJSON.LineString).coordinates,p=line[Math.floor(line.length/2)];
+        const name=f.name;if(used.has(name))continue;
+        const line=f.line,p=line[Math.floor(line.length/2)];
         if(!bounds.contains([p[0],p[1]]))continue;used.add(name);
         const el=document.createElement('span');el.textContent=name;el.className='atlas-street-label';
         Object.assign(el.style,{font:'11px system-ui',color:this.basemap==='dark'?'#cad4d9':'#5c6862',textShadow:this.basemap==='dark'?'0 1px 3px #10151b':'0 1px 3px #fff,0 -1px 3px #fff',pointerEvents:'none',display:this.visibility.surface?'':'none'});
@@ -144,10 +144,10 @@ export class AtlasMap {
     if(this.visibility.galleries)for(const a of [...this.rasterAssets].sort((a,b)=>(a.category?.includes('detail')?2:a.category?.includes('overview')?0:1)-(b.category?.includes('detail')?2:b.category?.includes('overview')?0:1))){if(!a.mapBounds||!intersects(a.mapBounds))continue;if(zoom<12.5&&!a.category?.includes('overview'))continue;if(zoom>=12.5&&a.category?.includes('overview'))continue;if(zoom<15&&a.category?.includes('detail'))continue;let url=this.rasterUrls.get(a.id);if(!url){url=URL.createObjectURL(a.blob);this.rasterUrls.set(a.id,url);}wanted.set('gallery-'+a.id,{url,bounds:a.mapBounds,gallery:true});}
     for(const [key,e] of this.imageSources)if(!wanted.has(key)){if(this.map.getLayer(e.layer))this.map.removeLayer(e.layer);if(this.map.getSource(e.source))this.map.removeSource(e.source);this.imageSources.delete(key);}
     for(const [key,a] of wanted){if(this.imageSources.has(key))continue;const id='image-'+key,[w,s,e,n]=a.bounds;this.map.addSource(id,{type:'image',url:a.url,coordinates:[[w,n],[e,n],[e,s],[w,s]]});
-      const before=a.gallery?this.map.getLayer('igc-sheets')?'igc-sheets':undefined:this.map.getLayer('surface-areas')?'surface-areas':undefined;
+      const before=a.gallery?this.map.getLayer('surface-roads')?'surface-roads':undefined:this.map.getLayer('surface-areas')?'surface-areas':undefined;
       this.map.addLayer({id:id+'-layer',type:'raster',source:id,paint:{'raster-opacity':a.gallery?this.galleryOpacity:1,'raster-fade-duration':0}},before);this.imageSources.set(key,{source:id,layer:id+'-layer'});
     }
-    const node=this.map.getContainer();node.dataset.mapBasemap=this.basemap;node.dataset.satelliteLayers=String([...this.imageSources.keys()].filter(k=>k.startsWith('sat-')).length);node.dataset.galleryLayers=String([...this.imageSources.keys()].filter(k=>k.startsWith('gallery-')).length);
+    const node=this.map.getContainer(),center=this.map.getCenter();node.dataset.mapBasemap=this.basemap;node.dataset.mapCenter=JSON.stringify([center.lng,center.lat]);node.dataset.mapZoom=String(zoom);node.dataset.surfaceFeatures=String((this.map.getSource('surface') as GeoJSONSource|undefined)?this.surfaceFeatureCount:0);node.dataset.surfaceRendered=String(this.map.getLayer('surface-roads')?this.map.queryRenderedFeatures(undefined,{layers:['surface-roads','surface-areas']}).length:0);node.dataset.satelliteLayers=String([...this.imageSources.keys()].filter(k=>k.startsWith('sat-')).length);node.dataset.galleryLayers=String([...this.imageSources.keys()].filter(k=>k.startsWith('gallery-')).length);
   }
   fitExploration(){
     const features=this.exploration.features.filter(f=>f.properties?.kind==='room'?this.visibility.rooms:this.visibility.access);

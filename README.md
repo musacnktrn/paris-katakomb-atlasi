@@ -7,12 +7,12 @@ Telefon ve masaüstünde çalışan, GitHub Pages için hazırlanmış bağıms�
 ## İçerik ve doğruluk
 
 - 458 gerçek resmî IGC **pafta sınırı** ve kaynak metadatası. Bu sınırlar galeri çizgisi veya açık giriş değildir. 454 kaydın resmî PDF bağlantısı vardır; 4 kayıt bağlantısızdır.
-- GRS çevresinde 3.650 OSM yerüstü öğesi; tüm Paris'in yerüstü verisi olduğu iddia edilmez. Adlar ve harita çizimi çevrimdışı çalışır.
+- Paris genelinden 9.389 belediye yerüstü öğesi: 25.094 özgün yol parçası, 2.522 yeşil alan ve 60 su alanı. Kopuk yol parçaları birleştirilmez. © Ville de Paris, ODbL 1.0. Yol kaynağı Haziran 2018; indirme tarihi ölçüm tarihi değildir.
 - Catacombes.xyz kaynaklı 46 salon kaydı: 40 yayımlanmış konum (39 tekil nokta), 6 kaynakta saklı konum. Bilinmeyen konumlar tahmin edilmez. Resmî müzenin ziyaretçi girişi ve adres koordinatıyla işaretlenmiş çıkışı ayrı katmandır. Tüm girişler/güncel açıklık envanteri değildir.
 - Açık / koyu / IGN hava fotoğrafı altlıkları ve tek haritada 6 içerik katmanı. Paris hava fotoğrafı 17 yerel görselle çekirdeğe dahildir; © IGN, Licence Ouverte 2.0. İndirme tarihi çekim tarihi sayılmaz.
 - Kişisel arşiv ZIP'leriyle 46 gerçek GLB önizleme + 46 kapak, 45 özgün yüksek kaliteli model ve 252 gerçek koordinatlandırılmış IGC galeri planı uygulamanın içine kurulabilir. Kişisel arşivler `private-data/` altında Git dışındadır; kaynak hakları kamuya yeniden dağıtım için doğrulanmadı.
 - GLB görüntüleyicide döndürme, yakınlaşma, üstten/yandan bakış ve X/Y/Z eksenlerinde gerçek model geometrisi kesiti. Yerel Draco/Meshopt çözücüleri paketlidir.
-- 40 konum/değerden 3B derinlik görünümü ve kesit bandı. Bu görünüm yayımlanmış salon noktalarını gösterir; koridor bağlantısı veya birleşik tam ağ mesh'i üretmez. Salon konumları yayıncı kaydıdır, bağımsız ölçüm doğruluğu bilinmez.
+- Varsayılan 3B görünüm: Émile Le Gallic / Minifixio’nun 8 birleşik LiDAR taraması, gerçek galeri geometrisi (188.736 üçgen), eşleşen bina/yol modeli ve X/Y/Z kesiti. 29,3 MB kaynak dosyası ilk açılışta doğrudan cihaza indirilip SHA ile doğrulanır. Kaynağın ortak yerel çerçevesi korunur; dünya dönüşümü bulunmadığından 2B haritaya tahmini oturtulmaz. Bu, Paris’in tamamı değildir. Kaynak taramada doku koordinatı eksik olduğundan geometri taş rengiyle aydınlatılır. İkinci sekmede 40 yayıncı derinlik noktası, gerçek yüzey yolları, resmî müze erişimi ve kayıtlı IGC plan düzlemleri birlikte incelenir; plan düzlemleri ölçülmüş tünel yüksekliği sayılmaz.
 - Avenza, Nexus, resmî müze ve diğer kaynaklar hak/çevrimdışı durumuyla katalogda tutulur.
 - BnF/Gallica kaynaklı, kamu malı1857planının özgün5.126.942baytlık dosyası yerel ve çevrimdışı arşiv incelemesine dahil. Bu plan coğrafi altlığa hizalanmış veya güncel geçiş bilgisi değildir.
 - Kullanıcının kendi GeoJSON, GLB, PMTiles ve PNG/JPEG/WebP dosyaları yalnız cihazın IndexedDB deposuna alınır. GLB görüntüleyici gerçek yerel model açar; bilinmeyen coğrafi konumu uydurmaz. PMTiles arşivini okuyup harita stili için metadata sağlar; her keyfi arşivin stilini otomatik tahmin etmez.
@@ -48,7 +48,7 @@ PWA önbelleği geliştirme sunucusunda değil, üretim önizlemesi/HTTPS yayın
 3. iPhone Safari: Paylaş → Ana Ekrana Ekle. Destekleyen Android tarayıcı: menü → Uygulamayı yükle.
 4. Uçak modunda uygulamayı kapatıp yeniden açarak harita, arama ve not kaydını deneyin.
 
-Temel paket yaklaşık 29,3 MB: uygulama, yerel çözücüler, pafta dizini, GRS yerüstü, salon konumları, 1857 planı ve Paris hava fotoğrafı. Kütüphane → Arşiv paketi ekle ile hazırlanan kişisel ZIP dosyalarını bir kez içe aktarın; ondan sonra modeller ve IGC galerileri dış sunucu olmadan açılır. Her dosya boyut/SHA-256/format kontrolünden geçer; kurulum atomiktir. Bozuk güncelleme mevcut sağlam koleksiyonu ve notları korur. Koleksiyonlar ayrı kaldırılabilir. Dış kaynak/PDF/Avenza bağlantıları referanstır, otomatik indirilmez; bu bağlantıları açmak internet gerektirir. Yeraltında GPS garanti edilmez; son ölçüm, doğruluk ve elle eklenen noktalar ayrıdır. Tarayıcı verisi kullanıcı tarafından veya depolama baskısında silinebilir. Depolama kalıcılığı istenir ama garanti edilmez; kişisel notlar JSON olarak yedeklenebilir.
+Temel paket yaklaşık 38,4 MB: uygulama, yerel çözücüler, pafta dizini, Paris geneli yerüstü, salon konumları, 1857 planı ve Paris hava fotoğrafı. Çevrimdışı kullan menüsündeki iki düğmeyle birleşik 3B + 46 görseli (~30 MB) ve 252 koordinatlı galeri alanını (~142 MB) doğrudan cihaza kaydedin. Tek pafta seçimi de resmî IGC mosaik planını aynı haritaya hizalar; görüntünün servisten dönen gerçek EPSG:3857 sınırları kullanılır. Kütüphane → Arşiv paketi ekle ile ayrı salonların optimize/özgün modellerini içeren kişisel ZIP dosyalarını da içe aktarabilirsiniz; ondan sonra modeller ve IGC galerileri dış sunucu olmadan açılır. Her dosya boyut/SHA-256/format kontrolünden geçer; kurulum atomiktir. Bozuk güncelleme mevcut sağlam koleksiyonu ve notları korur. Koleksiyonlar ayrı kaldırılabilir. Dış kaynak/PDF/Avenza bağlantıları referanstır, otomatik indirilmez; bu bağlantıları açmak internet gerektirir. Yeraltında GPS garanti edilmez; son ölçüm, doğruluk ve elle eklenen noktalar ayrıdır. Tarayıcı verisi kullanıcı tarafından veya depolama baskısında silinebilir. Depolama kalıcılığı istenir ama garanti edilmez; kişisel notlar JSON olarak yedeklenebilir.
 
 ## GitHub Pages
 
@@ -60,7 +60,7 @@ Statik ilk sürüm hesap veya ortak sunucu gerektirmez. Kişisel notlar cihazlar
 
 `third_party/catacombes-atlas` içinde Rayandri'nin MIT lisanslı seçili veri-alım kodu orijinal hâliyle korunur. `scripts/ingest-igc.py` bu kodun query/bbox/GRS parçalarından gerçekten yararlanır, pagination ve tamlık doğrulaması ekler. Kaynak commit ve hash'ler PROVENANCE.json içindedir. MIT yalnız koda aittir; IGC pafta görselleri bu lisansa dahil değildir. İnceleme için edinilen metadata ile raster belge farklıdır. Kaynak çizimleri bu depoya dahil edilmez.
 
-OSM türevi yerüstü verisi ODbL 1.0 ve görünür atıfla gelir. OSM'nin standart karo sunucusundan toplu çevrimdışı indirme yapılmaz. Bağımlılıkların ve upstream kodun lisansları `public/THIRD-PARTY-NOTICES.txt` içinde korunur.
+Belediye yerüstü ve eski GRS OSM verisi ODbL 1.0 ve görünür atıfla gelir. OSM'nin standart karo sunucusundan toplu çevrimdışı indirme yapılmaz. Bağımlılıkların ve upstream kodun lisansları `public/THIRD-PARTY-NOTICES.txt` içinde korunur.
 
 ## Modüller
 
@@ -69,7 +69,9 @@ OSM türevi yerüstü verisi ODbL 1.0 ve görünür atıfla gelir. OSM'nin stand
 | `src/App.tsx` / `src/technical.css` | Son kullanıcı harita arayüzü |
 | `src/map/controller.ts` | Tek MapLibre örneği, yerel katmanlar, odak/GPS, PMTiles adaptörü |
 | `src/map/model.ts` | Yerel GLB/Draco/Meshopt, kamera, geometri kesiti ve kaynak temizliği |
-| `src/components/SpatialAtlas.tsx` | Belgeli salon konum/derinlikleri ve kesit bandı |
+| `src/components/SpatialAtlas.tsx` / `MergedSurvey.tsx` | Gerçek birleşik LiDAR; şehir, plan ve derinlik sekmeleri |
+| `src/map/survey.ts` | Kaynağın ortak 3B çerçevesinde galeri/yüzey ve gerçek kesit |
+| `src/core/source-cache.ts` | Resmî IGC extent hizalaması ve bütünlük kontrollü kişisel kaynak indirmesi |
 | `src/core/collections.ts` | Yerel ZIP manifesti, hash/boyut/format, atomik kurulum/kaldırma |
 | `src/core/storage.ts` | Notlar, kişisel dosyalar ve kurulu paket sürümleri |
 | `src/core/packages.ts` | Boyut/SHA doğrulamalı, başarısız güncellemede eski sürümü koruyan paket kurulumu |
@@ -87,3 +89,7 @@ Paket manifesti örneği `public/sample/manifest.json` içindedir. Bu küçük d
 `ingest-room-archive.py`, `ingest-room-originals.py`, `ingest-igc-raster.py` kaynakları yeniden denetler ve özel dizine alır; yeniden indirmek zorunlu değildir. `python3 scripts/build-private-collections.py --originals` doğrulanmış yerel dosyalardan en fazla 250 MiB'lık ZIP paketleri üretir. Büyük özgün arşiv parçalara bölünür. Bu paketleri public/ veya GitHub Releases içine izinsiz taşımayın. Gerçek özel arşiv kabulü için üretim sunucusu açıkken `ATLAS_QA_URL` ile hedef verip `node scripts/qa-real-archive.mjs` çalıştırılabilir; `ATLAS_QA_ALL_MODELS=1` 46 modeli tek tek açar. Kanıtlar repo dışındaki proje outputs/ klasöründedir. Fiziksel iPhone/Android kabulü emülasyonla eş tutulmaz.
 
 Özgün arşiv durumu: 46 önizleme tamdır; 45 özgün dosya doğrulanmıştır. Toudouze özgünü 22.028.308 bayt beklenirken sınırlı tam GET ve HTTP Range denemelerinde alınamadı; bu salonun optimize edilmiş modeli vardır. Eksik dosya `--allow-incomplete` ile açık eksik listesi tutularak paketlenir, tamamlandı sayılmaz.
+
+## V3 kaynak ve çevrimdışı kabulü · [codex]
+
+`node scripts/qa-v3-live.mjs` gerçek IGC görüntüsü, gerçek salon fotoğrafı ve sabit committeki iki gerçek LiDAR/yüzey GLB dosyasını ayrı kalıcı Chrome profiline alır; tarayıcı tamamen kapanıp ağ kapalı yeniden açılır. Kaynaklar bu kabulde taklit edilmez. Otomatik `map-preview.spec.ts` ise açıkça küçük teknik resimlerle taklit edilen deterministik regresyondur. Kanıtlar proje `outputs/v3-kullanilabilirlik/` altında. Yeni PWA sürümü eski not ve kişisel arşiv IDB adını korur; açık eski sekmelerin yüklenecek JS parçaları için bir önceki çekirdek önbelleği saklanır.

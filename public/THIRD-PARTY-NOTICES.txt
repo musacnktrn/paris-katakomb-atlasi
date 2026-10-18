@@ -1494,3 +1494,13 @@ SOFTWARE.
 © IGN. Open Licence / Licence Ouverte 2.0: https://www.etalab.gouv.fr/licence-ouverte-open-licence/
 Dataset: https://www.data.gouv.fr/datasets/bd-ortho-r
 Service: https://data.geopf.fr/wms-r — ORTHOIMAGERY.ORTHOPHOTOS. Retrieval 2026-10-18; acquisition date not asserted. Local extracted aerial views; no Google/OSM raster tile bulk downloads.
+
+
+===== Ville de Paris / full Paris surface · ureten: codex =====
+© Ville de Paris · ODbL 1.0, https://opendatacommons.org/licenses/odbl/1-0/
+Source datasets: troncon_voie, voie, espaces_verts, plan-de-voirie-voies-deau on https://opendata.paris.fr/
+25,094 source road segments, 2,522 green areas, 60 water areas. Grouping preserves disconnected source segments. Road metadata: June 2018; processing/download date is not a survey date. surface-paris-meta.json records exclusions and provenance.
+
+===== Personal source downloads · ureten: codex =====
+IGC map images, Catacombes.xyz previews (Paul Maréchal / DevXR), and Minifixio / Émile Le Gallic merged LiDAR are fetched directly from their source hosts into a user device cache. They are not binary assets distributed in this GitHub repository or Pages package. No public redistribution license has been verified.
+Minifixio source: https://github.com/Minifixio/catacombs-scan commit c19bcc06cdf1cf2fa27ad0190dfe91edb4ab5a0e (2023). Eight merged scans cover part of the network. Common source-local geometry preserved; no surveyed world transform asserted. Source scan has no TEXCOORD_0: neutral geometry shading is used without fabricated UV mapping.
