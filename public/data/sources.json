@@ -145,6 +145,24 @@
       "rights": "Public domain: PD-France and PD-US-expired on Wikimedia Commons description page; attribution retained",
       "offline": "included",
       "notes": "Tarihî galeri/pafta çizimi. Güncel geçiş, açık giriş veya güvenilir yeraltı konumlandırma verisi değildir. Coğrafi altlığa hizalanmış değildir."
+    },
+    {
+      "id": "ign-ortho",
+      "title": "IGN · çevrimdışı hava fotoğrafı",
+      "url": "https://www.data.gouv.fr/datasets/bd-ortho-r",
+      "kind": "official",
+      "rights": "© IGN · Licence Ouverte 2.0. Açık lisanslı yerel görüntüler.",
+      "offline": "included",
+      "notes": "17 yerel görüntü, Paris kapsamı; çekim tarihi doğrulanmadı. İndirme tarihi 18 Ekim 2026."
+    },
+    {
+      "id": "igc-raster",
+      "title": "IGC · haritaya hizalı gerçek galeri planları",
+      "url": "https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer",
+      "kind": "official",
+      "rights": "Kamuya yeniden dağıtım izni doğrulanmadı. Kişisel ZIP arşivi cihazda tutulur.",
+      "offline": "personal-import",
+      "notes": "252 koordinatlı görsel: bölgesel atlas ve yüksek ayrıntılı GRS. Galeri çizgileri görüntü üzerindedir; güncel geçilebilirlik ve tüm giriş envanteri değildir."
     }
   ]
 }

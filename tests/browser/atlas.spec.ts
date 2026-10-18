@@ -13,20 +13,20 @@ function triangleGLB(external=false){const doc:any={asset:{version:'2.0'},scene:
 
 test('desktop: real map, source-linked selection and filters',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error'&&/Worker|WebGL|GeoJSON/.test(m.text()))errors.push(m.text());});await open(page);
- const canvas=page.locator('#map canvas');const box=(await canvas.boundingBox())!;await canvas.click({position:{x:box.width/2,y:box.height/2}});await expect(page.getByRole('complementary',{name:'Kayıt ayrıntısı'})).toBeVisible();await page.getByRole('button',{name:'Ayrıntıyı kapat'}).click();await page.screenshot({path:'test-results/default-map.png',fullPage:true});
+ await expect(page.getByTestId('result-count')).toHaveText('40 sonuç');await page.getByRole('button',{name:'Paftalar',exact:true}).click();
  await expect(page.getByTestId('result-count')).toHaveText('60 sonuç');await page.getByRole('button',{name:'Tüm paftalar',exact:true}).click();await expect(page.getByTestId('result-count')).toHaveText('458 sonuç');
  await page.getByRole('textbox',{name:'Pafta ara'}).fill('no-such-sheet');await expect(page.getByTestId('result-count')).toHaveText('0 sonuç');await page.getByRole('button',{name:'Aramayı temizle'}).click();
  await page.getByRole('button',{name:/IGC .* paftasını seç/}).first().click();await expect(page.getByRole('complementary',{name:'Kayıt ayrıntısı'})).toBeVisible();
  await page.getByRole('button',{name:'Favorilere ekle',exact:true}).click();await expect(page.getByRole('button',{name:'Favorilerden çıkar',exact:true})).toHaveAttribute('aria-pressed','true');
  await page.getByRole('button',{name:'Ayrıntıyı kapat'}).click();await page.getByRole('button',{name:'Yalnız favorileri göster'}).click();await expect(page.getByTestId('result-count')).toHaveText('1 sonuç');
- await page.getByLabel('Yerüstü katmanı',{exact:true}).uncheck();await page.getByLabel('IGC pafta katmanı',{exact:true}).uncheck();await expect(page.getByText('Haritayı görmek için bir katman aç.')).toBeVisible();
- await page.getByRole('button',{name:'Katmanları göster'}).click();await page.screenshot({path:'test-results/desktop.png',fullPage:true});expect(errors).toEqual([]);
+ await page.getByRole('button',{name:'Harita katmanlarını aç',exact:true}).click();const boxes=page.locator('.map-layers-panel input[type=checkbox]');for(let i=0;i<await boxes.count();i++)await boxes.nth(i).uncheck();await page.getByRole('button',{name:'Katmanları kapat',exact:true}).click();
+await page.screenshot({path:'test-results/desktop.png',fullPage:true});expect(errors).toEqual([]);
 });
 
 test('offline: cold reopen preserves notes, search, map and core verification',async({page,context})=>{
  await open(page);await ready(page);await addNote(page);await context.setOffline(true);await page.reload();await expect(page.getByTestId('status')).toContainText('Atlas hazır');
  await page.getByRole('button',{name:'Kişisel notlar',exact:true}).click();await expect(page.getByTestId('notes')).toContainText('Alan kaydı');
- await page.getByRole('button',{name:'Haritayı keşfet',exact:true}).click();await page.getByRole('button',{name:'Tüm paftalar',exact:true}).click();await page.getByRole('textbox',{name:'Pafta ara'}).fill('2026');await expect(page.getByTestId('result-count')).not.toHaveText('0 sonuç');
+ await page.getByRole('button',{name:'Haritayı keşfet',exact:true}).click();await page.getByRole('button',{name:'Paftalar',exact:true}).click();await page.getByRole('button',{name:'Tüm paftalar',exact:true}).click();await page.getByRole('textbox',{name:'Pafta ara'}).fill('2026');await expect(page.getByTestId('result-count')).not.toHaveText('0 sonuç');
  await page.getByRole('button',{name:'Çevrimdışı atlası aç',exact:true}).click();await page.getByRole('button',{name:'Çevrimdışı hazırlığı doğrula',exact:true}).click();await expect(page.getByTestId('core-status')).toContainText('Hazır',{timeout:30000});
  await page.screenshot({path:'test-results/offline.png',fullPage:true});
 });
@@ -44,7 +44,7 @@ test('local files: invalid geometry/model rejected, valid local GLB renders offl
  await open(page);await ready(page);const invalid={type:'FeatureCollection',features:[{type:'Feature',geometry:{type:'MultiPoint',coordinates:[2.3,48.8]},properties:{}}]};
  await page.getByLabel('Dosya içe aktar',{exact:true}).setInputFiles({name:'bad.geojson',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(invalid))});await expect(page.getByTestId('status')).toContainText('Çoklu nokta');expect((await state(page)).assets).toBe(0);
  await page.getByLabel('3B model içe aktar',{exact:true}).setInputFiles({name:'external.glb',mimeType:'model/gltf-binary',buffer:triangleGLB(true)});await expect(page.getByTestId('status')).toContainText('dış dosyaya');expect((await state(page)).assets).toBe(0);
- await context.setOffline(true);await page.getByLabel('3B model içe aktar',{exact:true}).setInputFiles({name:'technical-test-triangle.glb',mimeType:'model/gltf-binary',buffer:triangleGLB()});await expect(page.locator('#model canvas')).toBeVisible();expect((await state(page)).assets).toBe(1);await page.screenshot({path:'test-results/local-model.png',fullPage:true});
+ await context.setOffline(true);await page.getByLabel('3B model içe aktar',{exact:true}).setInputFiles({name:'technical-test-triangle.glb',mimeType:'model/gltf-binary',buffer:triangleGLB()});await expect(page.locator('#model')).toHaveAttribute('data-model-ready','true');await expect(page.locator('#model canvas')).toBeVisible();expect((await state(page)).assets).toBe(1);await page.screenshot({path:'test-results/local-model.png',fullPage:true});
 });
 
 test('1857 original plan opens and zooms with no network',async({page,context})=>{

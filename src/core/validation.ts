@@ -62,6 +62,6 @@ export function validateGlb(bytes: ArrayBuffer) {
     if(!b.uri && (i!==0 || binaryLength===null || b.byteLength>binaryLength || binaryLength-b.byteLength>3))throw new Error('GLB BIN gövdesi eksik veya buffer boyutuyla uyumsuz.');
   }
   for(const v of doc.bufferViews??[]){const b=doc.buffers?.[v.buffer],start=v.byteOffset??0;if(!b||!Number.isInteger(v.buffer)||!Number.isInteger(start)||start<0||!Number.isInteger(v.byteLength)||v.byteLength<0||start+v.byteLength>b.byteLength)throw new Error('GLB bufferView sınırı geçersiz.');}
-  if((doc.extensionsRequired??[]).some((x:string)=>['KHR_draco_mesh_compression','EXT_meshopt_compression','KHR_texture_basisu'].includes(x)))throw new Error('Bu sürümde harici decoder gerektirmeyen GLB kullanın.');
+  if((doc.extensionsRequired??[]).some((x:string)=>['KHR_texture_basisu'].includes(x)))throw new Error('Bu sürümde harici decoder gerektirmeyen GLB kullanın.');
   return doc;
 }

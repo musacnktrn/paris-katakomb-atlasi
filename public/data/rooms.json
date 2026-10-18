@@ -1,17 +1,56 @@
 {
   "ureten": "codex",
-  "checkedAt": "2026-10-18T16:14:12.042943+03:00",
+  "checkedAt": "2026-10-18T17:18:51.879016+03:00",
   "sourceId": "catacombes-xyz",
-  "sourceUrl": "https://catacombes.xyz/rooms",
+  "sourceUrl": "https://catacombes.xyz/map",
   "rooms": [
     {
-      "id": "Amazones",
-      "title": "Amazones",
-      "url": "https://catacombes.xyz/rooms/Amazones",
+      "id": "guerinet",
+      "title": "Guérinet",
+      "url": "https://catacombes.xyz/rooms/guerinet",
       "sourceId": "catacombes-xyz",
       "localModelAvailable": false,
       "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Salpêtrière",
+      "verification": "publisher-withheld",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "fontaine",
+      "title": "Fontaine des Chartreux",
+      "url": "https://catacombes.xyz/rooms/fontaine",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3350554913657717,
+        48.842567670617655
+      ],
+      "depthMetres": 21.0,
+      "depthSourceLabel": "21m",
+      "district": "Notre Dame des Champs",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "chapelle",
+      "title": "Chapelle",
+      "url": "https://catacombes.xyz/rooms/chapelle",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3359327716820832,
+        48.843338854889964
+      ],
+      "depthMetres": 15.0,
+      "depthSourceLabel": "15m",
+      "district": "Notre Dame des Champs",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
     },
     {
       "id": "anschluss",
@@ -19,62 +58,50 @@
       "url": "https://catacombes.xyz/rooms/anschluss",
       "sourceId": "catacombes-xyz",
       "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+      "coordinates": [
+        2.3349867691353854,
+        48.842752565378426
+      ],
+      "depthMetres": 15.0,
+      "depthSourceLabel": "15m",
+      "district": "Notre Dame des Champs",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
     },
     {
-      "id": "anubis",
-      "title": "Anubis",
-      "url": "https://catacombes.xyz/rooms/anubis",
+      "id": "promos",
+      "title": "Galerie des Promos",
+      "url": "https://catacombes.xyz/rooms/promos",
       "sourceId": "catacombes-xyz",
       "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+      "coordinates": [
+        2.335474354130085,
+        48.83221461553951
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
     },
     {
-      "id": "arenes",
-      "title": "Arenes",
-      "url": "https://catacombes.xyz/rooms/arenes",
+      "id": "solcarlus",
+      "title": "Solcarlus",
+      "url": "https://catacombes.xyz/rooms/solcarlus",
       "sourceId": "catacombes-xyz",
       "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "atlas",
-      "title": "Atlas",
-      "url": "https://catacombes.xyz/rooms/atlas",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "belier",
-      "title": "Belier",
-      "url": "https://catacombes.xyz/rooms/belier",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "bocal",
-      "title": "Bocal",
-      "url": "https://catacombes.xyz/rooms/bocal",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "boutik",
-      "title": "Boutik",
-      "url": "https://catacombes.xyz/rooms/boutik",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+      "coordinates": [
+        2.357414410143055,
+        48.83803860669381
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Salpêtrière",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
     },
     {
       "id": "bracitorium",
@@ -83,322 +110,29 @@
       "sourceId": "catacombes-xyz",
       "localModelAvailable": false,
       "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Salpêtrière",
+      "verification": "publisher-withheld",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
     },
     {
-      "id": "brocolis",
-      "title": "Brocolis",
-      "url": "https://catacombes.xyz/rooms/brocolis",
+      "id": "zebulon",
+      "title": "Zebulon",
+      "url": "https://catacombes.xyz/rooms/zebulon",
       "sourceId": "catacombes-xyz",
       "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "bureau",
-      "title": "Bureau",
-      "url": "https://catacombes.xyz/rooms/bureau",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "byzance",
-      "title": "Byzance",
-      "url": "https://catacombes.xyz/rooms/byzance",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "cabanis",
-      "title": "Cabanis",
-      "url": "https://catacombes.xyz/rooms/cabanis",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "cabibis",
-      "title": "Cabibis",
-      "url": "https://catacombes.xyz/rooms/cabibis",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "cabinet",
-      "title": "Cabinet",
-      "url": "https://catacombes.xyz/rooms/cabinet",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "cellier",
-      "title": "Cellier",
-      "url": "https://catacombes.xyz/rooms/cellier",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "cellier-v2",
-      "title": "Cellier V2",
-      "url": "https://catacombes.xyz/rooms/cellier-v2",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "chapelle",
-      "title": "Chapelle",
-      "url": "https://catacombes.xyz/rooms/chapelle",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "chateau",
-      "title": "Chateau",
-      "url": "https://catacombes.xyz/rooms/chateau",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "cochon",
-      "title": "Cochon",
-      "url": "https://catacombes.xyz/rooms/cochon",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "concretion",
-      "title": "Concretion",
-      "url": "https://catacombes.xyz/rooms/concretion",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "cube",
-      "title": "Cube",
-      "url": "https://catacombes.xyz/rooms/cube",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "danse-macabre",
-      "title": "Danse Macabre",
-      "url": "https://catacombes.xyz/rooms/danse-macabre",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "dragon",
-      "title": "Dragon",
-      "url": "https://catacombes.xyz/rooms/dragon",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "faco",
-      "title": "Faco",
-      "url": "https://catacombes.xyz/rooms/faco",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "fontaine",
-      "title": "Fontaine",
-      "url": "https://catacombes.xyz/rooms/fontaine",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "guerinet",
-      "title": "Guerinet",
-      "url": "https://catacombes.xyz/rooms/guerinet",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "kraken",
-      "title": "Kraken",
-      "url": "https://catacombes.xyz/rooms/kraken",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "lune",
-      "title": "Lune",
-      "url": "https://catacombes.xyz/rooms/lune",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "manoir",
-      "title": "Manoir",
-      "url": "https://catacombes.xyz/rooms/manoir",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "ossa",
-      "title": "Ossa",
-      "url": "https://catacombes.xyz/rooms/ossa",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "philibert",
-      "title": "Philibert",
-      "url": "https://catacombes.xyz/rooms/philibert",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "plage",
-      "title": "Plage",
-      "url": "https://catacombes.xyz/rooms/plage",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "promos",
-      "title": "Promos",
-      "url": "https://catacombes.xyz/rooms/promos",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "ptt",
-      "title": "Ptt",
-      "url": "https://catacombes.xyz/rooms/ptt",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "puits_carre",
-      "title": "Puits Carre",
-      "url": "https://catacombes.xyz/rooms/puits_carre",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "rats",
-      "title": "Rats",
-      "url": "https://catacombes.xyz/rooms/rats",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "sarko",
-      "title": "Sarko",
-      "url": "https://catacombes.xyz/rooms/sarko",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "sauna",
-      "title": "Sauna",
-      "url": "https://catacombes.xyz/rooms/sauna",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "sculptures",
-      "title": "Sculptures",
-      "url": "https://catacombes.xyz/rooms/sculptures",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "solcarlus",
-      "title": "Solcarlus",
-      "url": "https://catacombes.xyz/rooms/solcarlus",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "soleil",
-      "title": "Soleil",
-      "url": "https://catacombes.xyz/rooms/soleil",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "suisse",
-      "title": "Suisse",
-      "url": "https://catacombes.xyz/rooms/suisse",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
-    },
-    {
-      "id": "tank",
-      "title": "Tank",
-      "url": "https://catacombes.xyz/rooms/tank",
-      "sourceId": "catacombes-xyz",
-      "localModelAvailable": false,
-      "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+      "coordinates": [
+        2.3641714716648465,
+        48.830753723678114
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Gare",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
     },
     {
       "id": "toudouze",
@@ -407,16 +141,632 @@
       "sourceId": "catacombes-xyz",
       "localModelAvailable": false,
       "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Maison Blanche",
+      "verification": "publisher-withheld",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
     },
     {
-      "id": "zebulon",
-      "title": "Zebulon",
-      "url": "https://catacombes.xyz/rooms/zebulon",
+      "id": "ptt",
+      "title": "PTT",
+      "url": "https://catacombes.xyz/rooms/ptt",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.357285945244616,
+        48.82877677506224
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Maison Blanche",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "sauna",
+      "title": "Sauna",
+      "url": "https://catacombes.xyz/rooms/sauna",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.360030900279848,
+        48.831835406535966
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Gare",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "kraken",
+      "title": "Kraken",
+      "url": "https://catacombes.xyz/rooms/kraken",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.333002129805828,
+        48.82832609747453
+      ],
+      "depthMetres": 22.0,
+      "depthSourceLabel": "22m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "cabinet",
+      "title": "Cabinet minéralogique",
+      "url": "https://catacombes.xyz/rooms/cabinet",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3365656121874823,
+        48.833789464235615
+      ],
+      "depthMetres": 15.0,
+      "depthSourceLabel": "15m",
+      "district": "Montparnasse",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "soleil",
+      "title": "Salle Soleil - Cinéma",
+      "url": "https://catacombes.xyz/rooms/soleil",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.330296772920315,
+        48.82660141590225
+      ],
+      "depthMetres": 22.0,
+      "depthSourceLabel": "22m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "anubis",
+      "title": "Anubis",
+      "url": "https://catacombes.xyz/rooms/anubis",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3330687940276906,
+        48.82767777323895
+      ],
+      "depthMetres": 30.0,
+      "depthSourceLabel": "30m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "sarko",
+      "title": "Salle Sarko",
+      "url": "https://catacombes.xyz/rooms/sarko",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.329343486894677,
+        48.82721911888489
+      ],
+      "depthMetres": 21.0,
+      "depthSourceLabel": "21m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "byzance",
+      "title": "Byzance",
+      "url": "https://catacombes.xyz/rooms/byzance",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.32962129709704,
+        48.82653075539447
+      ],
+      "depthMetres": 21.0,
+      "depthSourceLabel": "21m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "boutik",
+      "title": "Boutik",
+      "url": "https://catacombes.xyz/rooms/boutik",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3344451758380558,
+        48.82801072038578
+      ],
+      "depthMetres": 22.0,
+      "depthSourceLabel": "22m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "lune",
+      "title": "Lune",
+      "url": "https://catacombes.xyz/rooms/lune",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.334492922140887,
+        48.828411823947484
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "ossa",
+      "title": "Ossa Arida",
+      "url": "https://catacombes.xyz/rooms/ossa",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.334641873959007,
+        48.827993928928066
+      ],
+      "depthMetres": 22.0,
+      "depthSourceLabel": "22m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "philibert",
+      "title": "Philibert Aspairt",
+      "url": "https://catacombes.xyz/rooms/philibert",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3392696263934276,
+        48.843876169264966
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Val de Grace",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "brocolis",
+      "title": "Galerie des Pornos",
+      "url": "https://catacombes.xyz/rooms/brocolis",
       "sourceId": "catacombes-xyz",
       "localModelAvailable": false,
       "coordinates": null,
-      "labelFrom": "published room URL slug; title is a navigation label, not a verified room description"
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "",
+      "verification": "publisher-withheld",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "cabanis",
+      "title": "Cabanis",
+      "url": "https://catacombes.xyz/rooms/cabanis",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3368083955384256,
+        48.8304104546942
+      ],
+      "depthMetres": 10.0,
+      "depthSourceLabel": "10m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "dragon",
+      "title": "Dragon",
+      "url": "https://catacombes.xyz/rooms/dragon",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.341124607453944,
+        48.831993659895325
+      ],
+      "depthMetres": 8.0,
+      "depthSourceLabel": "8m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "cabibis",
+      "title": "Cabi-Bis",
+      "url": "https://catacombes.xyz/rooms/cabibis",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3361312457276417,
+        48.833246513209616
+      ],
+      "depthMetres": 15.0,
+      "depthSourceLabel": "15m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "chateau",
+      "title": "Salle du Chateau",
+      "url": "https://catacombes.xyz/rooms/chateau",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.328524039950177,
+        48.826132974631214
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "plage",
+      "title": "La Plage",
+      "url": "https://catacombes.xyz/rooms/plage",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3312869393653113,
+        48.82601504020344
+      ],
+      "depthMetres": 22.0,
+      "depthSourceLabel": "22m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "belier",
+      "title": "Belier",
+      "url": "https://catacombes.xyz/rooms/belier",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.321413672192638,
+        48.821534217963645
+      ],
+      "depthMetres": 25.0,
+      "depthSourceLabel": "25m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "concretion",
+      "title": "Concretion",
+      "url": "https://catacombes.xyz/rooms/concretion",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3218771704832664,
+        48.821788077546856
+      ],
+      "depthMetres": 25.0,
+      "depthSourceLabel": "25m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "cellier",
+      "title": "Cellier - 2023",
+      "url": "https://catacombes.xyz/rooms/cellier",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.33076472851395,
+        48.8266455787018
+      ],
+      "depthMetres": 23.0,
+      "depthSourceLabel": "23m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "cellier-v2",
+      "title": "Cellier - 2026",
+      "url": "https://catacombes.xyz/rooms/cellier-v2",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.33076472851395,
+        48.8266455787018
+      ],
+      "depthMetres": 23.0,
+      "depthSourceLabel": "23m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "manoir",
+      "title": "Manoir",
+      "url": "https://catacombes.xyz/rooms/manoir",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3379009097813386,
+        48.83379835685104
+      ],
+      "depthMetres": 16.0,
+      "depthSourceLabel": "16m",
+      "district": "Montparnasse",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "arenes",
+      "title": "Arenes",
+      "url": "https://catacombes.xyz/rooms/arenes",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3306567,
+        48.8297762
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Petit Montrouge",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "atlas",
+      "title": "Crypte",
+      "url": "https://catacombes.xyz/rooms/atlas",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3371781592256147,
+        48.83397087029693
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Montparnasse",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "cube",
+      "title": "Cube",
+      "url": "https://catacombes.xyz/rooms/cube",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.33694313326676,
+        48.8403684367242
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Montparnasse",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "cochon",
+      "title": "Cochon - Salle des Fetes",
+      "url": "https://catacombes.xyz/rooms/cochon",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3267695721016945,
+        48.83643938442287
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Montparnasse",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "bureau",
+      "title": "Bureau du centre",
+      "url": "https://catacombes.xyz/rooms/bureau",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3290317035734365,
+        48.83893422057103
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Montparnasse",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "faco",
+      "title": "Faco",
+      "url": "https://catacombes.xyz/rooms/faco",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3342090494626033,
+        48.840891572885404
+      ],
+      "depthMetres": 21.0,
+      "depthSourceLabel": "21m",
+      "district": "Notre Dame des Champs",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "rats",
+      "title": "Bar des rats",
+      "url": "https://catacombes.xyz/rooms/rats",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3317100223529152,
+        48.84308518753105
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Notre Dame des Champs",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "bocal",
+      "title": "Bocal",
+      "url": "https://catacombes.xyz/rooms/bocal",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.331867664996814,
+        48.842624861698575
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Notre Dame des Champs",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "suisse",
+      "title": "La Suisse",
+      "url": "https://catacombes.xyz/rooms/suisse",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3588435061331214,
+        48.82689822457014
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Maison Blanche",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "puits_carre",
+      "title": "Puits carré",
+      "url": "https://catacombes.xyz/rooms/puits_carre",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3591237969751777,
+        48.82701443583032
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Maison Blanche",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "Amazones",
+      "title": "Amazones",
+      "url": "https://catacombes.xyz/rooms/Amazones",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Salpêtrière",
+      "verification": "publisher-withheld",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "sculptures",
+      "title": "Sculptures",
+      "url": "https://catacombes.xyz/rooms/sculptures",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.3570704754887384,
+        48.835517580261744
+      ],
+      "depthMetres": 19.0,
+      "depthSourceLabel": "19m",
+      "district": "Salpêtrière",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "danse-macabre",
+      "title": "Danse Macabre",
+      "url": "https://catacombes.xyz/rooms/danse-macabre",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": null,
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "",
+      "verification": "publisher-withheld",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
+    },
+    {
+      "id": "tank",
+      "title": "Tank",
+      "url": "https://catacombes.xyz/rooms/tank",
+      "sourceId": "catacombes-xyz",
+      "localModelAvailable": false,
+      "coordinates": [
+        2.357123868211941,
+        48.83591580733957
+      ],
+      "depthMetres": 20.0,
+      "depthSourceLabel": "20m",
+      "district": "Salpêtrière",
+      "verification": "publisher-coordinate",
+      "sourceCheckedAt": "2026-10-18T17:18:51.879016+03:00",
+      "sourceUrl": "https://catacombes.xyz/map"
     }
   ]
 }

@@ -2,6 +2,7 @@
 import {describe,it,expect} from 'vitest';
 import {digest,localAssetUrl,packSchema,validateGeoJSON,validateGlb} from '../src/core/validation';
 import {normalizeSearch,safeExternalUrl,searchFeatures} from '../src/core/catalog';
+import {collectionSchema,validateRasterHeader} from '../src/core/collections';
 import {readFileSync} from 'node:fs';
 const base='https://example.org/paris-atlas/';
 const fc=(geometry:unknown,properties:unknown={})=>({type:'FeatureCollection',features:[{type:'Feature',id:'a',properties,geometry}]});
@@ -29,8 +30,22 @@ describe('Offline local model boundary',()=>{
  it('accepts self-contained uncompressed GLB JSON',()=>expect(validateGlb(glb({asset:{version:'2.0'},scenes:[]})).asset.version).toBe('2.0'));
  it('rejects external textures',()=>expect(()=>validateGlb(glb({asset:{version:'2.0'},images:[{uri:'https://example.org/a.png'}]}))).toThrow());
  it('rejects external buffers',()=>expect(()=>validateGlb(glb({asset:{version:'2.0'},buffers:[{uri:'a.bin'}]}))).toThrow());
- it('rejects an external decoder requirement',()=>expect(()=>validateGlb(glb({asset:{version:'2.0'},extensionsRequired:['KHR_draco_mesh_compression']}))).toThrow());
+ it('rejects an external decoder requirement',()=>expect(()=>validateGlb(glb({asset:{version:'2.0'},extensionsRequired:['KHR_texture_basisu']}))).toThrow());
  it('rejects truncated GLB',()=>expect(()=>validateGlb(new ArrayBuffer(8))).toThrow());
  it('rejects missing BIN body referenced by a buffer',()=>expect(()=>validateGlb(glb({asset:{version:'2.0'},buffers:[{byteLength:12}],bufferViews:[{buffer:0,byteLength:12}]}))).toThrow());
- it('keeps external room models out of downloaded assets',()=>{const d=JSON.parse(readFileSync('public/data/rooms.json','utf8'));expect(d.rooms.length).toBe(46);expect(d.rooms.every((r:any)=>r.localModelAvailable===false&&r.coordinates===null)).toBe(true);});
+ it('keeps external room models out of downloaded assets',()=>{const d=JSON.parse(readFileSync('public/data/rooms.json','utf8'));expect(d.rooms.length).toBe(46);expect(d.rooms.filter((r:any)=>r.coordinates).length).toBe(40);expect(d.rooms.filter((r:any)=>r.coordinates===null).length).toBe(6);expect(d.rooms.every((r:any)=>r.localModelAvailable===false)).toBe(true);});
+});
+
+
+describe('Verified local collection boundary',()=>{
+ const asset={path:'models/room.glb',kind:'glb',name:'room.glb',sha256:'0'.repeat(64),bytes:1,roomId:'room'};
+ const manifest={schema:1,atlasId:'paris-catacombs',id:'test',title:'Test',rights:'personal-copy',assets:[asset]};
+ it('supports a personal collection without public redistribution',()=>expect(collectionSchema.parse(manifest).rights).toBe('personal-copy'));
+ for(const path of ['../room.glb','models/../room.glb','https://example.org/x.glb','models/a%2fb.glb'])it('rejects ZIP manifest path '+path,()=>expect(()=>collectionSchema.parse({...manifest,assets:[{...asset,path}]})).toThrow());
+ it('rejects duplicate manifest paths',()=>expect(()=>collectionSchema.parse({...manifest,assets:[asset,asset]})).toThrow());
+ it('requires raster coordinates',()=>expect(()=>collectionSchema.parse({...manifest,assets:[{...asset,kind:'raster'}]})).toThrow());
+ it('rejects reversed raster extent',()=>expect(()=>collectionSchema.parse({...manifest,assets:[{...asset,kind:'raster',mapBounds:[2.4,48.8,2.3,48.9]}]})).toThrow());
+ it('rejects images disguised as SVG',()=>expect(validateRasterHeader(new TextEncoder().encode('<svg/>'))).toBe(false));
+ it('accepts locally bundled Draco and Meshopt capability declarations',()=>expect(validateGlb(glb({asset:{version:'2.0'},extensionsRequired:['KHR_draco_mesh_compression','EXT_meshopt_compression']})).asset.version).toBe('2.0'));
+ it('keeps 42 positioned source records and 6 unknown locations separate',()=>{const d=JSON.parse(readFileSync('public/data/exploration.geojson','utf8'));expect(validateGeoJSON(d).features.length).toBe(42);expect(d.features.filter((f:any)=>f.properties.kind==='room').length).toBe(40);expect(d.features.filter((f:any)=>f.properties.kind==='access').length).toBe(2);});
 });
