@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "ureten": "codex",
+  "id": "ign-region-tiles",
+  "url": "data/region.pmtiles",
+  "format": "pmtiles-v3-mvt",
+  "bytes": 64029889,
+  "sha256": "821d45a77c14f94e0acac1f6d32292b37443c0b4a7ec0e9f2c58e7a98d953635",
+  "minzoom": 9,
+  "maxzoom": 16,
+  "verifiedAt": "2026-10-18T16:23:41.277700+00:00",
+  "layers": [
+    "roads",
+    "buildings"
+  ],
+  "sourceEdition": "2026-06-15",
+  "sourceUrl": "https://geoservices.ign.fr/bdtopo",
+  "license": "etalab-2.0",
+  "licenseUrl": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0",
+  "attribution": "IGN BD TOPO V3 · édition 2026-06-15 · Licence Ouverte Etalab 2.0",
+  "sourceMetadata": [
+    "data/surface-region-meta.json",
+    "data/buildings-region-meta.json"
+  ],
+  "verification": {
+    "expectedUniqueSourceids": {
+      "roads": 261229,
+      "buildings": 124605
+    },
+    "decodedUniqueSourceids": {
+      "roads": 261229,
+      "buildings": 124605
+    },
+    "allSourceFeaturesPreservedAtMaximumZoom": true,
+    "sourceHeightsUnchanged": true
+  },
+  "metadataRewrite": {
+    "ureten": "opus",
+    "rewrittenAt": "2026-10-18T22:12:39+03:00",
+    "script": "scripts/clean-pmtiles-metadata.py",
+    "changedMetadataKeys": [
+      "generator_options"
+    ],
+    "reason": "tippecanoe stored absolute build-machine paths in generator_options; they are now bare file names. No other metadata key, directory or tile byte changed.",
+    "previousSha256": "b00788ffec5094cb9544be965bef624db47f48d6d184765cf8134647d69a7200",
+    "previousBytes": 64030032,
+    "rootDirectorySha256": "4d5dbe08202e4b820069308fb66df0a7b2bbe316b98946b1acde41618ccd30b8",
+    "tileDataSha256": "2ea9b16e6d7db4351b83ded719267ee8e5d5f20f2cd9a585ab83c19d6000f15d",
+    "tilesComparedIdentical": 7331,
+    "decodedZ15Z16SourceidsUnchanged": true
+  },
+  "igcBbox": [
+    2.152497916695393,
+    48.742965349249815,
+    2.5985902401476806,
+    48.9713824537612
+  ],
+  "heightProperties": [
+    "heightM",
+    "zMinSolM",
+    "zMaxSolM",
+    "zMinToitM",
+    "zMaxToitM"
+  ],
+  "nullSemantics": "Source unknown 0/-1000/nonfinite measurements remain unknown; null properties are omitted in MVT and must never receive invented height defaults.",
+  "municipalCompanion": {
+    "metadata": "data/surface-paris-meta.json",
+    "license": "ODbL-1.0",
+    "includedInThisArchive": false
+  },
+  "limitations": [
+    "Lower zooms are generalized and may omit dense features; maximum zoom sourceid preservation is explicitly decoded and measured.",
+    "MVT has no null property type: source null measurements are absent in tile properties, and must remain unknown in the renderer.",
+    "Geometric footprints plus source altitudes support a derived 2.5D extrusion, not photorealistic roof geometry.",
+    "Roads cover the full IGC458 envelope, buildings only the declared Paris commune OR GRS sheet envelope."
+  ]
+}

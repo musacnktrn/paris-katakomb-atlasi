@@ -18,11 +18,13 @@ export async function importFile(file:File) {
     let image:ImageBitmap;try{image=await createImageBitmap(file);}catch{throw new Error('Harita görseli çözümlenemedi.');}
     const pixels=image.width*image.height;image.close();if(!pixels||pixels>64000000)throw new Error('Harita görseli 64 megapiksel sınırını aşıyor.');
   }
-  if(kind==='geojson')validateGeoJSON(JSON.parse(new TextDecoder().decode(bytes)));
+  // ureten: opus: F4 the package header (top-level name/createdAt) is kept with the asset; the features are not stored twice.
+  let header:{packageName?:string;packageCreatedAt?:string}={};
+  if(kind==='geojson'){const raw=JSON.parse(new TextDecoder().decode(bytes)) as {name?:unknown;createdAt?:unknown};validateGeoJSON(raw);header={packageName:typeof raw.name==='string'?raw.name:'',packageCreatedAt:typeof raw.createdAt==='string'?raw.createdAt:''};}
   if(kind==='glb')validateGlb(bytes);
   if(kind==='pmtiles' && (bytes.byteLength<127 || new TextDecoder().decode(bytes.slice(0,7))!=='PMTiles' || new Uint8Array(bytes)[7]!==3))throw new Error('PMTiles v3 başlığı gerekiyor.');
   if(kind==='pmtiles'){const archive=new PMTiles(new FileSource(file));await archive.getHeader();await archive.getMetadata();}
-  const hash=await digest(bytes);const asset:LocalAsset={id:hash,name:file.name,kind,blob:new Blob([bytes]),sha256:hash,createdAt:new Date().toISOString()};
+  const hash=await digest(bytes);const asset:LocalAsset={id:hash,name:file.name,kind,blob:new Blob([bytes]),sha256:hash,createdAt:new Date().toISOString(),...header};
   await (await db()).put('assets',asset);return asset;
 }
 export async function importNotes(value:unknown) {

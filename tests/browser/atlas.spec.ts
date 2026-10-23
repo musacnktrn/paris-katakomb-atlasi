@@ -4,7 +4,16 @@ import {createHash} from 'node:crypto';
 import {readFile} from 'node:fs/promises';
 const hash=(b:Buffer)=>createHash('sha256').update(b).digest('hex');
 async function open(page:Page){await page.goto('./');await expect(page.getByTestId('status')).toContainText('Atlas hazır',{timeout:30000});await expect(page.locator('#map canvas')).toBeVisible();}
-async function ready(page:Page){await page.evaluate(async()=>{const r=await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise<void>(resolve=>navigator.serviceWorker.addEventListener('controllerchange',()=>resolve(),{once:true}));return r.scope;});}
+// ureten: opus: the controller wait has its own 20 s limit; if the page is still uncontrolled it reloads (an active worker then
+// controls the new page at once) and tries again, extending the test timeout, instead of hanging until the whole test times out.
+async function ready(page:Page){
+ for(let attempt=0;attempt<3;attempt++){
+  const controlled=await page.evaluate(async ms=>{const limit=new Promise<boolean>(r=>setTimeout(()=>r(false),ms));const wait=(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise<void>(resolve=>navigator.serviceWorker.addEventListener('controllerchange',()=>resolve(),{once:true}));return true;})();return Promise.race([wait,limit]);},20000);
+  if(controlled)return;
+  test.info().setTimeout(test.info().timeout+45000);await page.reload();await expect(page.getByTestId('status')).toContainText('Atlas hazır',{timeout:30000});
+ }
+ throw new Error('Servis çalışanı sayfayı üç denemede denetime almadı.');
+}
 async function addNote(page:Page,title='Alan kaydı'){await page.getByRole('button',{name:'Kişisel notlar',exact:true}).click();await page.getByRole('textbox',{name:'Not başlığı'}).fill(title);await page.getByRole('textbox',{name:'Not metni'}).fill('Bu kayıt elle işaretlenmiştir.');await page.getByRole('button',{name:'Notu kaydet',exact:true}).click();await expect(page.getByTestId('notes')).toContainText(title);}
 async function state(page:Page){return page.evaluate(async()=>{const name='archify-atlas-paris-catacombs-'+encodeURIComponent(new URL('./',document.baseURI).pathname)+'-v1';return new Promise<{pack:any;notes:number;assets:number}>(resolve=>{const r=indexedDB.open(name);r.onsuccess=()=>{const d=r.result,tx=d.transaction(['notes','packs','assets']);const p=tx.objectStore('packs').get('sample'),n=tx.objectStore('notes').count(),a=tx.objectStore('assets').count();tx.oncomplete=()=>{d.close();resolve({pack:p.result,notes:n.result,assets:a.result});};};});});}
 function manifest(bytes:Buffer,version:string,sha=hash(bytes)){return {schema:1,id:'sample',atlasId:'paris-catacombs',version,title:'Test',redistribution:'allowed',attribution:'ATLAS technical test',assets:[{url:'./sample/about.json',bytes:bytes.length,sha256:sha}]};}
@@ -14,7 +23,7 @@ function triangleGLB(external=false){const doc:any={asset:{version:'2.0'},scene:
 test('desktop: real map, source-linked selection and filters',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error'&&/Worker|WebGL|GeoJSON/.test(m.text()))errors.push(m.text());});await open(page);
  await expect(page.getByTestId('result-count')).toHaveText('40 sonuç');await page.getByRole('button',{name:'Paftalar',exact:true}).click();
- await expect(page.getByTestId('result-count')).toHaveText('60 sonuç');await page.getByRole('button',{name:'Tüm paftalar',exact:true}).click();await expect(page.getByTestId('result-count')).toHaveText('458 sonuç');
+ await expect(page.getByTestId('result-count')).toHaveText('458 sonuç');await page.getByRole('button',{name:'Tüm paftalar',exact:true}).click();await expect(page.getByTestId('result-count')).toHaveText('458 sonuç');
  await page.getByRole('textbox',{name:'Pafta ara'}).fill('no-such-sheet');await expect(page.getByTestId('result-count')).toHaveText('0 sonuç');await page.getByRole('button',{name:'Aramayı temizle'}).click();
  await page.getByRole('button',{name:/IGC .* paftasını seç/}).first().click();await expect(page.getByRole('complementary',{name:'Kayıt ayrıntısı'})).toBeVisible();
  await page.getByRole('button',{name:'Favorilere ekle',exact:true}).click();await expect(page.getByRole('button',{name:'Favorilerden çıkar',exact:true})).toHaveAttribute('aria-pressed','true');

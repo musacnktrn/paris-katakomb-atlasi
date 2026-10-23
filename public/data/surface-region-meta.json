@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "ureten": "codex",
+  "id": "ign-surface-region",
+  "verifiedAt": "2026-10-18T16:21:38.926481+00:00",
+  "source": "IGN BD TOPO V3",
+  "sourceUrl": "https://geoservices.ign.fr/bdtopo",
+  "sourceEdition": "2026-06-15",
+  "sourceSurveyDate": null,
+  "sourceTypeName": "BDTOPO_V3:troncon_de_route",
+  "license": "etalab-2.0",
+  "licenseUrl": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0",
+  "licenseEvidenceUrl": "https://www.data.gouv.fr/datasets/bd-topo-r",
+  "attribution": "IGN BD TOPO V3 · édition 2026-06-15 · Licence Ouverte Etalab 2.0",
+  "crs": "EPSG:4326",
+  "igcBbox": [
+    2.152497916695393,
+    48.742965349249815,
+    2.5985902401476806,
+    48.9713824537612
+  ],
+  "geometryBbox": [
+    2.127588,
+    48.737363,
+    2.614241,
+    48.982768
+  ],
+  "featureCount": 261229,
+  "sourceCount": 261229,
+  "allSourceIdentifiersUnique": true,
+  "allPagesCountMatched": true,
+  "missingValues": {
+    "name": 105936
+  },
+  "invalidGeometryCount": 0,
+  "measuredPropertyRanges": {},
+  "publicGeojson": null,
+  "deliveryFormat": "private-jsonl-for-vector-tiling",
+  "heightSourceMapping": null,
+  "transformation": "XY rounded to 6 decimal degrees, 8 for tiny/degenerate shapes; neighboring duplicate points removed. Source vertex Z is discarded; building vertical attributes are preserved separately. No road/footprint simplification or invented heights.",
+  "coverage": {
+    "type": "entire-IGC458-envelope",
+    "queryBbox": [
+      2.152497916695393,
+      48.742965349249815,
+      2.5985902401476806,
+      48.9713824537612
+    ],
+    "includesPathsAndPrivateRoads": true
+  },
+  "limitations": [
+    "The source edition is 2026-06-15, not the date every object was surveyed. Retrieval/processing time is recorded separately.",
+    "Building height 0 and unknown altitude sentinels 0/-1000 become null. Null height must not receive a random fallback extrusion.",
+    "Ground/roof min/max properties are source measurements, not values synthesized from floor counts or height. Source vertex Z=-1000 is never terrain elevation.",
+    "The road layer covers the full IGC envelope query, including public/private roads and paths; it does not establish access rights or provide a routing graph.",
+    "This is measured-footprint/altitude data for a derived 2.5D display, not a textured roof mesh or photorealistic survey."
+  ]
+}

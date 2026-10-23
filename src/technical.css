@@ -59,3 +59,127 @@
 .room-detail-preview,.sheet-detail-preview{position:relative;margin:0;background:#172622;color:#f5f2e9}.room-detail-preview>img,.sheet-detail-preview>img{display:block;width:100%;height:220px;object-fit:contain}.room-detail-preview figcaption,.sheet-detail-preview figcaption{font-size:9px;line-height:1.6;padding:8px 15px;background:#eef0e6;color:#697d66}.preview-loading{position:absolute;left:16px;top:16px;font-size:11px}.preview-unavailable{min-height:190px;padding:30px 20px;display:flex;flex-direction:column;justify-content:center;gap:12px}.preview-unavailable span{font-size:11px;line-height:1.8;color:#bbc9bd}.sheet-detail-preview{background:#faf9f4}.sheet-detail-preview>img{object-fit:contain}.sheet-detail-preview figcaption{background:#e7ecdf}.detail-panel .link-caption{line-height:1.7;white-space:normal}.detail-panel .text-button.detail-citation{font-size:10px;margin-top:12px}.is-map-wide .explorer-panel{display:none}
 @media(max-width:760px){.map-expand-command{display:flex!important;width:34px;min-width:34px}.is-map-wide .explorer-panel{display:none!important}.is-map-wide .map-area{height:100%}.map-command-bar{right:59px;gap:4px}.map-fit-command{display:none}.room-detail-preview>img,.sheet-detail-preview>img{height:180px}.detail-content{padding-bottom:24px}}
 .offline-direct-actions{margin:24px 0;padding:18px;border:1px solid #cdd8c1;border-radius:9px;background:#edf0e4}.offline-direct-actions h3{font:normal 22px Georgia,serif;margin:0 0 14px}.offline-direct-actions>button{margin-top:10px;font-size:10px;white-space:normal;line-height:1.6}.offline-direct-actions>p{margin-top:14px;font:11px/1.8 system-ui;color:#4e6d44}
+/* ureten: codex — V4 geographic city and persistent vector archive controls. */
+.building-opacity-control{display:flex;align-items:center;gap:12px;padding:16px 0;font-size:10px;color:#617951}.building-opacity-control input{min-width:0;flex:1;accent-color:#668c59}.map-command[aria-pressed=true]{background:#dbe8d1;border-color:#87a775}.directory-switch{flex-wrap:wrap}.directory-switch button{flex:1 0 40%}.map-command-bar{flex-wrap:wrap}.legend-item.layer-underground svg{color:#148765}
+@media(max-width:760px){.map-command-bar{right:60px;gap:4px}.map-command{padding:8px;gap:4px;font-size:8px}.map-command[aria-label="3B derinlik görünümü"] span{display:none}.map-expand-command{display:flex}.map-layers-panel{top:145px}.map-notice{top:149px}}
+
+/* [codex] Individual historical symbol classes remain independently visible. */
+.vector-filters{border:0;border-bottom:1px solid var(--line);padding:16px 0;display:grid;gap:10px}.vector-filters legend{font-size:10px;color:#536d45;padding-top:18px}.vector-filters label{display:flex;gap:8px;align-items:center;font-size:10px;color:#738766}.vector-filters input{accent-color:#587e53}
+/* [codex] Keep the map in its own grid column when desktop sidebar is hidden. */
+@media(min-width:761px){.is-map-wide .explorer-panel{display:block;visibility:hidden}.map-stage{grid-column:3}}
+/* ureten: codex — category symbols and keyboard/touch accessible room portraits. */
+.atlas-place-marker{width:var(--marker-size,42px);height:var(--marker-size,42px);padding:0;background:none;border:0;cursor:pointer;z-index:2;overflow:visible}.atlas-place-marker[hidden]{display:none}.atlas-marker-face{display:flex;width:100%;height:100%;align-items:center;justify-content:center;border:3px solid #fff;border-radius:50%;background:#a86b42;color:#fff;box-shadow:0 2px 8px #16322655;overflow:hidden;transition:transform .16s,box-shadow .16s}.atlas-marker-face img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;border-radius:50%}.atlas-marker-glyph{font-size:19px;position:relative}.atlas-marker-face:has(img:not([hidden])) .atlas-marker-glyph{display:none}.atlas-place-marker:hover .atlas-marker-face,.atlas-place-marker:focus-visible .atlas-marker-face{transform:scale(1.24);box-shadow:0 3px 15px #153e4577;border-color:#d8edc7}.atlas-place-marker:focus-visible{outline:3px solid #365f45;outline-offset:6px;border-radius:50%;z-index:9}.atlas-place-marker:hover{z-index:8}.atlas-place-marker.is-entry .atlas-marker-face{border-radius:8px;background:#286c9c}.atlas-place-marker.is-exit .atlas-marker-face{border-radius:8px;background:#9c6442}.atlas-feature-popup{pointer-events:none}.atlas-feature-popup .maplibregl-popup-content{padding:12px;background:#fffdf5;box-shadow:0 4px 18px #183d3733;border-radius:8px}.atlas-hover-card{display:grid;gap:6px;max-width:230px;color:#304b3e;font:12px system-ui}.atlas-hover-card>img{width:100%;height:110px;object-fit:cover;border-radius:4px}.atlas-hover-card strong{font-size:13px}.atlas-hover-card small{font-size:10px;line-height:1.5;color:#74856c}.hover-kind{font-size:10px;color:#748154}.hover-kind.kind-shaft,.hover-kind.kind-well{color:#3679a5}.hover-kind.kind-stair{color:#8a5699}
+
+.vector-symbol-key{padding-top:16px;font-size:10px;line-height:1.8;color:#66815e}
+
+.atlas-marker-count{position:absolute;right:-5px;bottom:-4px;background:#355b40;color:#fff;border:2px solid #fff;border-radius:12px;min-width:22px;padding:3px;font:600 10px system-ui;box-shadow:0 2px 4px #183d3744}.atlas-cluster-menu .maplibregl-popup-content{background:#fffdf5;border-radius:8px;padding:20px 12px 12px}.cluster-room-choice{padding:9px;text-align:left;border-bottom:1px solid #d9dfd0;color:#405b3e;font-size:12px}.cluster-room-choice:hover{background:#e9f0e1}
+/* ureten: opus: V4 access groups (P2/P4/P6), tunnel band legend (P7) and package family state (P9). */
+.access-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+.access-chip{display:inline-flex;align-items:center;gap:6px;padding:6px 9px;border:1px solid #dfe3d4;border-radius:999px;background:#fbfaf5;font-size:10px;color:#6e8062;line-height:1.2;cursor:pointer}
+.access-chip span{font-size:9px;color:#93a084;font-variant-numeric:tabular-nums}
+.access-chip[aria-pressed=true]{background:#385c4d;border-color:#385c4d;color:#fff;font-weight:600}
+.access-chip[aria-pressed=true] span{color:#d6e5d6}
+.access-chip:focus-visible{outline:2px solid var(--copper);outline-offset:2px}
+.access-glyph,.key-glyph,.place-illustration-glyph{font-style:normal;font-weight:700;font-family:Arial,Helvetica,sans-serif;line-height:1}
+.place-symbol.access-symbol .access-glyph{font-size:17px}
+.place-symbol.access-official{background:#e3edf5;border-color:#cddbe7;color:#286c9c}
+.place-symbol.access-shaft-rungs,.key-glyph.access-shaft-rungs,.place-illustration-glyph.access-shaft-rungs{background:#1f5fa8;border-color:#1f5fa8;color:#fff}
+.place-symbol.access-shaft-plain,.key-glyph.access-shaft-plain,.place-illustration-glyph.access-shaft-plain{background:#6584a8;border-color:#6584a8;color:#fff}
+.place-symbol.access-shaft-interlevel,.key-glyph.access-shaft-interlevel,.place-illustration-glyph.access-shaft-interlevel{background:#3c4fa0;border-color:#3c4fa0;color:#fff}
+.place-symbol.access-stair,.key-glyph.access-stair,.place-illustration-glyph.access-stair{background:#8a45a8;border-color:#8a45a8;color:#fff}
+.place-symbol.access-well,.key-glyph.access-well,.place-illustration-glyph.access-well{background:#0f93a6;border-color:#0f93a6;color:#fff}
+.place-symbol.access-former,.key-glyph.access-former,.place-illustration-glyph.access-former{background:#c47a12;border-color:#fff;color:#fff;box-shadow:0 0 0 1.5px #c47a12}
+.place-symbol.access-shaft-rungs,.place-symbol.access-shaft-plain,.place-symbol.access-shaft-interlevel,.place-symbol.access-stair,.place-symbol.access-well,.place-symbol.access-former{border-radius:50%}
+.depth-label{font-variant-numeric:tabular-nums}
+.vector-symbol-key{display:grid;grid-template-columns:1fr 1fr;gap:7px 12px;padding-top:16px;font-size:10px;line-height:1.35;color:#5f7457}
+.vector-symbol-key>span{display:flex;align-items:center;gap:7px;min-width:0}
+.vector-symbol-key>small{grid-column:1/-1;font-size:9px;line-height:1.6;color:#8a977b}
+.key-glyph{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;width:18px;height:18px;border-radius:50%;font-size:11px;border:1px solid transparent}
+.key-glyph.access-official{border-radius:4px;background:#286c9c;color:#fff}
+.key-glyph.access-official.is-exit{background:#9c6442}
+.key-glyph.key-room{background:radial-gradient(circle at 35% 35%,#d7c3a6,#8d6b4c);border:2px solid #fff;box-shadow:0 0 0 1px #c8b89f}
+.vector-band-note{display:flex;gap:8px;align-items:flex-start;margin:2px 0 0;font-size:9px;line-height:1.6;color:#6f8264}
+.band-swatch{flex:0 0 auto;width:26px;height:9px;margin-top:3px;border-radius:5px;background:linear-gradient(#0f6b5040,#0f6b5040) padding-box;box-shadow:inset 0 0 0 3px #0f6b5022;position:relative}
+.band-swatch:after{content:'';position:absolute;left:2px;right:2px;top:3px;height:3px;border-radius:2px;background:#0b5a43;box-shadow:0 0 0 1px #fffdf8}
+.package-state.is-active{color:#4f7a49}
+.package-state.is-inactive{color:#a2733d;font-weight:600}
+.place-illustration-glyph{position:relative;z-index:1;margin-top:-13px;display:flex;align-items:center;justify-content:center;width:58px;height:58px;border-radius:50%;font-size:30px;border:2px solid #fff;box-shadow:0 4px 14px #1d34331f}
+.footnote-action{display:inline-flex;align-items:center;gap:4px;margin-top:6px;font-size:9px}
+.panel-footnote p .footnote-action{display:flex}
+@media(max-width:760px){.access-chips{gap:4px}.access-chip{padding:7px 9px}.vector-symbol-key{grid-template-columns:1fr}}
+/* ureten: opus: A2 room photo gallery, 3B scan badge on room markers, hover image credit. */
+.room-gallery{margin:0;background:var(--paper)}.room-gallery-tabs{display:flex;gap:4px;padding:0 14px 8px}.room-gallery-tab{flex:1 1 0;min-width:0;font-size:10px;font-weight:600;padding:7px 6px;border:1px solid #d9e0ce;border-radius:5px;background:#f3f4ec;color:#5f7655;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.room-gallery-tab.is-active{background:#385c4d;border-color:#385c4d;color:#fff}.room-gallery-tab:focus-visible{outline:2px solid #365f45;outline-offset:2px}
+.room-photo{margin:0;background:#172622;color:#f5f2e9}.room-photo-frame{position:relative}.room-photo-frame>img{display:block;width:100%;height:220px;object-fit:contain;background:#172622}.room-photo-step{position:absolute;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;background:#0f1a17b3;color:#fff;font-size:20px;line-height:1;display:flex;align-items:center;justify-content:center;border:1px solid #ffffff55}.room-photo-step.is-prev{left:8px}.room-photo-step.is-next{right:8px}.room-photo-count{position:absolute;right:10px;bottom:8px;font:600 10px system-ui;background:#0f1a17b3;color:#fff;padding:3px 7px;border-radius:10px}
+.room-photo figcaption{font-size:9.5px;line-height:1.6;padding:8px 15px 3px;background:#eef0e6;color:#526a4f}.room-photo figcaption a{color:#2f5a44;text-decoration:underline;text-underline-offset:2px;white-space:nowrap}.photo-device-only{color:#8a4b12;font-weight:600}.room-photo-note{display:grid;gap:1px;font-size:9px;line-height:1.5;padding:0 15px 9px;margin:0;background:#eef0e6;color:#7a8a70}.room-photo-note q{font-style:italic}
+.room-photo-strip{display:flex;gap:5px;overflow-x:auto;padding:8px 12px;background:#e6e9dc;scrollbar-width:thin}.room-photo-strip button{flex:0 0 40px;height:40px;padding:0;border:2px solid transparent;border-radius:4px;overflow:hidden;background:#172622}.room-photo-strip button[aria-pressed="true"]{border-color:#385c4d}.room-photo-strip img{width:100%;height:100%;object-fit:cover;display:block}.room-photo-empty{background:#172622;color:#f5f2e9}
+.atlas-marker-scan-tag{position:absolute;left:-5px;bottom:-4px;background:#f8f6f0;color:#4c5f45;border:1px solid #c8cfbb;border-radius:9px;padding:1px 4px;font:700 8px/1.3 system-ui;letter-spacing:.3px;box-shadow:0 1px 3px #183d3733;pointer-events:none}.atlas-place-marker[data-image-kind="photo"] .atlas-marker-face{border-color:#fdf6e3;box-shadow:0 0 0 2px #385c4d,0 2px 8px #16322655}
+.hover-image-credit{font-size:9.5px!important;color:#5d6f55!important}.hover-image-credit[data-image-kind="photo"]{color:#2f5a44!important;font-weight:600}
+.key-glyph.key-scan{width:auto;min-width:18px;padding:0 3px;border-radius:9px;background:#f8f6f0;border-color:#c8cfbb;color:#4c5f45;font:700 8px system-ui}
+.room-thumbnail{position:relative}.room-thumb-scan{position:absolute;left:2px;bottom:2px;background:#f8f6f0e6;color:#4c5f45;border-radius:6px;padding:0 3px;font:700 7px/1.4 system-ui;font-style:normal}
+@media(max-width:760px){.room-photo-frame>img{height:180px}}
+.maplibregl-popup.atlas-feature-popup,.maplibregl-popup.atlas-cluster-menu{z-index:20}
+/* ureten: opus: F3 review fixes: wrapping titles, source id row, http source as text, ink/level legend, cluster chooser, error notice. */
+.detail-private .detail-title-row h2{font-size:27px;line-height:1.2;overflow-wrap:anywhere;min-width:0}
+.detail-title-row h2{min-width:0}
+.atlas-hover-card strong{overflow-wrap:anywhere}
+.detail-source-id dd{overflow-wrap:anywhere;font-family:ui-monospace,Menlo,monospace;font-size:10px;line-height:1.5}
+.source-url-plain{font-size:10px;line-height:1.7;color:#7a8a6c;overflow-wrap:anywhere;margin:6px 0 0}.source-url-plain span{font-family:ui-monospace,Menlo,monospace;color:#4f6448;user-select:all}
+.vector-ink-key{display:grid;gap:7px;padding-top:14px;font-size:10px;line-height:1.35;color:#5f7457}
+.vector-ink-key>span{display:flex;align-items:center;gap:8px;min-width:0}.vector-ink-key>span small{margin-left:auto;font-size:9px;color:#93a084;font-variant-numeric:tabular-nums}
+.vector-ink-key>small{font-size:9px;line-height:1.6;color:#8a977b}
+.key-line{flex:0 0 auto;position:relative;width:28px;height:10px;border-radius:5px}
+.key-line:after{content:'';position:absolute;left:2px;right:2px;top:3.5px;height:3px;border-radius:2px}
+.key-line.ink-grey{background:#0f6b504d}.key-line.ink-grey:after{background:#0b5a43;box-shadow:0 0 0 1px #fffdf8}
+.key-line.ink-blue-grey{background:#3d66904d}.key-line.ink-blue-grey:after{background:#2f5179;box-shadow:0 0 0 1px #fffdf8}
+.key-line.ink-dark{background:#1d262214}.key-line.ink-dark:after{background:#1c2420;box-shadow:0 0 0 1px #fffdf8}
+.vector-levels{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:4px 0 8px;font-size:10px;color:#5f7457}
+.vector-levels-title{flex:1 0 100%;font-size:9px;letter-spacing:.6px;text-transform:uppercase;color:#7d8d70}
+.vector-levels label{display:inline-flex;align-items:center;gap:5px}.vector-levels small{font-size:9px;color:#93a084;font-variant-numeric:tabular-nums}
+.atlas-cluster-choices{min-width:190px;gap:2px}.atlas-cluster-choices>small{padding:0 9px 4px}
+.cluster-room-choice{display:block;width:100%;cursor:pointer;background:none;font:inherit;font-size:12px}
+.cluster-room-choice:focus-visible{outline:2px solid #365f45;outline-offset:-2px}
+.map-notice.is-error{border-color:#e3c3a8;background:#fbf3ebf5;color:#8a4b22}
+@media(max-width:760px){.detail-private .detail-title-row h2{font-size:23px}}
+.detail-private .detail-facts{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px}
+.detail-private .detail-facts>div{flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:4px}
+.detail-private .detail-facts dd{text-align:left}
+.detail-private .detail-facts>.detail-source-id{grid-column:1/-1}
+@media(max-width:760px){.has-detail .maplibregl-popup.atlas-feature-popup{display:none}}
+
+/* ureten: codex: F4a mobile map stays visible; detail and explorer sheets expose their own expand controls. */
+.detail-expand{display:none}
+/* ureten: codex: the optional-region retry must be above the canvas, not an unclickable normal-flow node beneath it. */
+.region-notice{position:absolute;left:24px;bottom:88px;z-index:7;display:flex;align-items:center;gap:10px;max-width:min(520px,calc(100% - 48px));padding:12px 14px;border:1px solid #dcc7a2;border-radius:8px;background:#fff7e9;color:#6d542e;font-size:12px;box-shadow:0 3px 14px #24382d18}
+.region-notice .text-button{flex-shrink:0}
+@media(max-width:760px){
+ .region-notice{left:12px;bottom:255px;max-width:calc(100% - 24px);font-size:10px;flex-wrap:wrap}
+ .map-legend{display:none}
+ .explorer-panel:not(.is-expanded){height:148px;max-height:24dvh}
+ .explorer-panel:not(.is-expanded) .panel-intro{display:none}
+ .detail-panel{top:auto;bottom:91px;height:auto;max-height:52dvh;overflow-y:auto;overscroll-behavior:contain}
+ .detail-panel.is-expanded{top:80px;max-height:none}
+ .detail-panel .detail-header{position:sticky;top:0;background:#f8f7f0;z-index:2;gap:8px}
+ .detail-panel .detail-header .eyebrow{min-width:0;flex:1}
+ .detail-expand{display:inline-flex;font-size:10px;flex-shrink:0}
+ .detail-private .place-illustration,.detail-access .place-illustration{height:72px;min-height:72px}
+ .detail-panel .detail-content{padding-top:14px}
+ .detail-panel .detail-title-row h2{font-size:22px}
+ .atlas-cluster-menu{z-index:30}
+}
+
+/* ureten: codex: imported source selection, personal star legend and dated water annotations. */
+.source-filters{border-top:1px solid #dce3d2;padding-top:14px;margin-top:14px;font-size:11px;color:#4a6250}
+.source-filters header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.source-filters header button{font-size:10px}
+.source-filters>label{display:flex;align-items:flex-start;gap:8px;padding:7px 0;line-height:1.5}
+.source-filters>label span{min-width:0;overflow-wrap:anywhere}
+.source-filters>label small{margin-left:auto;font-variant-numeric:tabular-nums;white-space:nowrap}
+.source-filters input{accent-color:#3b715a;flex-shrink:0;margin-top:2px}
+.source-filters p,.source-filters>small{font-size:10px;line-height:1.6;color:#7a8871}
+.source-access-key{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:10px;margin:8px 0}
+.source-access-key i{width:17px;height:3px;display:inline-block}.source-accessible{background:#137746}.source-inaccessible{background:#b33835}
+.place-symbol.access-user{background:transparent;overflow:visible}.place-symbol.access-user .access-glyph{display:flex;align-items:center;justify-content:center;width:32px;height:32px;font-size:23px;border-radius:50%}
+.access-grs{background:#727748;color:#fff}.access-user{background:#dc2626;color:#fff}
+.hover-water{color:#167d99!important}.status-user{color:#934346}.hover-access-user{border-top:3px solid #7c3aed}
+.landcover-notice{position:absolute;z-index:7;top:190px;left:24px;max-width:calc(100% - 48px);padding:10px 12px;background:#faf8eaf2;border:1px solid #d8d8bb;border-radius:7px;color:#64704d;font-size:11px}
+@media(max-width:760px){.landcover-notice{left:12px;top:205px;max-width:calc(100% - 24px);font-size:10px}}

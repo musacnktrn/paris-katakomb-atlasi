@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "ureten": "codex",
+  "id": "ign-buildings-region",
+  "verifiedAt": "2026-10-18T16:21:38.925703+00:00",
+  "source": "IGN BD TOPO V3",
+  "sourceUrl": "https://geoservices.ign.fr/bdtopo",
+  "sourceEdition": "2026-06-15",
+  "sourceSurveyDate": null,
+  "sourceTypeName": "BDTOPO_V3:batiment",
+  "license": "etalab-2.0",
+  "licenseUrl": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0",
+  "licenseEvidenceUrl": "https://www.data.gouv.fr/datasets/bd-topo-r",
+  "attribution": "IGN BD TOPO V3 · édition 2026-06-15 · Licence Ouverte Etalab 2.0",
+  "crs": "EPSG:4326",
+  "igcBbox": [
+    2.152497916695393,
+    48.742965349249815,
+    2.5985902401476806,
+    48.9713824537612
+  ],
+  "geometryBbox": [
+    2.225594,
+    48.81393,
+    2.468296,
+    48.902427
+  ],
+  "featureCount": 124605,
+  "sourceCount": 124605,
+  "allSourceIdentifiersUnique": true,
+  "allPagesCountMatched": true,
+  "missingValues": {
+    "zMaxSolM": 103526,
+    "zMinToitM": 17032,
+    "zMaxToitM": 102678,
+    "heightM": 9231,
+    "zMinSolM": 771
+  },
+  "invalidGeometryCount": 0,
+  "measuredPropertyRanges": {
+    "heightM": [
+      0.1,
+      286.4
+    ],
+    "zMinSolM": [
+      22.5,
+      129.1
+    ],
+    "zMaxSolM": [
+      30,
+      127.7
+    ],
+    "zMaxToitM": [
+      32.8,
+      157.2
+    ],
+    "zMinToitM": [
+      30.3,
+      259.4
+    ]
+  },
+  "publicGeojson": null,
+  "deliveryFormat": "private-jsonl-for-vector-tiling",
+  "heightSourceMapping": {
+    "hauteur": "heightM",
+    "altitude_minimale_sol": "zMinSolM",
+    "altitude_maximale_sol": "zMaxSolM",
+    "altitude_minimale_toit": "zMinToitM",
+    "altitude_maximale_toit": "zMaxToitM"
+  },
+  "transformation": "XY rounded to 6 decimal degrees, 8 for tiny/degenerate shapes; neighboring duplicate points removed. Source vertex Z is discarded; building vertical attributes are preserved separately. No road/footprint simplification or invented heights.",
+  "coverage": {
+    "type": "Paris-commune-or-GRS-sheet-envelope",
+    "communeCode": "75056",
+    "grsSheetEnvelope": [
+      2.2956531383384218,
+      48.814902558126725,
+      2.352874966794915,
+      48.84728373897448
+    ],
+    "includesParisXIIIAndXVI": true,
+    "sourceRegionalBuildingCount": 1109579,
+    "sourceRegionalBuildingsNotAcquired": 984974,
+    "entireIgcBboxBuildings": false
+  },
+  "limitations": [
+    "The source edition is 2026-06-15, not the date every object was surveyed. Retrieval/processing time is recorded separately.",
+    "Building height 0 and unknown altitude sentinels 0/-1000 become null. Null height must not receive a random fallback extrusion.",
+    "Ground/roof min/max properties are source measurements, not values synthesized from floor counts or height. Source vertex Z=-1000 is never terrain elevation.",
+    "The building dataset is complete only for the declared Paris commune OR GRS-sheet-envelope spatial filter; the remainder of the large IGC envelope is not acquired in this phase.",
+    "This is measured-footprint/altitude data for a derived 2.5D display, not a textured roof mesh or photorealistic survey."
+  ]
+}

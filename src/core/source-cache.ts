@@ -2,7 +2,8 @@
 import type * as GeoJSON from 'geojson';
 import {db,type LocalAsset} from './storage';
 import {digest,validateGlb} from './validation';
-import {validateRasterHeader} from './collections';
+import {validateRasterHeader,activeAssets} from './collections';
+import {findVerifiedSurveyAsset} from './local-survey';
 export type Bounds=[number,number,number,number];
 const IGC='https://capgeo2.paris.fr/public/rest/services/IGC/IGC_Atlas_v2/MapServer';
 const R=6378137;
@@ -38,7 +39,11 @@ async function downloadIgcRaster(id:string,name:string,url:string,category:strin
 export type SurveyAsset={id:string;title:string;url:string;bytes:number;sha256:string;role:'underground'|'surface';position?:number[];rotation?:number[];scale?:number[]};
 export type Survey={title:string;sourceUrl:string;coverageNote:string;coordinateNote:string;assets:SurveyAsset[]};
 export async function getSurveyAsset(source:SurveyAsset,onProgress:(done:number,total:number)=>void=()=>{}):Promise<LocalAsset>{
- const d=await db(),id='source:survey:'+source.id,saved=await d.get('assets',id);if(saved?.sha256===source.sha256)return saved;
- if(!navigator.onLine)throw Error('Bu birleşik tarama henüz cihazında değil. İnternetle bir kez aç.');const u=new URL(source.url);if(u.protocol!=='https:'||u.hostname!=='raw.githubusercontent.com'||source.bytes>80*1024*1024||source.bytes<20||!/^[a-f0-9]{64}$/.test(source.sha256))throw Error('Tarama kaynağı doğrulanmış kayıtla eşleşmiyor.');
+ const u=new URL(source.url);if(u.protocol!=='https:'||u.hostname!=='raw.githubusercontent.com'||source.bytes>80*1024*1024||source.bytes<20||!/^[a-f0-9]{64}$/.test(source.sha256))throw Error('Tarama kaynağı doğrulanmış kayıtla eşleşmiyor.');
+ const d=await db(),id='source:survey:'+source.id,saved=await d.get('assets',id);
+ const checked=saved?await findVerifiedSurveyAsset([saved],source):null;if(checked){onProgress(source.bytes,source.bytes);return checked;}
+ if(saved)await d.delete('assets',id);
+ const imported=await findVerifiedSurveyAsset(await activeAssets(),source);if(imported){onProgress(source.bytes,source.bytes);return imported;}
+ if(!navigator.onLine)throw Error('Bu birleşik tarama henüz cihazında değil. Kişisel tarama arşivini ekle veya internetle bir kez aç.');
  const c=new AbortController(),timer=setTimeout(()=>c.abort(),90000);try{const r=await fetch(u.href,{credentials:'omit',signal:c.signal});if(!r.ok||!r.body)throw Error('3B kaynak dosyası alınamadı.');const reader=r.body.getReader(),chunks:Uint8Array<ArrayBuffer>[]=[];let length=0;for(;;){const {done,value}=await reader.read();if(done)break;length+=value.byteLength;if(length>source.bytes){await reader.cancel();throw Error('3B kaynak boyutu beklenen sınırı aşıyor.');}chunks.push(value);onProgress(length,source.bytes);}if(length!==source.bytes)throw Error('3B kaynak dosyası eksik.');const body=await new Blob(chunks).arrayBuffer();if(await digest(body)!==source.sha256)throw Error('3B kaynak SHA-256 doğrulaması başarısız.');validateGlb(body);const asset:LocalAsset={id,name:source.title,kind:'glb',blob:new Blob([body],{type:'model/gltf-binary'}),sha256:source.sha256,createdAt:new Date().toISOString(),category:'survey-'+source.role,sourceUrl:source.url};c.signal.throwIfAborted();await d.put('assets',asset);return asset;}finally{clearTimeout(timer);}
 }

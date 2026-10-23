@@ -181,8 +181,45 @@
       "rights": "Kaynak deposunda yeniden dağıtım lisansı doğrulanmadı. 29,3 MB iki GLB doğrudan kaynaktan kişisel cihaza alınır; GitHub Pages paketinde dosyaları yok.",
       "offline": "personal-download",
       "notes": "2023 tarihli gerçek birleşik galeri taraması ve eşleşen yerüstü modeli. Kaynağın ortak yerel 3B çerçevesi korunur. Dünya koordinatı doğrulanmadı; bütün Paris ağı değildir."
+    },
+    {
+      "id": "ign-bd-topo",
+      "title": "IGN BD TOPO · çevrimdışı yollar ve binalar",
+      "url": "https://geoservices.ign.fr/bdtopo",
+      "kind": "official-open-data",
+      "rights": "IGN BD TOPO V3, 2026-06-15 edisyonu. Licence Ouverte Etalab 2.0. Kaynak ve atıflar korunur.",
+      "offline": "included",
+      "notes": "261.229 yol, 458 IGC paftasının tamamının zarfını kapsar; 124.605 bina, Paris belediye sınırı ile GRS çevresini kapsar. 115.374 binada kaynak yüksekliği var; yüksekliği bilinmeyen 9.231 bina yükseltilmez. Düşük zoom seviyelerinde özetleme yapılır; z15 ve z16 seviyelerinde bütün kaynak kimlikleri korunur. Bina izi ve yükseklikten oluşan LoD1 gösterimidir; fotogerçekçi çatı geometrisi değildir."
+    },
+    {
+      "id": "nexus-primary",
+      "title": "Nexus Alkhemia 2011 · özgün harita ve kişisel vektör incelemesi",
+      "url": "http://exploration.urban.free.fr/catacombes/",
+      "kind": "historical-reference",
+      "rights": "Birincil yazar özel incelemeye izin veriyor; internet yayını önceden yazılı izne bağlı. Kaynak raster ve özel türev GeoJSON GitHub paketinde yok.",
+      "offline": "personal-import",
+      "notes": "Tarihî çizgiler ölçülmüş 3B duvar ya da güncel erişim verisi değildir. Kaynak dosyanın 6307 x 6307 piksel boyutu doğrulandı. Özel GeoJSON bir kez eklenince aynı haritada otomatik yüklenir."
+    },
+    {
+      "id": "hacky-points",
+      "title": "Hacky Paris Catacombs Map · tarihî simge envanteri",
+      "url": "https://github.com/Krazune/hacky-paris-catacombs-map",
+      "kind": "historical-reference",
+      "rights": "Kod MIT; üçüncü taraf 2007 haritasından türeyen simge verisinin ayrı yeniden dağıtım hakları kesinleştirilmedi. Kamu paketinde veri yok.",
+      "offline": "personal-import",
+      "notes": "2.155 tarihî nokta; şaft, merdiven ve kuyu güncel açık giriş değildir. Yüzeyle ilgili 1.003 kayıt (kaynağın yüzey bilgisi sınıfındaki 956, sokak numarası 29, ulaşım bilgisi 18) ayrı katmanda tutulur ve varsayılan olarak kapalıdır. Konumlar yaklaşıktır: 14 yayıncı adı eşleşmesiyle kaynaklar arası uyum RMS 19,88 m, leave-one-out 26,14 m; ölçüm doğruluğu değildir."
+    },
+    {
+      "id": "commons-room-photos",
+      "title": "Wikimedia Commons · salon fotoğrafı",
+      "url": "https://commons.wikimedia.org/wiki/File:St%C3%A8le_Philibert_Aspairt_021103.jpg",
+      "kind": "open-licence-photo",
+      "rights": "Fotoğraf: Rémi Villalongue · CC BY 2.5 (https://creativecommons.org/licenses/by/2.5) · Wikimedia Commons. Özgün 2048 x 1536 dosya değiştirilmeden kullanılır; küçültme yalnız tarayıcıda yapılır.",
+      "offline": "included",
+      "notes": "Philibert Aspairt steli, Philibert salon kaydına bağlıdır. Açık lisansı olmayan ya da içindeki eserlerin hakları belirsiz olan salon fotoğrafları kamu paketinde yoktur; yalnız kişisel ZIP ile kullanıcının kendi cihazına eklenebilir.",
+      "ureten": "opus"
     }
   ],
-  "updatedBy": "codex",
-  "updatedAt": "2026-10-18T18:30:55.313880+03:00"
+  "updatedBy": "opus",
+  "updatedAt": "2026-10-18T21:00:55+03:00"
 }

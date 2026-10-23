@@ -1,0 +1,45 @@
+{
+  "ureten": "opus",
+  "schema": 1,
+  "checkedAt": "2026-10-18T19:55:54+03:00",
+  "note": "Yalnız açık lisanslı, özgün dosyası değiştirilmeden yayımlanabilen kamera fotoğrafları. Açık lisansı olmayan veya eser hakkı belirsiz fotoğraflar bu dosyada yoktur; onlar kişisel ZIP ile yalnız kullanıcının cihazına eklenir.",
+  "photos": [
+    {
+      "id": "commons-stele-philibert-aspairt-021103",
+      "imageKind": "camera-photo",
+      "roomIds": ["philibert"],
+      "featureIds": [],
+      "primary": true,
+      "file": "./media/room-photos/stele-philibert-aspairt-021103.jpg",
+      "bytes": 669433,
+      "width": 2048,
+      "height": 1536,
+      "sha256": "34106f78cb63222686bb3cd52ca79fe3f206687ea06f6cf70f3dc7e89d12b7ac",
+      "sha1": "fd5198137c574d9f72d50f835eae852baaf07cac",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:St%C3%A8le_Philibert_Aspairt_021103.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/St%C3%A8le_Philibert_Aspairt_021103.jpg",
+      "creator": "Rémi Villalongue",
+      "licence": {
+        "name": "CC BY 2.5",
+        "url": "https://creativecommons.org/licenses/by/2.5",
+        "attributionRequired": true,
+        "shareAlike": false
+      },
+      "licenceNote": "Commons dosya sayfası aynı dosya için GFDL seçeneğini de sunuyor; bu atlasta CC BY 2.5 koşulları kullanılır.",
+      "captionExact": "Stèle Philibert Aspairt dans les catacombes de Paris 021103",
+      "captureDate": null,
+      "captureDateRaw": "021103",
+      "captureDateNote": "Commons 'DateTimeOriginal' alanı yalnız '021103' diyor; biçimi belirsiz olduğu için tarihe çevrilmedi.",
+      "modified": false,
+      "verification": {
+        "verifiedBy": "opus",
+        "verifiedAt": "2026-10-18T19:55:54+03:00",
+        "metadata": "Commons dosya sayfası ve imageinfo API: Artist 'Rémi Villalongue', LicenseShortName 'CC BY 2.5', AttributionRequired true, 2048 x 1536, 669.433 bayt",
+        "originalSha1MatchesCommons": true,
+        "imageDecoded": true,
+        "visualReview": "Gerçek kamera fotoğrafı: taş stel ve okunur yazıt 'A LA MÉMOIRE DE PHILIBERT ASPAIRT PERDU DANS CETTE CARRIÈRE LE III NOVBRE MDCCXCIII RETROUVÉ ONZE ANS APRÈS ET INHUMÉ EN LA MÊME PLACE LE XXX AVRIL MDCCCIV'.",
+        "roomBinding": "Commons açıklaması steli adıyla anıyor; Catacombes.xyz 'philibert' sayfası salonu Philibert Aspairt'in mezarı olarak tanımlıyor ve görseldeki yazıtla aynı metni veriyor."
+      }
+    }
+  ]
+}

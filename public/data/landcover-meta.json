@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "ureten": "codex",
+  "id": "ign-landcover",
+  "url": "data/landcover.pmtiles",
+  "bytes": 34510737,
+  "sha256": "3985166851c88041c65ad03d1070f4385d5d7edd38945e562e4258bf568a40e4",
+  "minzoom": 9,
+  "maxzoom": 17,
+  "layers": [
+    "zone_de_vegetation",
+    "parc_ou_reserve",
+    "cimetiere",
+    "terrain_de_sport",
+    "zone_d_activite_ou_d_interet",
+    "surface_hydrographique",
+    "plan_d_eau"
+  ],
+  "kinds": {
+    "zone_de_vegetation": "vegetation",
+    "parc_ou_reserve": "protected",
+    "cimetiere": "cemetery",
+    "terrain_de_sport": "sports",
+    "zone_d_activite_ou_d_interet": "park",
+    "surface_hydrographique": "water",
+    "plan_d_eau": "water-body"
+  },
+  "sourceCount": 51329,
+  "selectedCount": 31794,
+  "layerCounts": {
+    "zone_de_vegetation": 25991,
+    "parc_ou_reserve": 12,
+    "cimetiere": 342,
+    "terrain_de_sport": 3851,
+    "zone_d_activite_ou_d_interet": 45,
+    "surface_hydrographique": 1449,
+    "plan_d_eau": 104
+  },
+  "verifiedAt": "2026-10-22T22:49:12.980908+00:00",
+  "sourceRetrievedAtRange": [
+    "2026-10-18T21:11:31.665172+00:00",
+    "2026-10-18T21:12:18.052223+00:00"
+  ],
+  "sourceEdition": null,
+  "sourceUrl": "https://geoservices.ign.fr/bdtopo",
+  "license": "etalab-2.0",
+  "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+  "attribution": "IGN BD TOPO V3 · extrait 2026-10-18 · Licence Ouverte Etalab 2.0",
+  "verification": {
+    "maxzoom": 17,
+    "allSelectedSourceidsPreserved": true,
+    "decodedUniqueSourceids": {
+      "zone_de_vegetation": 25991,
+      "parc_ou_reserve": 12,
+      "cimetiere": 342,
+      "terrain_de_sport": 3851,
+      "zone_d_activite_ou_d_interet": 45,
+      "surface_hydrographique": 1449,
+      "plan_d_eau": 104
+    }
+  },
+  "limitations": [
+    "Retrieval date is not the survey/edition date; sourceEdition is unknown.",
+    "Protected/cemetery/sports are land-use classes, not verified tree/grass cover.",
+    "Generic public space/schools/businesses excluded from green classification.",
+    "Lower zooms generalize; maximum-zoom source IDs were decoded, not field surveyed.",
+    "Surface water classes are source records, not current water-level observations."
+  ]
+}
